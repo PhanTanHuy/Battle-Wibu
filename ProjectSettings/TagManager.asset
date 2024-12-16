@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - boxAttack
+  - boxObjectAttack
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Map
+  - Char
+  - HitBox
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Map
+    uniqueID: 2030490689
+    locked: 0
+  - name: ImageSkill
+    uniqueID: 1744791927
+    locked: 0
+  - name: Shadow
+    uniqueID: 2603917373
+    locked: 0
+  - name: aura
+    uniqueID: 3315960053
+    locked: 0
+  - name: Enemy
+    uniqueID: 2641902963
+    locked: 0
+  - name: Player
+    uniqueID: 3532478627
+    locked: 0
+  - name: Effect
+    uniqueID: 2608549385
+    locked: 0
+  - name: CutScene
+    uniqueID: 2835560085
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

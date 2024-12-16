@@ -1,0 +1,1176 @@
+fileFormatVersion: 2
+guid: f87896e4d5b098a4782ddb56791a5a12
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 13
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_0
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 395
+        width: 222
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1319b39e72d867f4ab03039315fcf5a7
+      internalID: -1028168487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 168
+        width: 29
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9f3d8f2cf7df44aa5b82556e0857b0
+      internalID: -553368624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 169
+        width: 36
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43dfab96c8ee4d2478d4a9f310fb38be
+      internalID: 1046896322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 168
+        width: 38
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0377c68fa655c439802bc442266e89
+      internalID: 2077142598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 168
+        width: 28
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a46b6fd208c577468419ef04c3f6e5a
+      internalID: 1251972214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2052
+        width: 80
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e92a2ac17543114d8ed21e6508aaf8f
+      internalID: -87655531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_18
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2052
+        width: 88
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977f87cf7f7f5084e998c6919ccffe4b
+      internalID: -1419709203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_19
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 2052
+        width: 80
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87df0712422aafa498cb7a86383a92ee
+      internalID: -674406462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_20
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2052
+        width: 80
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1152b0f2ef7276f439e3f4776f837562
+      internalID: 886380722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_21
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 2052
+        width: 74
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c12a55c811c3b44b0ae6b698f8b067
+      internalID: -1104256678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_23
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2052
+        width: 54
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1264ff4d4baec41409efe2aa727af96d
+      internalID: 1493361526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1934
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb450252fed32864fac6d2bfb5f3d1fc
+      internalID: -670211703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_31
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1933
+        width: 80
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d2985f7751cd0469bbc6510bcabb37
+      internalID: -1613320565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_32
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1933
+        width: 88
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a52508d2005ba44a97ce7d3f802ac8
+      internalID: 535741516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_33
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1935
+        width: 80
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156d6695f2327004da68c697964baec4
+      internalID: 675942546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_34
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1933
+        width: 80
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d58b54f97e7ae74dbeb5b3c4745e855
+      internalID: -1263120799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_35
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 1935
+        width: 74
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d068bf2ad0fbd49458c3ea2fadafbcff
+      internalID: -869227705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_36
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1933
+        width: 74
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642ede05f3fef5c40aefe8c42ed819bc
+      internalID: 1347024475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_37
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1933
+        width: 54
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1421e658fb40763428d9e327600f40d3
+      internalID: -1742609746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_196
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 499
+        width: 128
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b380dc165b83f544f8ed5bde8d0cc548
+      internalID: -1171821775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_197
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 497
+        width: 186
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c82a07e3a0947248a9280918d799661
+      internalID: -1384180610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_198
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 494
+        width: 206
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65a6407872f4724b82e17bb21c41c67
+      internalID: -215510122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_199
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 395
+        width: 218
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073329eb3c16f4e4db6e4dea8d743efa
+      internalID: 1841011770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_202
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 397
+        width: 223
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a22f188bea0a5478d851eb52c0598d
+      internalID: 578548592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_218
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 295
+        width: 79
+        height: 46
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470206c9f7e4360448220888b4d6387a
+      internalID: -140685356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_219
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 290
+        width: 72
+        height: 58
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543ecfb378c762d499215b4cb784d1f7
+      internalID: -1464927856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_224
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 299
+        width: 71
+        height: 32
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17aead2c1e388224eb643735c582cd95
+      internalID: -1125535946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_231
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 288
+        width: 67
+        height: 61
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13eb2b239eeab6e408ec1e2e5246b08d
+      internalID: -238011247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_232
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 286
+        width: 70
+        height: 60
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f83d1932bed53429b9fb99106d33a4
+      internalID: -75827845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_233
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 287
+        width: 68
+        height: 41
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b4b384dcc19a54aaf035f6fccc6ebc
+      internalID: 246154125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1223
+        width: 80
+        height: 101
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a314d0623dd850249b6c1e0f66e19fb9
+      internalID: -840011805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 1223
+        width: 88
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4193d38f18bb5c49bdf08feebf3372f
+      internalID: 516106789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1223
+        width: 80
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761139537f9460144a19c43fed075de8
+      internalID: -1588968411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1223
+        width: 54
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc0e1b21620e4040b1adafadbf1b892
+      internalID: -650331241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1223
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eadf04300111fa47abbd031d26a42d8
+      internalID: 451351738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2052
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8624d693804e84cbd3906322c7b0db
+      internalID: 408583824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aura_TvnSprites_Devin_11
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 2052
+        width: 74
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bde84e2b4e78543b3911202c5eb99e
+      internalID: -1446548910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      aura_TvnSprites_Devin_0: -1028168487
+      aura_TvnSprites_Devin_1: -553368624
+      aura_TvnSprites_Devin_10: 408583824
+      aura_TvnSprites_Devin_100: 79724031
+      aura_TvnSprites_Devin_101: 1744100455
+      aura_TvnSprites_Devin_102: 1380807736
+      aura_TvnSprites_Devin_103: -579065538
+      aura_TvnSprites_Devin_104: 1044737598
+      aura_TvnSprites_Devin_105: -617535891
+      aura_TvnSprites_Devin_106: -390933696
+      aura_TvnSprites_Devin_107: 229639642
+      aura_TvnSprites_Devin_108: -675551245
+      aura_TvnSprites_Devin_109: 287391272
+      aura_TvnSprites_Devin_11: -1446548910
+      aura_TvnSprites_Devin_110: 1852942045
+      aura_TvnSprites_Devin_111: 1243409671
+      aura_TvnSprites_Devin_112: 91548892
+      aura_TvnSprites_Devin_113: 192144415
+      aura_TvnSprites_Devin_114: -2024164042
+      aura_TvnSprites_Devin_115: -965057327
+      aura_TvnSprites_Devin_116: -1322930459
+      aura_TvnSprites_Devin_117: -420331275
+      aura_TvnSprites_Devin_118: 1016577526
+      aura_TvnSprites_Devin_119: -2016007235
+      aura_TvnSprites_Devin_12: 812149812
+      aura_TvnSprites_Devin_120: -1769510936
+      aura_TvnSprites_Devin_121: -1764483216
+      aura_TvnSprites_Devin_122: -333099027
+      aura_TvnSprites_Devin_123: -852320933
+      aura_TvnSprites_Devin_124: -521260734
+      aura_TvnSprites_Devin_125: -1526094209
+      aura_TvnSprites_Devin_126: 813192689
+      aura_TvnSprites_Devin_127: -1345590419
+      aura_TvnSprites_Devin_128: 1374703911
+      aura_TvnSprites_Devin_129: 400487234
+      aura_TvnSprites_Devin_13: 1744436358
+      aura_TvnSprites_Devin_130: -1226349041
+      aura_TvnSprites_Devin_131: -1143693877
+      aura_TvnSprites_Devin_132: 797591190
+      aura_TvnSprites_Devin_133: 493012676
+      aura_TvnSprites_Devin_134: 2143887067
+      aura_TvnSprites_Devin_135: 2002761487
+      aura_TvnSprites_Devin_136: -887615688
+      aura_TvnSprites_Devin_137: -929469067
+      aura_TvnSprites_Devin_138: 1790977593
+      aura_TvnSprites_Devin_139: 478881040
+      aura_TvnSprites_Devin_14: -910168363
+      aura_TvnSprites_Devin_140: 272560143
+      aura_TvnSprites_Devin_141: -1477876804
+      aura_TvnSprites_Devin_142: -1867374545
+      aura_TvnSprites_Devin_143: 1317332798
+      aura_TvnSprites_Devin_144: -408747293
+      aura_TvnSprites_Devin_145: -233992701
+      aura_TvnSprites_Devin_146: -243904090
+      aura_TvnSprites_Devin_147: -1096823356
+      aura_TvnSprites_Devin_148: 529717817
+      aura_TvnSprites_Devin_149: 1798480732
+      aura_TvnSprites_Devin_15: -933075234
+      aura_TvnSprites_Devin_150: -987560917
+      aura_TvnSprites_Devin_151: 1929954856
+      aura_TvnSprites_Devin_152: 267538238
+      aura_TvnSprites_Devin_153: 966240194
+      aura_TvnSprites_Devin_154: 925657184
+      aura_TvnSprites_Devin_155: -1649557469
+      aura_TvnSprites_Devin_156: -355666373
+      aura_TvnSprites_Devin_157: 100475817
+      aura_TvnSprites_Devin_158: 1490305565
+      aura_TvnSprites_Devin_159: 1986087951
+      aura_TvnSprites_Devin_16: -1518424601
+      aura_TvnSprites_Devin_160: 574600757
+      aura_TvnSprites_Devin_161: -1554456975
+      aura_TvnSprites_Devin_162: 459586837
+      aura_TvnSprites_Devin_163: -942250187
+      aura_TvnSprites_Devin_164: -1048133721
+      aura_TvnSprites_Devin_165: 599132361
+      aura_TvnSprites_Devin_166: -390747920
+      aura_TvnSprites_Devin_167: -1354653605
+      aura_TvnSprites_Devin_168: 2035741663
+      aura_TvnSprites_Devin_169: 1851430694
+      aura_TvnSprites_Devin_17: -87655531
+      aura_TvnSprites_Devin_170: -1195831053
+      aura_TvnSprites_Devin_171: 695576523
+      aura_TvnSprites_Devin_172: -1880864337
+      aura_TvnSprites_Devin_173: 1493570168
+      aura_TvnSprites_Devin_174: 1434438579
+      aura_TvnSprites_Devin_175: -945590803
+      aura_TvnSprites_Devin_176: -453216865
+      aura_TvnSprites_Devin_177: -565539901
+      aura_TvnSprites_Devin_178: -2085864912
+      aura_TvnSprites_Devin_179: 1220878360
+      aura_TvnSprites_Devin_18: -1419709203
+      aura_TvnSprites_Devin_180: -495322299
+      aura_TvnSprites_Devin_181: -1075503220
+      aura_TvnSprites_Devin_182: 172837842
+      aura_TvnSprites_Devin_183: -1177731143
+      aura_TvnSprites_Devin_184: 1072986529
+      aura_TvnSprites_Devin_185: 606556980
+      aura_TvnSprites_Devin_186: 1058869563
+      aura_TvnSprites_Devin_187: 1183190970
+      aura_TvnSprites_Devin_188: -2020621824
+      aura_TvnSprites_Devin_189: -269460171
+      aura_TvnSprites_Devin_19: -674406462
+      aura_TvnSprites_Devin_190: 82247353
+      aura_TvnSprites_Devin_191: -1530761307
+      aura_TvnSprites_Devin_192: -1187448307
+      aura_TvnSprites_Devin_193: -91072340
+      aura_TvnSprites_Devin_194: -1713075645
+      aura_TvnSprites_Devin_195: 1145311318
+      aura_TvnSprites_Devin_196: -1171821775
+      aura_TvnSprites_Devin_197: -1384180610
+      aura_TvnSprites_Devin_198: -215510122
+      aura_TvnSprites_Devin_199: 1841011770
+      aura_TvnSprites_Devin_2: 1046896322
+      aura_TvnSprites_Devin_20: 886380722
+      aura_TvnSprites_Devin_200: -1835508757
+      aura_TvnSprites_Devin_201: -1616132388
+      aura_TvnSprites_Devin_202: 578548592
+      aura_TvnSprites_Devin_203: 376947721
+      aura_TvnSprites_Devin_204: 93923446
+      aura_TvnSprites_Devin_205: 362130954
+      aura_TvnSprites_Devin_206: 330651933
+      aura_TvnSprites_Devin_207: -1865044588
+      aura_TvnSprites_Devin_208: -485971851
+      aura_TvnSprites_Devin_209: -1333344102
+      aura_TvnSprites_Devin_21: -1104256678
+      aura_TvnSprites_Devin_210: -2027034988
+      aura_TvnSprites_Devin_211: 597380966
+      aura_TvnSprites_Devin_212: -830865808
+      aura_TvnSprites_Devin_213: -323179045
+      aura_TvnSprites_Devin_214: -1776116798
+      aura_TvnSprites_Devin_215: 180344584
+      aura_TvnSprites_Devin_216: 101962577
+      aura_TvnSprites_Devin_217: 787111283
+      aura_TvnSprites_Devin_218: -140685356
+      aura_TvnSprites_Devin_219: -1464927856
+      aura_TvnSprites_Devin_22: -788955128
+      aura_TvnSprites_Devin_220: -2026094067
+      aura_TvnSprites_Devin_221: 712553633
+      aura_TvnSprites_Devin_222: -1696060069
+      aura_TvnSprites_Devin_223: 249572470
+      aura_TvnSprites_Devin_224: -1125535946
+      aura_TvnSprites_Devin_225: 1347583514
+      aura_TvnSprites_Devin_226: -1805426678
+      aura_TvnSprites_Devin_227: -787792592
+      aura_TvnSprites_Devin_228: -845597203
+      aura_TvnSprites_Devin_229: -239903925
+      aura_TvnSprites_Devin_23: 1493361526
+      aura_TvnSprites_Devin_230: -704243024
+      aura_TvnSprites_Devin_231: -238011247
+      aura_TvnSprites_Devin_232: -75827845
+      aura_TvnSprites_Devin_233: 246154125
+      aura_TvnSprites_Devin_234: 2005982833
+      aura_TvnSprites_Devin_235: -1850948573
+      aura_TvnSprites_Devin_236: 765795352
+      aura_TvnSprites_Devin_237: 1395587558
+      aura_TvnSprites_Devin_238: -771923378
+      aura_TvnSprites_Devin_239: 183350161
+      aura_TvnSprites_Devin_24: -1835295714
+      aura_TvnSprites_Devin_240: -1887564053
+      aura_TvnSprites_Devin_241: -824130967
+      aura_TvnSprites_Devin_242: 1956274837
+      aura_TvnSprites_Devin_243: -1017352779
+      aura_TvnSprites_Devin_244: 79616102
+      aura_TvnSprites_Devin_245: 1159213842
+      aura_TvnSprites_Devin_246: -915244166
+      aura_TvnSprites_Devin_247: 351748060
+      aura_TvnSprites_Devin_248: 530484962
+      aura_TvnSprites_Devin_249: 1710761703
+      aura_TvnSprites_Devin_25: 1968773520
+      aura_TvnSprites_Devin_250: 1178401206
+      aura_TvnSprites_Devin_251: 576472592
+      aura_TvnSprites_Devin_252: -560260166
+      aura_TvnSprites_Devin_253: -625964249
+      aura_TvnSprites_Devin_254: -1962919211
+      aura_TvnSprites_Devin_255: -755794882
+      aura_TvnSprites_Devin_256: -778906243
+      aura_TvnSprites_Devin_257: -525335041
+      aura_TvnSprites_Devin_258: 1385008162
+      aura_TvnSprites_Devin_26: 1509429485
+      aura_TvnSprites_Devin_27: 80114414
+      aura_TvnSprites_Devin_28: -670211703
+      aura_TvnSprites_Devin_29: 840902222
+      aura_TvnSprites_Devin_3: 2077142598
+      aura_TvnSprites_Devin_30: 206695340
+      aura_TvnSprites_Devin_31: -1613320565
+      aura_TvnSprites_Devin_32: 535741516
+      aura_TvnSprites_Devin_33: 675942546
+      aura_TvnSprites_Devin_34: -1263120799
+      aura_TvnSprites_Devin_35: -869227705
+      aura_TvnSprites_Devin_36: 1347024475
+      aura_TvnSprites_Devin_37: -1742609746
+      aura_TvnSprites_Devin_38: -98706673
+      aura_TvnSprites_Devin_39: 832948504
+      aura_TvnSprites_Devin_4: 1251972214
+      aura_TvnSprites_Devin_40: -787010647
+      aura_TvnSprites_Devin_41: 1544716703
+      aura_TvnSprites_Devin_42: -80399999
+      aura_TvnSprites_Devin_43: 1416582994
+      aura_TvnSprites_Devin_44: -433433894
+      aura_TvnSprites_Devin_45: -1595032398
+      aura_TvnSprites_Devin_46: 166963026
+      aura_TvnSprites_Devin_47: 284422534
+      aura_TvnSprites_Devin_48: -1116835138
+      aura_TvnSprites_Devin_49: -842548100
+      aura_TvnSprites_Devin_5: -840011805
+      aura_TvnSprites_Devin_50: 396960982
+      aura_TvnSprites_Devin_51: 1592455885
+      aura_TvnSprites_Devin_52: 1067056837
+      aura_TvnSprites_Devin_53: -1884675771
+      aura_TvnSprites_Devin_54: -1180275822
+      aura_TvnSprites_Devin_55: -1807710443
+      aura_TvnSprites_Devin_56: -234038345
+      aura_TvnSprites_Devin_57: 1011722436
+      aura_TvnSprites_Devin_58: -290394741
+      aura_TvnSprites_Devin_59: 427431760
+      aura_TvnSprites_Devin_6: 516106789
+      aura_TvnSprites_Devin_60: -1053988176
+      aura_TvnSprites_Devin_61: -1119167811
+      aura_TvnSprites_Devin_62: -2093160371
+      aura_TvnSprites_Devin_63: -1770258350
+      aura_TvnSprites_Devin_64: -1939779109
+      aura_TvnSprites_Devin_65: -700423206
+      aura_TvnSprites_Devin_66: 1399186171
+      aura_TvnSprites_Devin_67: -1415385448
+      aura_TvnSprites_Devin_68: -1971066068
+      aura_TvnSprites_Devin_69: -1676161048
+      aura_TvnSprites_Devin_7: -1588968411
+      aura_TvnSprites_Devin_70: -667283680
+      aura_TvnSprites_Devin_71: -588880547
+      aura_TvnSprites_Devin_72: 1693162373
+      aura_TvnSprites_Devin_73: -665051431
+      aura_TvnSprites_Devin_74: -1556285390
+      aura_TvnSprites_Devin_75: -1524189142
+      aura_TvnSprites_Devin_76: 1659129994
+      aura_TvnSprites_Devin_77: 996404561
+      aura_TvnSprites_Devin_78: 2085582300
+      aura_TvnSprites_Devin_79: 255889454
+      aura_TvnSprites_Devin_8: -650331241
+      aura_TvnSprites_Devin_80: 698034772
+      aura_TvnSprites_Devin_81: -1045395913
+      aura_TvnSprites_Devin_82: -619287192
+      aura_TvnSprites_Devin_83: 1919576803
+      aura_TvnSprites_Devin_84: 358658988
+      aura_TvnSprites_Devin_85: 104824514
+      aura_TvnSprites_Devin_86: 145408554
+      aura_TvnSprites_Devin_87: -898951676
+      aura_TvnSprites_Devin_88: 1539595118
+      aura_TvnSprites_Devin_89: 644336387
+      aura_TvnSprites_Devin_9: 451351738
+      aura_TvnSprites_Devin_90: 1198061503
+      aura_TvnSprites_Devin_91: 1949383968
+      aura_TvnSprites_Devin_92: -1641396477
+      aura_TvnSprites_Devin_93: 418359640
+      aura_TvnSprites_Devin_94: -1751707898
+      aura_TvnSprites_Devin_95: -1180610121
+      aura_TvnSprites_Devin_96: 428226929
+      aura_TvnSprites_Devin_97: -1250515128
+      aura_TvnSprites_Devin_98: 325600740
+      aura_TvnSprites_Devin_99: 246519231
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

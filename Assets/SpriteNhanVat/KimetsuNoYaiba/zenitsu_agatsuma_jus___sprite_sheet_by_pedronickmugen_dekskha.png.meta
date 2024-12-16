@@ -1,0 +1,2513 @@
+fileFormatVersion: 2
+guid: a3d27f1f6ff4ba6408e33dede6e076f6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_28
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1714
+        width: 29
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef5f62585200c24ba3b7d677145e2dd
+      internalID: -837128920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_29
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1714
+        width: 30
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827f833f239774142969fceee5bb06cb
+      internalID: -1417388866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_30
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1714
+        width: 29
+        height: 56
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.46428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f385ef1bed148a94281c46fa781750f5
+      internalID: -1661237752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_31
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1714
+        width: 29
+        height: 54
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700d80bfa0c51614098aa351d7f165d0
+      internalID: 79664084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_34
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1646
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064368b21d120674aa9adcb09bce1e94
+      internalID: -1519679662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_35
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1639
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54761904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf80fe3d58f7bb04f96d38d1913eeaf6
+      internalID: 23328912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_36
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1639
+        width: 42
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5, y: 0.60465115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2576314fbcae354ca4d259230d47bb2
+      internalID: -1526191578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_37
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1639
+        width: 39
+        height: 44
+      alignment: 9
+      pivot: {x: 0.41025642, y: 0.6136364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e34c08a6d47f3479b9b8e136b10e8c
+      internalID: 1091874075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_38
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1639
+        width: 33
+        height: 42
+      alignment: 9
+      pivot: {x: 0.42424244, y: 0.5952381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36daf9abdf5b2704cb509857a4f5b288
+      internalID: 377059964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_39
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1639
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54761904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce6c315b83c4544d9958d0debcc2825
+      internalID: 209324293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_40
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1639
+        width: 43
+        height: 43
+      alignment: 9
+      pivot: {x: 0.4883721, y: 0.5813953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb336d0428873274db98210de646c114
+      internalID: -1493337157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_41
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1639
+        width: 36
+        height: 44
+      alignment: 9
+      pivot: {x: 0.47222224, y: 0.6136364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26f4f63929dd9f47937f0241805a3c5
+      internalID: -701401649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_42
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1639
+        width: 34
+        height: 43
+      alignment: 9
+      pivot: {x: 0.38235295, y: 0.60465115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346e2e7b53d38d54a8ac1d16e94d4477
+      internalID: -907782082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_43
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1646
+        width: 59
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69587681bc312014dad890f676f20162
+      internalID: 650147627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_44
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1646
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b7b9ec38cb7f7847a11c835e531f1d8
+      internalID: -245789305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_45
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1646
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9474d7ebc8f8ea448ac5dec4677b0b7
+      internalID: -1594943064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_47
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1551
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af265c5b8e692aa4d9754a3de472ecba
+      internalID: 1579304717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_48
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1552
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7958f8524bb29c4438d696d8f8539167
+      internalID: 1928807007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_49
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1552
+        width: 44
+        height: 52
+      alignment: 9
+      pivot: {x: 0.7045455, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31e6ab3edc0a6d408343f220972823f
+      internalID: -1104538161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_50
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1551
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea8dbf4146052d42a82baccbedfd1ff
+      internalID: 2109170619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_51
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1551
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3875e2f35aa2f364d87db1ac219245ab
+      internalID: 1551316153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_53
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1458
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cbefbd4af110b4d8fe102ed98d1691
+      internalID: 1822107834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_54
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1460
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83b8e6bdda23bc4baad0d604456bdd3
+      internalID: -1717487543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_55
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1459
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d8f38fc9dfeac4cbbc58e2c5d01f77
+      internalID: -1684172753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_56
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1459
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d75203b08577b64dac6cf68a1c0739e
+      internalID: -627080765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_59
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1370
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00c74412b398024690786425aa68d12
+      internalID: 312208650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_60
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1368
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71333f9bdec9a314284400ad7ed08481
+      internalID: -759818885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_61
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1376
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fbb827336b2184f9918b4660c17c6d
+      internalID: 23304494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_62
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1380
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc31ae4821d61144ca661bb5f55794f7
+      internalID: -260379678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_63
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1379
+        width: 56
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59347fa0160df674e810455c3feee79b
+      internalID: 875431125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_64
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1380
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dac57548547528409e80bad9985d9fd
+      internalID: -255326396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_65
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1380
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ca7308f8b52934eb52657eda8b1e3f
+      internalID: 464756269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_68
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1252
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede18bb2ec10e1d458986f0c819e5f43
+      internalID: 384568337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_69
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1252
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3df462f923ccb14cb44bd4c8fa82ff7
+      internalID: 1527856779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_70
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1252
+        width: 56
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b6d0f257d5ef547844a10be6c4d2c7
+      internalID: -1305252633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_71
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1252
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0990e0f2a2b7ec5458a2825303ee87a6
+      internalID: -419793925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_72
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1248
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f899945db900a2c42a5dd4bb9aa4950b
+      internalID: -1291896901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_73
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1249
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206b087b8709d3647a62b29a2489957b
+      internalID: 1002398331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_74
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1248
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be027283856b404486ca4b902405167
+      internalID: 415868115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_75
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1248
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd11f161e44727459b62462b6b3e23f
+      internalID: 490790596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_76
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1252
+        width: 55
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eae18c7d1bed14cba04b2211e841f0
+      internalID: 1429914463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_96
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1153
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812986d49e67922468ef9ed912bd5579
+      internalID: 168280190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_97
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1147
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd3617bb8e36b442b9667d03ff91708
+      internalID: -998070835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_98
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1147
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf674278e376834895b3101d42655bf
+      internalID: -1887312152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_99
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1147
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf8e25992b1e53468129126a8eed6f5
+      internalID: -801880469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_103
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1079
+        width: 50
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289a8c65e979cab4dba9efc9786dfc24
+      internalID: -635152398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_104
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1079
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73e107a0f7a16b40bf9ee45ca1dc1e3
+      internalID: 1306685371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_105
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1079
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da345ad55859524e8e5b728d22c9c3f
+      internalID: -1118832998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_106
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1079
+        width: 58
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a114aaa8574fc41a97d94734416859
+      internalID: -585219428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_107
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1079
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92bceef8ccb389409fbecad35e76706
+      internalID: 1788986028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_108
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1079
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9eb6ccbfa04c14f975524cf4a657fa
+      internalID: -376248612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_112
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 984
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96240629e63a404796602f76ade1ec6
+      internalID: 1811799042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_113
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 984
+        width: 66
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d1b0aad1add6d43b25029d649543b0
+      internalID: 1854889390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_114
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 984
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ff1780b13b58a46942a93f9e6f7988
+      internalID: 29213486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_115
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 984
+        width: 49
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4377a3bfbcda2447a5e4035395de804
+      internalID: 45500856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_119
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 890
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f6b93f76413b34f8c5d7e9e284da30
+      internalID: 609388987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_120
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 890
+        width: 71
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57334d8ffcd7e1c478bf6ceb881cc62b
+      internalID: 1448503973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_121
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 890
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954741b47e3ef39438067a5c4dcbd175
+      internalID: -1863548431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_123
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 806
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3228f6a3d557b84db9e43c676db8db4
+      internalID: 1509272158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_124
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 806
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ebf2fbd33b22f47be2c0d7e9ae098e
+      internalID: 1193966935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_125
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 806
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86cbca61e65eab4b962f6c73437ced0
+      internalID: 1898991982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_126
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 806
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334cd9d71f0015d4095182cb1d345447
+      internalID: 761423351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_130
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 711
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144913aec1a5d034fa2357c373091d2b
+      internalID: -864292803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_131
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 711
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb38e517615764449c5a735e6d6a64e
+      internalID: 1512634350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_132
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 711
+        width: 49
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814e018c2d3971544a477766e2bc4f41
+      internalID: 191418272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_133
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 711
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33017e8aed348ba44a7bcf5acfb73e6b
+      internalID: -1024580191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_137
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 606
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4638b856ea70e4093ab38e6f2aefc6
+      internalID: 405834795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_138
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 606
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2433b4b092e9fbf47a4706ac6b823897
+      internalID: 2068542854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_139
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 606
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ced1f6205714e14c86c8909f4a85fa3
+      internalID: 2002201406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_140
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 606
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974d184df6b028e4987f90aa13c73359
+      internalID: -1808834306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_141
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 605
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eaea357169b5ee43b68650340b16723
+      internalID: -582088323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_142
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 605
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762158e1146d5864cbae92410cada6d7
+      internalID: -1269499018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_146
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 520
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97cca93bebcea8418956a4d403c92cc
+      internalID: -1465314416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_147
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 520
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6780cee12618cb42abb853b1a38fdba
+      internalID: 1125565856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_148
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 520
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab30fea7c4b1562408991bcdf9ad9c81
+      internalID: -1037219599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_149
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 520
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 400e6cf43f0bc1e418638aea01ea0437
+      internalID: -535473598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_150
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 519
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94249c2a6c4a3545a6890bde7ee71d0
+      internalID: -1845671170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_151
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 519
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e25c03204bbf94f9a2ee9667d4bd06
+      internalID: 1969416434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_152
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 519
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f8f632ad57feb42958258dfc95ff79
+      internalID: 2038834876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_156
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 415
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d1e2daa31df0f4882415e9fdb02f1a
+      internalID: -998431581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_157
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 415
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afed52feb65eb8640872dc7dea0e202f
+      internalID: -657533329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_158
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 415
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993bd6b60a5e2f845ae3fd8ba1e18b7c
+      internalID: 2052914350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_159
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 415
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422f001eedbfa13418771eb2c0b24cae
+      internalID: 722135467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_160
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 415
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80a29e6e8ac61b479fef1a49b1f9e7b
+      internalID: -1036015562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_161
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 415
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d5a43ed82f8c74ea6c8c5a900dd0f8
+      internalID: -1954559691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_162
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 415
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b43cdbd277ac34e9a9da5cddcb7925
+      internalID: 1364438845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_163
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 415
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaca7871d27a08e4ea66af100a2030d3
+      internalID: -320750723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_164
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 415
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3e32226fc15ff428a26175c1f26c9c
+      internalID: 306638945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_168
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 301
+        width: 44
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c0685b0b5f88f488b603a4ece5056e
+      internalID: -19497830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_169
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 301
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510afe8ff9447f948b4b0f495a55ccf9
+      internalID: 1553873683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_170
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 301
+        width: 72
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aca9a82df05e1c48b26023ebbb128b1
+      internalID: 802746934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_171
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 301
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9adf6ca528cf64284b8dbbeb3d0201
+      internalID: 1703625883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_176
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 222
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4d9fccb4c41294886d562793e19170
+      internalID: 1632846645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_177
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 222
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6382668a64a833f40ac5166056e82ebd
+      internalID: 2108829117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_178
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 229
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd76c1adf8fc7541bff8919c28590f2
+      internalID: -607495448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_179
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 229
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3ee01a569874846893eae0bcd3a2bf
+      internalID: -77885080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_180
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 229
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6f211e71fbc114684782a879414f88
+      internalID: 1668718871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_181
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 229
+        width: 53
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988900d320c75a14ab0c0a744b7c84ec
+      internalID: 427529289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_182
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 222
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afea41a38734a4c4a95d32c47730c506
+      internalID: -522184817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_184
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 114
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1b890b27d77e04cbd8ae9d1e9cc902
+      internalID: 743443391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_185
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 114
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f72971245b0f96458b9882fe9420a0e
+      internalID: -602178290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_186
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 114
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646c041827c1ffc47a5e08700a5e2e40
+      internalID: -937449649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_187
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 114
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6624dad0d09a83e49be3caede95ae303
+      internalID: -1566853256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_188
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 114
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64ff69175358d64690c6a22a5587317
+      internalID: 1205019333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_0: -1300107687
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_1: 569766900
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_10: -1475604892
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_100: -333289913
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_101: -1913213543
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_102: 83008128
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_103: -635152398
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_104: 1306685371
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_105: -1118832998
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_106: -585219428
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_107: 1788986028
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_108: -376248612
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_109: 81111627
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_11: 1912110497
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_110: -1634002785
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_111: -1291676075
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_112: 1811799042
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_113: 1854889390
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_114: 29213486
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_115: 45500856
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_116: -1973997486
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_117: -1853382016
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_118: -1093572585
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_119: 609388987
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_12: 2033777987
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_120: 1448503973
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_121: -1863548431
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_122: -1003646172
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_123: 1509272158
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_124: 1193966935
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_125: 1898991982
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_126: 761423351
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_127: -1714081263
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_128: -1616634945
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_129: -431998520
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_13: -2028171236
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_130: -864292803
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_131: 1512634350
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_132: 191418272
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_133: -1024580191
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_134: 1250537187
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_135: -1816083210
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_136: 571006083
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_137: 405834795
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_138: 2068542854
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_139: 2002201406
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_14: 1417044354
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_140: -1808834306
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_141: -582088323
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_142: -1269499018
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_143: 483375047
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_144: 587477247
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_145: -1322102269
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_146: -1465314416
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_147: 1125565856
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_148: -1037219599
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_149: -535473598
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_15: 231448660
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_150: -1845671170
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_151: 1969416434
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_152: 2038834876
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_153: 653325217
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_154: -881349240
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_155: 361997553
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_156: -998431581
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_157: -657533329
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_158: 2052914350
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_159: 722135467
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_16: 463177089
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_160: -1036015562
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_161: -1954559691
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_162: 1364438845
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_163: -320750723
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_164: 306638945
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_165: -651576923
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_166: 1614433813
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_167: 222076218
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_168: -19497830
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_169: 1553873683
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_17: 582565198
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_170: 802746934
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_171: 1703625883
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_172: 1161890920
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_173: 2107268995
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_174: -2078571539
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_175: -170274524
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_176: 1632846645
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_177: 2108829117
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_178: -607495448
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_179: -77885080
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_18: 1384510149
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_180: 1668718871
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_181: 427529289
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_182: -522184817
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_183: -1718676755
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_184: 743443391
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_185: -602178290
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_186: -937449649
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_187: -1566853256
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_188: 1205019333
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_19: -1893532883
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_2: -803107893
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_20: -1580631991
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_21: 307801739
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_22: -1613789989
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_23: -1072364269
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_24: -1405968701
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_25: -1499230002
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_26: 1496744220
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_27: -1696724447
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_28: -837128920
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_29: -1417388866
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_3: -1596015249
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_30: -1661237752
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_31: 79664084
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_32: -2063736634
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_33: -120077044
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_34: -1519679662
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_35: 23328912
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_36: -1526191578
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_37: 1091874075
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_38: 377059964
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_39: 209324293
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_4: 1075410686
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_40: -1493337157
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_41: -701401649
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_42: -907782082
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_43: 650147627
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_44: -245789305
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_45: -1594943064
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_46: 424370029
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_47: 1579304717
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_48: 1928807007
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_49: -1104538161
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_5: -151910039
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_50: 2109170619
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_51: 1551316153
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_52: -1372559175
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_53: 1822107834
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_54: -1717487543
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_55: -1684172753
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_56: -627080765
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_57: -603613443
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_58: -697375551
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_59: 312208650
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_6: -650491204
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_60: -759818885
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_61: 23304494
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_62: -260379678
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_63: 875431125
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_64: -255326396
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_65: 464756269
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_66: -1823327701
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_67: -538860198
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_68: 384568337
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_69: 1527856779
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_7: 863501299
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_70: -1305252633
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_71: -419793925
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_72: -1291896901
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_73: 1002398331
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_74: 415868115
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_75: 490790596
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_76: 1429914463
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_77: -1638762929
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_78: 1898788964
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_79: 402291050
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_8: -1341906842
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_80: 1528847429
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_81: -1778454338
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_82: -1922614591
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_83: -1768617308
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_84: 2069454663
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_85: 761909781
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_86: -1737505216
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_87: -1772993735
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_88: 1766434752
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_89: 1599818672
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_9: 113424065
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_90: -2083298750
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_91: -318540190
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_92: -532025326
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_93: -1529118264
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_94: 1051343169
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_95: -117682292
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_96: 168280190
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_97: -998070835
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_98: -1887312152
+      zenitsu_agatsuma_jus___sprite_sheet_by_pedronickmugen_dekskha_99: -801880469
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2458 @@
+fileFormatVersion: 2
+guid: fea6539709ff67c48b234777850cffa6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_0
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 632
+        width: 119
+        height: 116
+      alignment: 9
+      pivot: {x: 0.26890758, y: 0.33620688}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4dd8b42b446674399074133dd460c8
+      internalID: 1854498338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_3
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 646
+        width: 128
+        height: 87
+      alignment: 9
+      pivot: {x: 0.3125, y: 0.28735632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0246c4de5a95e6438eecbfb7a55470d
+      internalID: 364701672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_4
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 646
+        width: 120
+        height: 93
+      alignment: 9
+      pivot: {x: 0.25, y: 0.26881722}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09608aa0f049624eacc5585619348a2
+      internalID: 1240754291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_5
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 646
+        width: 105
+        height: 101
+      alignment: 9
+      pivot: {x: 0.16190477, y: 0.24752475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd7655d074f81e4db8e9003dd97dd9c
+      internalID: -1048309013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 646
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a2a2a189dc0384d8154b3a00364691
+      internalID: 344066811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 646
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be2f918d1e252449bb8a475a4defbe8
+      internalID: 439279089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 646
+        width: 41
+        height: 50
+      alignment: 9
+      pivot: {x: 0.41463414, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5ccb49b73c633479b4203f579163b9
+      internalID: 2040768535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_10
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 646
+        width: 57
+        height: 71
+      alignment: 9
+      pivot: {x: 0.2982456, y: 0.35211268}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2789e8e161efbe49afa04832bb058ed
+      internalID: 639668895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_11
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 646
+        width: 96
+        height: 78
+      alignment: 9
+      pivot: {x: 0.17708334, y: 0.32051283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958de86b25c45454dac798401e54a48f
+      internalID: -477189777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_12
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 646
+        width: 41
+        height: 50
+      alignment: 9
+      pivot: {x: 0.41463414, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad99ce66a4ad144ca6832e392ce3879
+      internalID: 2024626400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 531
+        width: 51
+        height: 56
+      alignment: 9
+      pivot: {x: 0.627451, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870c4b62237229945832f032540c81a2
+      internalID: 2134558654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_14
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 522
+        width: 110
+        height: 82
+      alignment: 9
+      pivot: {x: 0.6454545, y: 0.30487803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2725159cfe890d548964f505d23e047a
+      internalID: -242995192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_15
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 510
+        width: 114
+        height: 95
+      alignment: 9
+      pivot: {x: 0.6666667, y: 0.3894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b553afca1da778245a51474a6a0c0525
+      internalID: -869730927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_16
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 497
+        width: 126
+        height: 121
+      alignment: 9
+      pivot: {x: 0.6269842, y: 0.41322312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894ebeac3bacd104980ac829b76780bc
+      internalID: -2143764555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_18
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 530
+        width: 43
+        height: 44
+      alignment: 9
+      pivot: {x: 0.55813956, y: 0.54545456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c37a1537c5be4428511ee88da5c6a7
+      internalID: -109303934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_19
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 533
+        width: 58
+        height: 42
+      alignment: 9
+      pivot: {x: 0.67241377, y: 0.5714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f838c4b84157b9b44b6f0cec181fbe22
+      internalID: -1200139182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_21
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 541
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ce28b89687c2847a760f687db214b0
+      internalID: 54091036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_22
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 522
+        width: 46
+        height: 46
+      alignment: 9
+      pivot: {x: 0.54347825, y: 0.54347825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3264e8bf18434148a7e63ea8ccb3ce1
+      internalID: -2129564320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_24
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 538
+        width: 54
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f8b8486168a144e8fce5f274169513
+      internalID: 1894593323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_25
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 536
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23db1ee5f34618a4086a4038f80cbab7
+      internalID: 1173557106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_26
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 389
+        width: 35
+        height: 50
+      alignment: 9
+      pivot: {x: 0.51428574, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec1482bf9c1d0b42a6cab2bbb922c81
+      internalID: -894521659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_27
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 389
+        width: 42
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5952381, y: 0.37878788}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a59c118dd0179438b983df9d6d99b1
+      internalID: -2098531552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_28
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 391
+        width: 49
+        height: 61
+      alignment: 9
+      pivot: {x: 0.6530612, y: 0.42622948}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf546b61b75edf746883e037053d833c
+      internalID: 141595449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_29
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 376
+        width: 90
+        height: 79
+      alignment: 9
+      pivot: {x: 0.43333334, y: 0.51898736}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf839259e41ce2408ea99038364c18a
+      internalID: 706446249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_30
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 364
+        width: 76
+        height: 90
+      alignment: 9
+      pivot: {x: 0.46052632, y: 0.5888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f39a494616557ff438dcb15b86e86a42
+      internalID: 1003651837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_31
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 349
+        width: 77
+        height: 116
+      alignment: 9
+      pivot: {x: 0.48051947, y: 0.5862069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fa5527e4bcc484fba2d6d18d759d2c
+      internalID: 454619923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_32
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 392
+        width: 33
+        height: 41
+      alignment: 9
+      pivot: {x: 0.3030303, y: 0.60975605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a31a1d739cf104787eb93cca7af92b
+      internalID: 1518126099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_34
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 388
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127c8e9de06434041a9d7241f6e63f10
+      internalID: 1670484417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_35
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 391
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e9c0b70eb4d2548a11fec350874c38
+      internalID: -2071174821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_36
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 391
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe84cc2afcc310347b9ff5eccc769b5b
+      internalID: 1214894339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_38
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 260
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beae7c701c15e3646b7243b05812d3ca
+      internalID: 259542629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_39
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 267
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98211cf2f62fda4d9a90ee82f766586
+      internalID: 1706891883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_40
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 266
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4aaca30d7d90d4c92bb5286fe703f1
+      internalID: 1204516216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_41
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 268
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7032bbd668b229e4581ab2c2e256a6fa
+      internalID: 1677447074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_42
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 273
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a011157e8bac9b5479e91118be4ae285
+      internalID: 1339426122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_43
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 262
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8fe0bd57368af408b98ae349a711b4
+      internalID: -1536330873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_44
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 265
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36e8612d2507fd4096dedf4e6b477c3
+      internalID: 495534620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_45
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 268
+        width: 54
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b3d578b5c1b0d4dbcf3d1f07065664
+      internalID: -900359812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_46
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 263
+        width: 37
+        height: 39
+      alignment: 9
+      pivot: {x: 0.43243244, y: 0.71794873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183ad5b8a26693d488c1e35075328dc6
+      internalID: -610401664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_47
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 266
+        width: 56
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 1.5263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a2aa6f33d36044da8d8e1666d809ea
+      internalID: -1650842291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_48
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 268
+        width: 51
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd04bfc86aafb34a9b9b25ef49a36cb
+      internalID: 1713706698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_49
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 267
+        width: 29
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.78125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e178d7d2e68e074bb50da9f24939c97
+      internalID: 1873304282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_50
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 267
+        width: 32
+        height: 49
+      alignment: 9
+      pivot: {x: 0.53125, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb853126a7fb0a4d893c08eb79fd6f9
+      internalID: 958761310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_51
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 282
+        width: 42
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5952381, y: 0.4666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fa60e919b053f499295d1b26641f18
+      internalID: -2002210296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_52
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 280
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd8956c4f5d17248be9a1eb026f7827
+      internalID: 816000453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_53
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 270
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84336fa3db7995f41989933fcf802f23
+      internalID: 816589308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_54
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 271
+        width: 33
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.71428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2638c49e3bacbe24ab3c82a7c3624358
+      internalID: 2121620991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_55
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 282
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc08f1a552c19a40ae9ea66c41875c0
+      internalID: 1641984368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_56
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 271
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a66bd077ebd854c9ce68934415d6fb
+      internalID: -230229788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_57
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 271
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260359c7ea6e13e47b0014f4a47e1607
+      internalID: -381059939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_58
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 271
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab140e3818cb1541bdc57d85d26cece
+      internalID: -645258952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_59
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 174
+        width: 54
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431332e1bb8cec741a73cb11ca9f6466
+      internalID: 153770918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_60
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 174
+        width: 43
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73686c4bfe1d224489cdfbdbee379b9
+      internalID: 57229773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_61
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 175
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c23c82b460b8174ba8ddf582be764ca
+      internalID: -365731955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_62
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 176
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73acd70b7d2d26041848b9d7fc44bfb2
+      internalID: 1959584710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_63
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 112
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c92446ed8f22114ba7856ac75c7babf
+      internalID: 959921687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_64
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 112
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f734acd03ef454cab286289449f090
+      internalID: -1910095563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_65
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 112
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b485c37733b93d0439da9958567007ef
+      internalID: 834601142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_66
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 112
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfc5e56060b81d439000da7168c19e0
+      internalID: 1739950068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_67
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 112
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad732b0ac44d2f94d9766008ae225e67
+      internalID: -1604970251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_68
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 112
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9bdcdf2ba9ee94ab23162f6c8fc8b8
+      internalID: -906031695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_69
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 112
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e82c3d790cf48e4787afb1b6f603b15
+      internalID: 1846775654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_70
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae92e2264f1ca40498c49f4d9255a371
+      internalID: 1682066178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_71
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 124
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6535ce29ebcf6645b8243974cc834e5
+      internalID: -1851249669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_72
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 125
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be3c7c90e2649d4bb222e1c2b62b99b
+      internalID: -826536320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_73
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 125
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6317890ef6a72a498eb80bc16ae3071
+      internalID: -2084883183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_74
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 126
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a17b8fbf6d4ad4896df635175e2125
+      internalID: -547020414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_75
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 126
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c7a5697df0ac144bb0095bbc7a9fcc
+      internalID: 1875110685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_76
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 126
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ace9fad79f80f47a7ac034f8ddfc0e
+      internalID: -1129887543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_77
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 126
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83fe152b333a144c87e41255493d950
+      internalID: -283676764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_78
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 126
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b69164b2110334e9dce7d11a2c70ee
+      internalID: -497636248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_79
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 148
+        width: 59
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c4de1e4c433ba4a88997edb5892bbe
+      internalID: -746965667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_80
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 145
+        width: 47
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cb123d808838e46b659048084d6d57
+      internalID: 1428186221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_81
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 145
+        width: 41
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a95cdf601cb2d438eabbc2edf887de
+      internalID: -1893483966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_82
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 146
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0dad4f811b41c4795a81ed0929a82b
+      internalID: -324258311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_83
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 122
+        width: 54
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2470958615fd49468b4ec9dd52dbeef
+      internalID: 229321612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_84
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 123
+        width: 43
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9bf28e9d208f84bb22f852fcdefef8
+      internalID: 1446617290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_85
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 119
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17f4596814f0d84cbedac2ce90d4322
+      internalID: -1073443099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_86
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 119
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddaa7b8510eb56498d4d315cb597816
+      internalID: 1884812180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_87
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 8
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12402a18f57219e41a84accdf387ef33
+      internalID: 438404560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_88
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 8
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41290899f59b71643916e82ab4f1f12f
+      internalID: 1446828631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_89
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 8
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f431ae3df4dee4faf1db75950d641f
+      internalID: -1878378455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_90
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 8
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a7180aabeb6a34090ca2acbe31ef48
+      internalID: -783005275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_91
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 8
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1df92c7af8ab5142aba43644de32c97
+      internalID: -982097741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_92
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 8
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9136bde7373678d4998c4650b82078d4
+      internalID: 1823701104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_93
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 8
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4eea2eb6e355549a2a74887fbae588
+      internalID: 739952903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_94
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 8
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9fca3bf39bce54f8af737f9e40f26d
+      internalID: -1046726142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_95
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 8
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535d662c67b97be42a078d3f3a8c2175
+      internalID: -335801274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_96
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 9
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180a07c51a1365f4d81c68a9a72eb673
+      internalID: -677534841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_97
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 9
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16627dc31973ae4693b93c3bc79a20a
+      internalID: 520917098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_98
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 9
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90475d4c352d2e4e8b986b985c936b3
+      internalID: -1682942444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_99
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 9
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c9607af72991543907714b932e051b
+      internalID: -239304700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_100
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 9
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b55ab728aaf8a479ef4d06f0008ed8
+      internalID: 983609132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_101
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 9
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756efcce2ab9e3c4fb3dbcf0d071d3ab
+      internalID: -297490929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_102
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 9
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f339d380e8ef645a9c39163c434b06
+      internalID: -1204868078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_103
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 9
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8af02f51c04983499397cc0163aa351
+      internalID: 477407623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_104
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 9
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef842ce85e52244db8c727e61672bbc
+      internalID: 1364503946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_105
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 9
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e837692906a47046b57a125ba917a9a
+      internalID: 107085382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_106
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 9
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda1f2c9c5c40a14f83285aa0b09da4f
+      internalID: -1187457271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_107
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 9
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680644146f348f24091166bdf31abc2f
+      internalID: 2082142103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_108
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 9
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e405d000bd74c4eb7dd5b1a022b9d3
+      internalID: -1451138940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_109
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 9
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b33a789d293b1498051ffb7c21d9a1
+      internalID: 1962128540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_110
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 9
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82be6de088bd43f43a219625072f3816
+      internalID: -1632377289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_111
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 9
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788cccc5dc7644548b597a85077fe20f
+      internalID: 881594014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_112
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 9
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e58bf7f697f0b4e9cba86482141f5b
+      internalID: 1119503788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_0: 1854498338
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_1: 1136060509
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_10: 639668895
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_100: 983609132
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_101: -297490929
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_102: -1204868078
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_103: 477407623
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_104: 1364503946
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_105: 107085382
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_106: -1187457271
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_107: 2082142103
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_108: -1451138940
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_109: 1962128540
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_11: -477189777
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_110: -1632377289
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_111: 881594014
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_112: 1119503788
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_12: 2024626400
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_13: 2134558654
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_14: -242995192
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_15: -869730927
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_16: -2143764555
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_17: -938771256
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_18: -109303934
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_19: -1200139182
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_2: 479151682
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_20: 1973580048
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_21: 54091036
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_22: -2129564320
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_23: 1997780394
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_24: 1894593323
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_25: 1173557106
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_26: -894521659
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_27: -2098531552
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_28: 141595449
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_29: 706446249
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_3: 364701672
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_30: 1003651837
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_31: 454619923
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_32: 1518126099
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_33: -334657427
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_34: 1670484417
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_35: -2071174821
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_36: 1214894339
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_37: -1168162363
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_38: 259542629
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_39: 1706891883
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_4: 1240754291
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_40: 1204516216
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_41: 1677447074
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_42: 1339426122
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_43: -1536330873
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_44: 495534620
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_45: -900359812
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_46: -610401664
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_47: -1650842291
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_48: 1713706698
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_49: 1873304282
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_5: -1048309013
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_50: 958761310
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_51: -2002210296
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_52: 816000453
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_53: 816589308
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_54: 2121620991
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_55: 1641984368
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_56: -230229788
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_57: -381059939
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_58: -645258952
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_59: 153770918
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_6: 1421812066
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_60: 57229773
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_61: -365731955
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_62: 1959584710
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_63: 959921687
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_64: -1910095563
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_65: 834601142
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_66: 1739950068
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_67: -1604970251
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_68: -906031695
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_69: 1846775654
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_7: 344066811
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_70: 1682066178
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_71: -1851249669
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_72: -826536320
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_73: -2084883183
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_74: -547020414
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_75: 1875110685
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_76: -1129887543
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_77: -283676764
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_78: -497636248
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_79: -746965667
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_8: 439279089
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_80: 1428186221
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_81: -1893483966
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_82: -324258311
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_83: 229321612
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_84: 1446617290
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_85: -1073443099
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_86: 1884812180
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_87: 438404560
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_88: 1446828631
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_89: -1878378455
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_9: 2040768535
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_90: -783005275
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_91: -982097741
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_92: 1823701104
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_93: 739952903
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_94: -1046726142
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_95: -335801274
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_96: -677534841
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_97: 520917098
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_98: -1682942444
+      jiren_sprite_sheet_swl__db_fighterz_update_v2_0_by_athepro013_dffsddb_cut4_99: -239304700
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,4041 @@
+fileFormatVersion: 2
+guid: 8db37d9c86e458f418c805c71d19d892
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2382
+        width: 29
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2d01c58b56f8f41aef60c89cb52d41
+      internalID: 1382006198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 2382
+        width: 28
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50769234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96fe179739796a4c89fcc9704e56335
+      internalID: 36748980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2382
+        width: 28
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50769234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435318e267dc13741b8ba18bbd72d4fc
+      internalID: 1138051332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 2293
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1ca946127f892439cfbdf3b72b819f
+      internalID: -1699608113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2288
+        width: 52
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186dbdac3ff4a1740b2eec103a03157c
+      internalID: -1109155331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_5
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 2283
+        width: 63
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b01b3092940b2409800e8c5ac343eb
+      internalID: 215765579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_6
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 2280
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90fc262ba2ac4f4b8a461ee22cdcc2c
+      internalID: 254307954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2197
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af209eb16df5cc04387c4d278337846d
+      internalID: -205617389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2196
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956a5acae41645f4c8ce709807d1de48
+      internalID: -2027036137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_9
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 2194
+        width: 43
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.70212764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b744384c42148e1498cf50f5d53c8f08
+      internalID: 1789168003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_11
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2086
+        width: 80
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2a4a1265156284db0be3fdb60e7422
+      internalID: -1267850705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_12
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 2086
+        width: 88
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.34}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea553410b805f4d4b988324f8d7ef35e
+      internalID: 491722466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_13
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 2086
+        width: 80
+        height: 103
+      alignment: 9
+      pivot: {x: 0.5, y: 0.33009708}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a589ee233c588d439013ed15fb203e7
+      internalID: -1454502263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_14
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 2086
+        width: 80
+        height: 109
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3119266}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba07ce82e71cfb4bbf556f32f9eb810
+      internalID: 2071070534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_15
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 2086
+        width: 74
+        height: 110
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ace183f358ddb4cb20a56d9cfc3198
+      internalID: -88490462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_20
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2087
+        width: 34
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54098356}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11aef5c601d6844b8803eef43dd3851
+      internalID: 711735863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_21
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 2087
+        width: 34
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5322581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4d5bac3b633eb4f89d5d8935a7ec39
+      internalID: -147803528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_22
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2086
+        width: 54
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53968257}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b874a7452b9dc6540b2bf5053aeef4f5
+      internalID: -710435786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_23
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 2086
+        width: 64
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52307695}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be10e122f38b6d84991cc5fead30ee06
+      internalID: -1833910353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_26
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 2086
+        width: 74
+        height: 115
+      alignment: 9
+      pivot: {x: 0.5, y: 0.29565215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ce530b429e51442ae5e460e528a61c
+      internalID: 546243055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_27
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 2087
+        width: 34
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cda8603b6fe60a4aa0c5ed5b0002b71
+      internalID: -724941458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1995
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5caa0fc3a3c774d4e987e5906498fc2a
+      internalID: -502273237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_29
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1995
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85ea148122db55429b784b8783b956b
+      internalID: -267127338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_30
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1995
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44d69f9715717649a877731b240c392
+      internalID: -375836667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_31
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1995
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c0f330f2855dc49bd2080373de9758
+      internalID: 1472449632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_32
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1995
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601b1d6f15dce9049aafd156164459c6
+      internalID: 1985881363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_33
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1995
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbbbbe28294bf94d93f30db1f869f8a
+      internalID: 1865088810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_34
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1884
+        width: 43
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.55932206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2654a42d3f89b094e86a1e1503cbfb3f
+      internalID: 150163855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_35
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1884
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a9a86f35980ce44a849b5ef10dd204
+      internalID: -1091326300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_36
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1884
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2912be28b9767b44bb24ac3035aa9b2c
+      internalID: 431937053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_37
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1884
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709134046e9628c46956d4512aa127e2
+      internalID: -1106692383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_38
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1884
+        width: 63
+        height: 45
+      alignment: 9
+      pivot: {x: 0.49206352, y: 0.6888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf3c0570135d9a439673fa9f5bd7659
+      internalID: -1113907337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_39
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1884
+        width: 48
+        height: 39
+      alignment: 9
+      pivot: {x: 0.4791667, y: 0.74358976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4089fb8a25d5b6b48873f229c5253d5f
+      internalID: -921028302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_40
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1884
+        width: 67
+        height: 20
+      alignment: 9
+      pivot: {x: 0.4925373, y: 1.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d1dacf016c98f41bdc9ec420238303
+      internalID: 1119396847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_41
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1884
+        width: 32
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.8684211}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed950d256d2acc4aab05a7164abfc1b
+      internalID: -177431808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_42
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1884
+        width: 59
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4915254, y: 0.9375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a617879a954a2e94c95e81a73e1ee228
+      internalID: -1597332252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_43
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1884
+        width: 45
+        height: 57
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.40350878}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a465288428c6a4469fc1d55c3d31cff
+      internalID: -1210437858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_44
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1887
+        width: 47
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5319149, y: 0.94285715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dacbfa8f4aa08e4aa2755751b030ca5
+      internalID: -211264581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1791
+        width: 44
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9808e6166f3d6946b3a6a6d43a51ee6
+      internalID: -1891612656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_46
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1791
+        width: 42
+        height: 51
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.64705884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ff10a927b3631499af434919401b97
+      internalID: 2091544135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_47
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1791
+        width: 54
+        height: 54
+      alignment: 9
+      pivot: {x: 0.4074074, y: 0.6111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a050db9c7e05fa946a525d9869e3018a
+      internalID: -1749331635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_48
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1791
+        width: 54
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4074074, y: 0.63461536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392e4dcc601fa8b4b99c9c3763dbf34d
+      internalID: -1535676456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_49
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1790
+        width: 43
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.63461536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f9dbb6bb2f5594bb5d19795d3bd1dc
+      internalID: 884098234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_50
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1689
+        width: 43
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.63461536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94828bfc080819b41afc7929dff99a95
+      internalID: 1468398893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_51
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1689
+        width: 43
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930d250af26508942a4109a1a751f7ee
+      internalID: -1244322406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_52
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1689
+        width: 43
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.63461536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe870342b0c59d44be9a665d29e9360
+      internalID: 903515028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_53
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1689
+        width: 42
+        height: 48
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874f41992157beb45b871d4b900c04f0
+      internalID: 1713955650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_54
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1689
+        width: 63
+        height: 48
+      alignment: 9
+      pivot: {x: 0.34920636, y: 0.6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af28a735d1d437f4293cddeb07772caa
+      internalID: 1714345677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_55
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 1689
+        width: 63
+        height: 48
+      alignment: 9
+      pivot: {x: 0.34920636, y: 0.6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48be871103965e04b8d649f84b6c7806
+      internalID: -1254619641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_56
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1587
+        width: 42
+        height: 50
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7882f7b30de854486efad9efb4e8b9
+      internalID: 1513675513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_57
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1587
+        width: 43
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.63461536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d670c12874ffd6e4c978e73931dfa36d
+      internalID: -1978766991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_58
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1587
+        width: 42
+        height: 51
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.64705884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d3c84295b1db74199b0a90ad1303f5
+      internalID: 1558088104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_59
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1587
+        width: 43
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0491a987e34c694f9822627cefa7bab
+      internalID: 893649740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_60
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1587
+        width: 43
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.63461536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a134590ea3647d409178b2226f00069
+      internalID: -541606798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_61
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1489
+        width: 43
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.63461536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a970e640f3e4fc4d8b64a4c1e724b67
+      internalID: 1602401304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_62
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1489
+        width: 67
+        height: 59
+      alignment: 9
+      pivot: {x: 0.3283582, y: 0.55932206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4613737f6e6a94489c51b122b2474d
+      internalID: -147864865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_63
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1489
+        width: 103
+        height: 48
+      alignment: 9
+      pivot: {x: 0.21359223, y: 0.6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abdc67f55466da45b5cab379973bd9c
+      internalID: -809640162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_64
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1489
+        width: 103
+        height: 48
+      alignment: 9
+      pivot: {x: 0.21359223, y: 0.6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4384d46b79f3d0946ac92c80914eccce
+      internalID: 1830810724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_65
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 1489
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c955e4eb1659c459279999e5938c83
+      internalID: 1545090062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_66
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1489
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f75d8dc40071c41a263463a47f1a67
+      internalID: -1357783431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_67
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1367
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4363a094763a75244bab2f5834d374e3
+      internalID: -314569356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_68
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1367
+        width: 49
+        height: 67
+      alignment: 9
+      pivot: {x: 0.59183675, y: 0.49253732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e816d8b6a71d6aa4c9424858b02ec28d
+      internalID: -692536757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_69
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1367
+        width: 49
+        height: 63
+      alignment: 9
+      pivot: {x: 0.4489796, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f9adaaf804c9449a7f7ab892ce40b1
+      internalID: 1440716955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_70
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1367
+        width: 99
+        height: 63
+      alignment: 9
+      pivot: {x: 0.32323232, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7918089a09f9bb349ae9356aad292474
+      internalID: -1545403772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_71
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1367
+        width: 110
+        height: 67
+      alignment: 9
+      pivot: {x: 0.4090909, y: 0.49253732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1468a29f35fe9a4ca5a32a5790341e2
+      internalID: 1187566664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_72
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1367
+        width: 58
+        height: 59
+      alignment: 9
+      pivot: {x: 0.6896552, y: 0.55932206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b97b5dc0bb15824daadd84c32c74b66
+      internalID: -613507453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_73
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1367
+        width: 45
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4888889, y: 0.63461536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22497178f835c504394ecc596d2e7e36
+      internalID: -997605652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_74
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1368
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4981b846ebd31c46b7f6846b6511f59
+      internalID: 1449853727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_75
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1273
+        width: 36
+        height: 46
+      alignment: 9
+      pivot: {x: 0.6111111, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7d3fe78ed61eb4783b188ee277c262
+      internalID: -1320980000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_76
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1273
+        width: 59
+        height: 43
+      alignment: 9
+      pivot: {x: 0.3898305, y: 0.76744187}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8961d6f898b4a442a0db214dbf05bad
+      internalID: -201189560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_77
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1274
+        width: 59
+        height: 42
+      alignment: 9
+      pivot: {x: 0.37288135, y: 0.7619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fa51d3c145b1d4ca775b5f7f91fa1c
+      internalID: 1034135535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_78
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1274
+        width: 59
+        height: 42
+      alignment: 9
+      pivot: {x: 0.37288135, y: 0.7619048}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf15c0cdb87693e44bc79e277808ee2b
+      internalID: -210734121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_79
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1274
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831e8373a3ef521469459c589830640f
+      internalID: -1884506251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_80
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1274
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af874bdbc123aba4f8002a3972611d9e
+      internalID: 1382437410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_81
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1180
+        width: 43
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2b8af47ed95814f9cba1b9c8e17db3
+      internalID: 1836984541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_82
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1181
+        width: 44
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8e719dbff98594eb3d78b08a92cefa
+      internalID: -619052711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_83
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1181
+        width: 55
+        height: 58
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5689655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819d2bc5a6b569d4091d23d4f2f207f9
+      internalID: -6257059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_84
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1181
+        width: 63
+        height: 61
+      alignment: 9
+      pivot: {x: 0.34920636, y: 0.5409836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df806e2825d043f4eb7347371e955a81
+      internalID: 1575031452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_85
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1184
+        width: 49
+        height: 49
+      alignment: 9
+      pivot: {x: 0.4489796, y: 0.67346936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f7e289347007d48b832f2fc430b09b
+      internalID: 921589783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_86
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1082
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f322343e794c304c84040c6f88b1e1a
+      internalID: 355695116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_87
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1082
+        width: 45
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460b6498c73c376419ecb8d87b5f7dfc
+      internalID: 635067954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_88
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1082
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5904d3a1eccf22a45915390e092a2661
+      internalID: -1220009186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_89
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1083
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d92a505e8a27b4f80fa27ebcbfa699
+      internalID: -1219079449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_90
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1083
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094651e88a455af4196af6c56cf16dcb
+      internalID: 2091047219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_91
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 980
+        width: 37
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9e15633523719478daa6c233f6b062
+      internalID: 183906309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_92
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 980
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31221a9420bf81d4cbf6ade7065ecf09
+      internalID: 829531785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_93
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 979
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff9ee2360ffc434dbc13f8e4519bd1f
+      internalID: -615490123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_94
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 979
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eca6d10840110d44a9431f2070705bc
+      internalID: 2132868875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_95
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 978
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e549e6c99899f4b93cc8f8fdf2273a
+      internalID: -769297749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_96
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 881
+        width: 43
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df4516d25459d8478351f4f5d234237
+      internalID: -653462815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_97
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 883
+        width: 50
+        height: 54
+      alignment: 9
+      pivot: {x: 0.44, y: 0.6111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6f69e77450d774c8f1868c50c29fab
+      internalID: 1707361833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_98
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 883
+        width: 52
+        height: 52
+      alignment: 9
+      pivot: {x: 0.42307693, y: 0.63461536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599e76f0713c2cf40bd416ad78444995
+      internalID: -2032352671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_99
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 812
+        width: 44
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276b9bc30e5f51a46aa1f049472c0b0d
+      internalID: 833715392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_100
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 812
+        width: 42
+        height: 51
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.64705884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e372e9243f56b8246a13f3841392fa4d
+      internalID: 580707642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_101
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 810
+        width: 61
+        height: 53
+      alignment: 9
+      pivot: {x: 0.36065573, y: 0.6226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3450785e5e6acfe4c88cc809ee32fd73
+      internalID: -274561424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_103
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 809
+        width: 64
+        height: 52
+      alignment: 9
+      pivot: {x: 0.34375, y: 0.63461536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04272fd214aea984c8ff61016e062996
+      internalID: -688461717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_104
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 810
+        width: 47
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4680851, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf1da0dfe4bdf14c97f554631049fd9
+      internalID: 1499934218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_105
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 732
+        width: 43
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f48f66c03bfa048850043cd185acf6
+      internalID: -493817805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_106
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 732
+        width: 44
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b7b9ad63f491f4ebdc240e9ad4fb21
+      internalID: 1188483999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_107
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 732
+        width: 42
+        height: 49
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.67346936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ca685de8bc2b34f9dee692391dd364
+      internalID: 397709976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_108
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 732
+        width: 42
+        height: 48
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b5d4fdaded87543a00339b40b5fdd1
+      internalID: -129513262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_109
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 732
+        width: 42
+        height: 46
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a766458abcd0074da1c130f8279f902
+      internalID: -1774973471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_110
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 732
+        width: 42
+        height: 46
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c44ac65c8cb75849abd804c484fe015
+      internalID: -1006496764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_111
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 733
+        width: 53
+        height: 48
+      alignment: 9
+      pivot: {x: 0.41509435, y: 0.6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf57ad83728830d438ac48300a2065fd
+      internalID: -858395553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_112
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 733
+        width: 56
+        height: 48
+      alignment: 9
+      pivot: {x: 0.44642857, y: 0.6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e8f8014abddbd4ca85030ab823c750
+      internalID: -990484877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_113
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 733
+        width: 53
+        height: 51
+      alignment: 9
+      pivot: {x: 0.41509435, y: 0.64705884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96b04747a2a1384d9b00d92f9cc7600
+      internalID: -149618333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_114
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 733
+        width: 53
+        height: 50
+      alignment: 9
+      pivot: {x: 0.41509435, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5e0e90a83c262449543399a4d47138
+      internalID: 369394050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_115
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 733
+        width: 42
+        height: 50
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31deb4466f9365341af6624c1be193ee
+      internalID: 1840230413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_116
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 622
+        width: 43
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.67346936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4341c10c42391cf4ab25fb1266ce308e
+      internalID: -168518508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_117
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 620
+        width: 43
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.70212764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68edf8066a7c3a049b377a874ac2104a
+      internalID: 1218404633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_118
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 621
+        width: 43
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.70212764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c37027b164dfe142be9d8816061000f
+      internalID: -1714709332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_119
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 620
+        width: 34
+        height: 60
+      alignment: 9
+      pivot: {x: 0.64705884, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1116b74429f1d2c43bd23453798be566
+      internalID: -1472566169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_120
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 620
+        width: 34
+        height: 64
+      alignment: 9
+      pivot: {x: 0.64705884, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17285b3712d252b40abce18a7a0dfe47
+      internalID: -545165061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_121
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 621
+        width: 34
+        height: 65
+      alignment: 9
+      pivot: {x: 0.64705884, y: 0.50769234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08aa00b3a48dbac45a841023a8ee446e
+      internalID: -657769039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_122
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 623
+        width: 36
+        height: 63
+      alignment: 9
+      pivot: {x: 0.6111111, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76734b5aedffb4945b264e21f4f336a7
+      internalID: 144612683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_123
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 623
+        width: 41
+        height: 63
+      alignment: 9
+      pivot: {x: 0.6585366, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043e1886aee144c4ca6c785bd79c360e
+      internalID: 2077759435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_124
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 623
+        width: 37
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5945946, y: 0.5689655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ddc270aa6fa004298764d156d0ecc1
+      internalID: 1995799669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_125
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 623
+        width: 51
+        height: 57
+      alignment: 9
+      pivot: {x: 0.43137255, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3190cdc15ce010c45b066c7ebf3891a2
+      internalID: -1686369336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_126
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 622
+        width: 43
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce6787fc3aea6848a247982f9dfb890
+      internalID: -2094600411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_127
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 622
+        width: 46
+        height: 54
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.6111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a7143dbabd7644ba5cc99ef6fedcc5
+      internalID: 1033763042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_128
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 620
+        width: 46
+        height: 54
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.6111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fddfe225e21a5284785c72eff94fc3a5
+      internalID: 1415233241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_129
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 620
+        width: 42
+        height: 50
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a46913f150bfcf4793a24dcda7ba884
+      internalID: -456259569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_130
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 503
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c777929b458dc40831b4b271e564ea
+      internalID: 367449321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_131
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 503
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358d8269119bfda42aea90669dde95ec
+      internalID: -1123257979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_132
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 503
+        width: 42
+        height: 49
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.67346936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5666b2cd246d30a4282438e6cd6a6095
+      internalID: 1200399005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_133
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 503
+        width: 42
+        height: 51
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.64705884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094b919849384bf44969ecd6af01b9f4
+      internalID: 85584154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_134
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 503
+        width: 42
+        height: 49
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.67346936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62715cf0f1ccda41b4b4d8c72f686db
+      internalID: -1915661591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_135
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 503
+        width: 42
+        height: 49
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.67346936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611efc5ae0a8e124da656e428f370d95
+      internalID: -1894615263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_136
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 503
+        width: 48
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5833333, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5a4be5196077f4a999555481c32da1
+      internalID: -973274389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_137
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 503
+        width: 43
+        height: 48
+      alignment: 9
+      pivot: {x: 0.53488374, y: 0.6875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a2fdbc92a5baf44997b5c2b087fa0e
+      internalID: -733058550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_138
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 503
+        width: 63
+        height: 60
+      alignment: 9
+      pivot: {x: 0.53968257, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066f72d4790e1364cb8de6fdcd8e9e02
+      internalID: -937324649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_139
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 503
+        width: 59
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5084746, y: 0.58928573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee170833d4cb8645b5947e1ea9608c4
+      internalID: 1551260885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_140
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 503
+        width: 63
+        height: 54
+      alignment: 9
+      pivot: {x: 0.53968257, y: 0.6111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5499af5169fc9846bbf70fc6ebd326b
+      internalID: -263608907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_141
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 504
+        width: 56
+        height: 54
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.6111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26b7c17d52c11a489281ec36ede6831
+      internalID: 1727952320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_142
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 508
+        width: 56
+        height: 54
+      alignment: 9
+      pivot: {x: 0.51785713, y: 0.6111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118b4cffbc1da894ab71fd3635f556bc
+      internalID: 1512165511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_143
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 509
+        width: 46
+        height: 54
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.6111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f097a8064884974bb7068869fdce21c
+      internalID: 869907316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_144
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 510
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1dc5f181116be4f8e321efa1199368
+      internalID: -1898694394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_145
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 383
+        width: 34
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ca7e7c9c7cf4b44b97665e69c2450f
+      internalID: 137934060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_146
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 385
+        width: 34
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5409836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bebfeaca1d5f8f42abb36174386a236
+      internalID: 125141932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_147
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 385
+        width: 34
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353c2c3a83831d944bfd4fa68a56e2ef
+      internalID: -260719069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_148
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 386
+        width: 34
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5322581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62077627006585b4a8fbb4bb18fe7546
+      internalID: -1519541139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_149
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 385
+        width: 39
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5641026, y: 0.5322581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549bd90c7258dff47a5665c427036321
+      internalID: 1690089287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_150
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 386
+        width: 36
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.5322581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c3c1c4236777b46aa24c23a1d0a18e
+      internalID: 1731890614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_151
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 386
+        width: 32
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.50769234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e4a63bdf5f64347b9a04a60af39eb9
+      internalID: -241080975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_152
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 386
+        width: 36
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50769234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1350e32585ab0d247a783565540bd124
+      internalID: -480809269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_153
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 387
+        width: 33
+        height: 65
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0.50769234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1c75930821bdd4ea8fcdbce0ee120f
+      internalID: -1916377153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_154
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 385
+        width: 42
+        height: 65
+      alignment: 9
+      pivot: {x: 0.42857143, y: 0.50769234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118c806e6e652e843a22d7ecc9c447cd
+      internalID: -1021565648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_155
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 385
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.2769231, y: 0.50769234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6769dd9d519017747b2e245eb0f42967
+      internalID: -874305805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_156
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 385
+        width: 65
+        height: 65
+      alignment: 9
+      pivot: {x: 0.52307695, y: 0.50769234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cadecf095d3e4b418b356c96e9c6c6d
+      internalID: 175524996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_157
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 389
+        width: 55
+        height: 54
+      alignment: 9
+      pivot: {x: 0.4909091, y: 0.6111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a271c38e536b7a4194a0b443389f02b
+      internalID: -278056201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_158
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 388
+        width: 87
+        height: 53
+      alignment: 9
+      pivot: {x: 0.22988506, y: 0.6226415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee09dc52ce8fe724f983036c8a176c3a
+      internalID: 880845921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_159
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 376
+        width: 70
+        height: 73
+      alignment: 9
+      pivot: {x: 0.71428573, y: 0.4520548}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f12f540b1723d44bce357e77d925b9
+      internalID: 727959057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_160
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 382
+        width: 62
+        height: 71
+      alignment: 9
+      pivot: {x: 0.3548387, y: 0.46478873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279f755e5151c4e4bb7dd537716f918a
+      internalID: -585572001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_161
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 382
+        width: 55
+        height: 46
+      alignment: 9
+      pivot: {x: 0.4, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ac4e080a5165d4b9aa54f2c2153074
+      internalID: 162072732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_162
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 358
+        width: 39
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5897436, y: 0.8088235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977ab5c20375f9844b489dd643b3d3f5
+      internalID: 131937493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_163
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 380
+        width: 43
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a33ea99937e2a4297140010c30a12b
+      internalID: -1977284353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_164
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 379
+        width: 43
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f28a561a1b25247806e33a8d8920c3
+      internalID: -1866778446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_165
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 378
+        width: 42
+        height: 46
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0375ddd67b9b91e48888752215085f84
+      internalID: -423455450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_166
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 378
+        width: 42
+        height: 46
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.7173913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31b6623c481e5a47a3936bc8111bd95
+      internalID: 1884216284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_167
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 279
+        width: 29
+        height: 66
+      alignment: 9
+      pivot: {x: 0.51724136, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd3398d2bd52bd46a17ba8fd262f79e
+      internalID: 945105415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_168
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 280
+        width: 34
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad67b87a56d26814ab87201db8aa393b
+      internalID: -2097083786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_169
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 281
+        width: 34
+        height: 61
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.5409836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3222a998f3a6d2428b4ac814f586e0f
+      internalID: 190687232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_170
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 281
+        width: 34
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.5322581}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9800bea56877cf34fab2843895cff08c
+      internalID: 1127694913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_171
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 282
+        width: 34
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8d735168960fc4bb319eb710b9529a
+      internalID: -631157510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_172
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 282
+        width: 27
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.4852941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c161893af23c0af48b5b6346022b54f3
+      internalID: -2025976461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_173
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 282
+        width: 27
+        height: 68
+      alignment: 9
+      pivot: {x: 0.5555556, y: 0.4852941}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86016190ec173b47b6267b344c9c92a
+      internalID: -798643008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_174
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 169
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596df588fc76f624ba84108edf3839d5
+      internalID: -1014037900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_175
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 171
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d616403c47f87cf41978985d1cfcff00
+      internalID: 1032893289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_176
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 171
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff034aab2c24a1940929d9bdeee9433a
+      internalID: -2000449945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_177
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 55
+        width: 33
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e19f3651a9d024ea40c20b9d33314a
+      internalID: -1680509885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_178
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 57
+        width: 33
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fceb7300f183dd647b7afbf4730f5214
+      internalID: 689416360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_179
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 57
+        width: 33
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.52380955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c4933d1b65ce446a36e8873eafe16f
+      internalID: -1500824039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_180
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 57
+        width: 29
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f11519222877784e8432f1a81729bd8
+      internalID: -1780111415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_181
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 56
+        width: 29
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb54db304be374a45a56180c151c52a7
+      internalID: 1040087762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_182
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 56
+        width: 29
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb01b16f45362d4f98f60d7f5717385
+      internalID: 1005849729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_183
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 57
+        width: 29
+        height: 66
+      alignment: 9
+      pivot: {x: 0.4827586, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cb621b4c0afb7488b5aae983091f01
+      internalID: -1855418627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlackGoku_Akuma_Animation_10
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 96
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd453045e0b87f3449be21e7a0c8acb9
+      internalID: -365743421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      BlackGoku_Akuma_Animation_0: 1382006198
+      BlackGoku_Akuma_Animation_1: 36748980
+      BlackGoku_Akuma_Animation_10: -365743421
+      BlackGoku_Akuma_Animation_100: 580707642
+      BlackGoku_Akuma_Animation_101: -274561424
+      BlackGoku_Akuma_Animation_102: 357144526
+      BlackGoku_Akuma_Animation_103: -688461717
+      BlackGoku_Akuma_Animation_104: 1499934218
+      BlackGoku_Akuma_Animation_105: -493817805
+      BlackGoku_Akuma_Animation_106: 1188483999
+      BlackGoku_Akuma_Animation_107: 397709976
+      BlackGoku_Akuma_Animation_108: -129513262
+      BlackGoku_Akuma_Animation_109: -1774973471
+      BlackGoku_Akuma_Animation_11: -1267850705
+      BlackGoku_Akuma_Animation_110: -1006496764
+      BlackGoku_Akuma_Animation_111: -858395553
+      BlackGoku_Akuma_Animation_112: -990484877
+      BlackGoku_Akuma_Animation_113: -149618333
+      BlackGoku_Akuma_Animation_114: 369394050
+      BlackGoku_Akuma_Animation_115: 1840230413
+      BlackGoku_Akuma_Animation_116: -168518508
+      BlackGoku_Akuma_Animation_117: 1218404633
+      BlackGoku_Akuma_Animation_118: -1714709332
+      BlackGoku_Akuma_Animation_119: -1472566169
+      BlackGoku_Akuma_Animation_12: 491722466
+      BlackGoku_Akuma_Animation_120: -545165061
+      BlackGoku_Akuma_Animation_121: -657769039
+      BlackGoku_Akuma_Animation_122: 144612683
+      BlackGoku_Akuma_Animation_123: 2077759435
+      BlackGoku_Akuma_Animation_124: 1995799669
+      BlackGoku_Akuma_Animation_125: -1686369336
+      BlackGoku_Akuma_Animation_126: -2094600411
+      BlackGoku_Akuma_Animation_127: 1033763042
+      BlackGoku_Akuma_Animation_128: 1415233241
+      BlackGoku_Akuma_Animation_129: -456259569
+      BlackGoku_Akuma_Animation_13: -1454502263
+      BlackGoku_Akuma_Animation_130: 367449321
+      BlackGoku_Akuma_Animation_131: -1123257979
+      BlackGoku_Akuma_Animation_132: 1200399005
+      BlackGoku_Akuma_Animation_133: 85584154
+      BlackGoku_Akuma_Animation_134: -1915661591
+      BlackGoku_Akuma_Animation_135: -1894615263
+      BlackGoku_Akuma_Animation_136: -973274389
+      BlackGoku_Akuma_Animation_137: -733058550
+      BlackGoku_Akuma_Animation_138: -937324649
+      BlackGoku_Akuma_Animation_139: 1551260885
+      BlackGoku_Akuma_Animation_14: 2071070534
+      BlackGoku_Akuma_Animation_140: -263608907
+      BlackGoku_Akuma_Animation_141: 1727952320
+      BlackGoku_Akuma_Animation_142: 1512165511
+      BlackGoku_Akuma_Animation_143: 869907316
+      BlackGoku_Akuma_Animation_144: -1898694394
+      BlackGoku_Akuma_Animation_145: 137934060
+      BlackGoku_Akuma_Animation_146: 125141932
+      BlackGoku_Akuma_Animation_147: -260719069
+      BlackGoku_Akuma_Animation_148: -1519541139
+      BlackGoku_Akuma_Animation_149: 1690089287
+      BlackGoku_Akuma_Animation_15: -88490462
+      BlackGoku_Akuma_Animation_150: 1731890614
+      BlackGoku_Akuma_Animation_151: -241080975
+      BlackGoku_Akuma_Animation_152: -480809269
+      BlackGoku_Akuma_Animation_153: -1916377153
+      BlackGoku_Akuma_Animation_154: -1021565648
+      BlackGoku_Akuma_Animation_155: -874305805
+      BlackGoku_Akuma_Animation_156: 175524996
+      BlackGoku_Akuma_Animation_157: -278056201
+      BlackGoku_Akuma_Animation_158: 880845921
+      BlackGoku_Akuma_Animation_159: 727959057
+      BlackGoku_Akuma_Animation_16: 1354059025
+      BlackGoku_Akuma_Animation_160: -585572001
+      BlackGoku_Akuma_Animation_161: 162072732
+      BlackGoku_Akuma_Animation_162: 131937493
+      BlackGoku_Akuma_Animation_163: -1977284353
+      BlackGoku_Akuma_Animation_164: -1866778446
+      BlackGoku_Akuma_Animation_165: -423455450
+      BlackGoku_Akuma_Animation_166: 1884216284
+      BlackGoku_Akuma_Animation_167: 945105415
+      BlackGoku_Akuma_Animation_168: -2097083786
+      BlackGoku_Akuma_Animation_169: 190687232
+      BlackGoku_Akuma_Animation_17: -1232803272
+      BlackGoku_Akuma_Animation_170: 1127694913
+      BlackGoku_Akuma_Animation_171: -631157510
+      BlackGoku_Akuma_Animation_172: -2025976461
+      BlackGoku_Akuma_Animation_173: -798643008
+      BlackGoku_Akuma_Animation_174: -1014037900
+      BlackGoku_Akuma_Animation_175: 1032893289
+      BlackGoku_Akuma_Animation_176: -2000449945
+      BlackGoku_Akuma_Animation_177: -1680509885
+      BlackGoku_Akuma_Animation_178: 689416360
+      BlackGoku_Akuma_Animation_179: -1500824039
+      BlackGoku_Akuma_Animation_18: 1616223174
+      BlackGoku_Akuma_Animation_180: -1780111415
+      BlackGoku_Akuma_Animation_181: 1040087762
+      BlackGoku_Akuma_Animation_182: 1005849729
+      BlackGoku_Akuma_Animation_183: -1855418627
+      BlackGoku_Akuma_Animation_19: 629935984
+      BlackGoku_Akuma_Animation_2: 1138051332
+      BlackGoku_Akuma_Animation_20: 711735863
+      BlackGoku_Akuma_Animation_21: -147803528
+      BlackGoku_Akuma_Animation_22: -710435786
+      BlackGoku_Akuma_Animation_23: -1833910353
+      BlackGoku_Akuma_Animation_24: 1659787940
+      BlackGoku_Akuma_Animation_25: -1880090370
+      BlackGoku_Akuma_Animation_26: 546243055
+      BlackGoku_Akuma_Animation_27: -724941458
+      BlackGoku_Akuma_Animation_28: -502273237
+      BlackGoku_Akuma_Animation_29: -267127338
+      BlackGoku_Akuma_Animation_3: -1699608113
+      BlackGoku_Akuma_Animation_30: -375836667
+      BlackGoku_Akuma_Animation_31: 1472449632
+      BlackGoku_Akuma_Animation_32: 1985881363
+      BlackGoku_Akuma_Animation_33: 1865088810
+      BlackGoku_Akuma_Animation_34: 150163855
+      BlackGoku_Akuma_Animation_35: -1091326300
+      BlackGoku_Akuma_Animation_36: 431937053
+      BlackGoku_Akuma_Animation_37: -1106692383
+      BlackGoku_Akuma_Animation_38: -1113907337
+      BlackGoku_Akuma_Animation_39: -921028302
+      BlackGoku_Akuma_Animation_4: -1109155331
+      BlackGoku_Akuma_Animation_40: 1119396847
+      BlackGoku_Akuma_Animation_41: -177431808
+      BlackGoku_Akuma_Animation_42: -1597332252
+      BlackGoku_Akuma_Animation_43: -1210437858
+      BlackGoku_Akuma_Animation_44: -211264581
+      BlackGoku_Akuma_Animation_45: -1891612656
+      BlackGoku_Akuma_Animation_46: 2091544135
+      BlackGoku_Akuma_Animation_47: -1749331635
+      BlackGoku_Akuma_Animation_48: -1535676456
+      BlackGoku_Akuma_Animation_49: 884098234
+      BlackGoku_Akuma_Animation_5: 215765579
+      BlackGoku_Akuma_Animation_50: 1468398893
+      BlackGoku_Akuma_Animation_51: -1244322406
+      BlackGoku_Akuma_Animation_52: 903515028
+      BlackGoku_Akuma_Animation_53: 1713955650
+      BlackGoku_Akuma_Animation_54: 1714345677
+      BlackGoku_Akuma_Animation_55: -1254619641
+      BlackGoku_Akuma_Animation_56: 1513675513
+      BlackGoku_Akuma_Animation_57: -1978766991
+      BlackGoku_Akuma_Animation_58: 1558088104
+      BlackGoku_Akuma_Animation_59: 893649740
+      BlackGoku_Akuma_Animation_6: 254307954
+      BlackGoku_Akuma_Animation_60: -541606798
+      BlackGoku_Akuma_Animation_61: 1602401304
+      BlackGoku_Akuma_Animation_62: -147864865
+      BlackGoku_Akuma_Animation_63: -809640162
+      BlackGoku_Akuma_Animation_64: 1830810724
+      BlackGoku_Akuma_Animation_65: 1545090062
+      BlackGoku_Akuma_Animation_66: -1357783431
+      BlackGoku_Akuma_Animation_67: -314569356
+      BlackGoku_Akuma_Animation_68: -692536757
+      BlackGoku_Akuma_Animation_69: 1440716955
+      BlackGoku_Akuma_Animation_7: -205617389
+      BlackGoku_Akuma_Animation_70: -1545403772
+      BlackGoku_Akuma_Animation_71: 1187566664
+      BlackGoku_Akuma_Animation_72: -613507453
+      BlackGoku_Akuma_Animation_73: -997605652
+      BlackGoku_Akuma_Animation_74: 1449853727
+      BlackGoku_Akuma_Animation_75: -1320980000
+      BlackGoku_Akuma_Animation_76: -201189560
+      BlackGoku_Akuma_Animation_77: 1034135535
+      BlackGoku_Akuma_Animation_78: -210734121
+      BlackGoku_Akuma_Animation_79: -1884506251
+      BlackGoku_Akuma_Animation_8: -2027036137
+      BlackGoku_Akuma_Animation_80: 1382437410
+      BlackGoku_Akuma_Animation_81: 1836984541
+      BlackGoku_Akuma_Animation_82: -619052711
+      BlackGoku_Akuma_Animation_83: -6257059
+      BlackGoku_Akuma_Animation_84: 1575031452
+      BlackGoku_Akuma_Animation_85: 921589783
+      BlackGoku_Akuma_Animation_86: 355695116
+      BlackGoku_Akuma_Animation_87: 635067954
+      BlackGoku_Akuma_Animation_88: -1220009186
+      BlackGoku_Akuma_Animation_89: -1219079449
+      BlackGoku_Akuma_Animation_9: 1789168003
+      BlackGoku_Akuma_Animation_90: 2091047219
+      BlackGoku_Akuma_Animation_91: 183906309
+      BlackGoku_Akuma_Animation_92: 829531785
+      BlackGoku_Akuma_Animation_93: -615490123
+      BlackGoku_Akuma_Animation_94: 2132868875
+      BlackGoku_Akuma_Animation_95: -769297749
+      BlackGoku_Akuma_Animation_96: -653462815
+      BlackGoku_Akuma_Animation_97: 1707361833
+      BlackGoku_Akuma_Animation_98: -2032352671
+      BlackGoku_Akuma_Animation_99: 833715392
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
