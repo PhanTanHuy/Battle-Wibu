@@ -743,7 +743,7 @@ MonoBehaviour:
   nangLuongWU: 100
   nangLuongWI: 100
   tocDo: 18
-  lucNhay: 30
+  lucNhay: 35
   mau: 1200
   dame: 5
   tenNhanVat: jr
@@ -805,8 +805,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPrefabs:
-  - {fileID: 7488026145468655674, guid: b5618bab4b8365e4b94e351d0ed411b0, type: 3}
-  - {fileID: 7488026145468655674, guid: ba8670e1589e5ad47b24755685ef57fa, type: 3}
+  - vatTheBanRa: {fileID: 7488026145468655674, guid: b5618bab4b8365e4b94e351d0ed411b0, type: 3}
+    soLuong: 15
+  - vatTheBanRa: {fileID: 7488026145468655674, guid: ba8670e1589e5ad47b24755685ef57fa, type: 3}
+    soLuong: 15
   throwPoint: {fileID: 3624715099738325618}
 --- !u!114 &1819376033408583366
 MonoBehaviour:
@@ -832,6 +834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f687b3b7d9b068e449f68b7460338e20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mauGhostEffect: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &7875339603031416694
 MonoBehaviour:
   m_ObjectHideFlags: 0

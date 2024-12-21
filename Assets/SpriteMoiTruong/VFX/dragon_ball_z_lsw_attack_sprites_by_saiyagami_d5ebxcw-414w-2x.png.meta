@@ -119,9 +119,169 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: dragon_ball_z_lsw_attack_sprites_by_saiyagami_d5ebxcw-414w-2x_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 390
+        width: 51
+        height: 27
+      alignment: 9
+      pivot: {x: 0.23529413, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e625edbe5c8545a409bfa1d9f5b6b07a
+      internalID: 290495524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_ball_z_lsw_attack_sprites_by_saiyagami_d5ebxcw-414w-2x_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 388
+        width: 51
+        height: 30
+      alignment: 9
+      pivot: {x: 0.25490198, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d248053fc85ce44ae2bd803a66ac72
+      internalID: 143747661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_ball_z_lsw_attack_sprites_by_saiyagami_d5ebxcw-414w-2x_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 387
+        width: 51
+        height: 30
+      alignment: 9
+      pivot: {x: 0.23529413, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0e972415501054597dcb77a637947c
+      internalID: -1715782791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_ball_z_lsw_attack_sprites_by_saiyagami_d5ebxcw-414w-2x_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 356
+        width: 50
+        height: 25
+      alignment: 9
+      pivot: {x: 0.14, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de48ae265def374cbd52893fcbf6707
+      internalID: -1819851759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_ball_z_lsw_attack_sprites_by_saiyagami_d5ebxcw-414w-2x_4
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 353
+        width: 52
+        height: 30
+      alignment: 9
+      pivot: {x: 0.25, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04e0dd67a133a447af54e12319b892f
+      internalID: -1037497616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_ball_z_lsw_attack_sprites_by_saiyagami_d5ebxcw-414w-2x_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 354
+        width: 51
+        height: 31
+      alignment: 9
+      pivot: {x: 0.27450982, y: 0.48387095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd2a6b7724cac64e835994833eb0170
+      internalID: 1010113703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon_ball_z_lsw_attack_sprites_by_saiyagami_d5ebxcw-414w-2x_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 327
+        width: 51
+        height: 25
+      alignment: 9
+      pivot: {x: 0.15686275, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e54ee737cf72c142a59b46ea7574459
+      internalID: 2141602949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +292,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dragon_ball_z_lsw_attack_sprites_by_saiyagami_d5ebxcw-414w-2x_0: 290495524
+      dragon_ball_z_lsw_attack_sprites_by_saiyagami_d5ebxcw-414w-2x_1: 143747661
+      dragon_ball_z_lsw_attack_sprites_by_saiyagami_d5ebxcw-414w-2x_2: -1715782791
+      dragon_ball_z_lsw_attack_sprites_by_saiyagami_d5ebxcw-414w-2x_3: -1819851759
+      dragon_ball_z_lsw_attack_sprites_by_saiyagami_d5ebxcw-414w-2x_4: -1037497616
+      dragon_ball_z_lsw_attack_sprites_by_saiyagami_d5ebxcw-414w-2x_5: 1010113703
+      dragon_ball_z_lsw_attack_sprites_by_saiyagami_d5ebxcw-414w-2x_6: 2141602949
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

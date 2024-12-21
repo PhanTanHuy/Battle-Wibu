@@ -101,11 +101,11 @@ public class EnemyAi : MonoBehaviour
     {
         if (dashTimer < 0f || (!isGrounded && dashTimer < 0.2f))
         {
+            if (Mathf.Abs(distanceFromPlayer.x) < 3f) transform.localScale = new Vector2(-transform.localScale.x, 1f);
             trangThai.Dash(true);
             timeDash = Random.Range(0.25f, 1f);
             dashTimer = Random.Range(1.5f, 2.5f);
             rb.AddForce(new Vector2(0f, csnv.LucNhay), ForceMode2D.Impulse);
-            if (Mathf.Abs(distanceFromPlayer.x) < 3f) transform.localScale = new Vector2(-transform.localScale.x, 1f);
         }
         if (timeDash < 0f)
         {
@@ -191,6 +191,7 @@ public class EnemyAi : MonoBehaviour
                 rd = currentCombo;
                 s = combos[rd];
                 currentCombo++;
+                dashTimer = Random.Range(0.5f, 1.5f);
                 currentComboTimer = 0f;
                 if (currentCombo >= csnv.ChuoiCombo) currentCombo = 0;
                 if (rd == csnv.ChuoiCombo - 1)
@@ -254,10 +255,10 @@ public class EnemyAi : MonoBehaviour
     }
     private void Defense()
     {
-        if (trangThai.IsHurt)
-        {
-            timeDefense = Random.Range(1.5f, 2.5f);
-        }
+        //if (trangThai.IsHurt)
+        //{
+        //    timeDefense = Random.Range(0.5f, 1f);
+        //}
         if (trangThai.CanDefense()) trangThai.Defense(canDefense());
     }
 }

@@ -11,6 +11,8 @@ public class ChiSoNhanVat : MonoBehaviour
     [SerializeField] private int chuoiCombo;
     public Sprite anhDanhDien;
     public GameObject hieuUngHit;
+    public Color mauHit = Color.white;
+
     private float mauHienTai;
     public float NangLuongHienTai, TocDoHoiNangLuong, NangLuongToiDa;
     private float _dame;

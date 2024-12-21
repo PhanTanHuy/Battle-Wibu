@@ -634,14 +634,14 @@ MonoBehaviour:
   nangLuongWU: 100
   nangLuongWI: 100
   tocDo: 18
-  lucNhay: 30
-  mau: 650
+  lucNhay: 35
+  mau: 1000
   dame: 4
   tenNhanVat: blgk
   tenUi: Black Goku Xeno
   chuoiCombo: 9
   anhDanhDien: {fileID: -365743421, guid: 8db37d9c86e458f418c805c71d19d892, type: 3}
-  hieuUngHit: {fileID: 2262899669663217118, guid: b6e94ec70a153bf4fb4e88c4302237dc, type: 3}
+  hieuUngHit: {fileID: 2262899669663217118, guid: 73026e0f78c0e354abbc5d8f9fdb1ad1, type: 3}
   NangLuongHienTai: 0
   TocDoHoiNangLuong: 80
   NangLuongToiDa: 500
@@ -696,8 +696,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPrefabs:
-  - {fileID: 7488026145468655674, guid: e941104aa6c171d439bd925068624db5, type: 3}
-  - {fileID: 7488026145468655674, guid: 522385ef02dab7f45a12396e0e14b778, type: 3}
+  - vatTheBanRa: {fileID: 7488026145468655674, guid: e941104aa6c171d439bd925068624db5, type: 3}
+    soLuong: 15
+  - vatTheBanRa: {fileID: 7488026145468655674, guid: 522385ef02dab7f45a12396e0e14b778, type: 3}
+    soLuong: 15
   throwPoint: {fileID: 3624715099738325618}
 --- !u!114 &1819376033408583366
 MonoBehaviour:
@@ -723,6 +725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f687b3b7d9b068e449f68b7460338e20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mauGhostEffect: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &7875339603031416694
 MonoBehaviour:
   m_ObjectHideFlags: 0

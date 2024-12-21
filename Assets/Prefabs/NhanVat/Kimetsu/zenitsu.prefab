@@ -542,12 +542,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e419e32404ecab43ac999e716141c18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nangLuongU: 120
-  nangLuongI: 50
-  nangLuongWU: 150
-  nangLuongWI: 200
+  nangLuongU: 25
+  nangLuongI: 25
+  nangLuongWU: 50
+  nangLuongWI: 50
   tocDo: 14
-  lucNhay: 30
+  lucNhay: 35
   mau: 200
   dame: 2
   tenNhanVat: z
@@ -644,6 +644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f687b3b7d9b068e449f68b7460338e20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mauGhostEffect: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &8477297607000164882
 MonoBehaviour:
   m_ObjectHideFlags: 0

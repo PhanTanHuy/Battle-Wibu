@@ -144,4 +144,15 @@ public class QuanLiCharacter : MonoBehaviour
         }
         return Vector3.zero;
     }
+    public Transform TFDoiThuGanNhat(string tenNguoiDung)
+    {
+        for (int i = 0; i < characters.Length; i++)
+        {
+            if (tenNguoiDung != csnv[i].TenNhanVat)
+            {
+                return characters[i].transform;
+            }
+        }
+        return null;
+    }
 }

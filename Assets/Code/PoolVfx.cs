@@ -1,8 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
-using static UnityEditor.PlayerSettings;
 
 public class PoolVfx : MonoBehaviour
 {
@@ -10,10 +8,12 @@ public class PoolVfx : MonoBehaviour
     {
         public GameObject collide;
         public string tenNhanVat;
-        public void KhoiTao(GameObject cl, string n)
+        public Color m;
+        public void KhoiTao(GameObject cl, string n, ref Color mau)
         {
             collide = cl;
             tenNhanVat = n;
+            m = mau;
         }
     }
     public static PoolVfx instance;
@@ -38,12 +38,13 @@ public class PoolVfx : MonoBehaviour
         Collides = new CollideEffect[QuanLiCharacter.Instance.csnv.Length];
         for (int i=0; i<Collides.Length; i++)
         {
-            Collides[i].KhoiTao(QuanLiCharacter.Instance.csnv[i].hieuUngHit, QuanLiCharacter.Instance.csnv[i].TenNhanVat);
+            ChiSoNhanVat csnv = QuanLiCharacter.Instance.csnv[i];
+            Collides[i].KhoiTao(csnv.hieuUngHit, csnv.TenNhanVat, ref csnv.mauHit);
         }
         CollideQueues = new Queue<GameObject>[Collides.Length];
         for (int i = 0; i < Collides.Length; i++)
         {
-            AddQueue(ref CollideQueues[i], 20, Collides[i].collide);
+            AddQueue(ref CollideQueues[i], 20, Collides[i].collide, ref Collides[i].m);
         }
         //
         AddQueue(ref SmokeDashQueue, 15, dashSmoke);
@@ -51,6 +52,17 @@ public class PoolVfx : MonoBehaviour
         AddQueue(ref DatVoQueue, 10, datVo);
         AddQueue(ref GhostEffectQueue, 30, ghostEffect);
 
+    }
+    private void AddQueue(ref Queue<GameObject> q, int soLuong, GameObject gobj, ref Color mau)
+    {
+        q = new Queue<GameObject>();
+        for (int i = 0; i < soLuong; i++)
+        {
+            GameObject g = Instantiate(gobj);
+            g.GetComponent<SpriteRenderer>().color = mau;
+            g.SetActive(false);
+            q.Enqueue(g);
+        }
     }
     private void AddQueue(ref Queue<GameObject> q, int soLuong, GameObject gobj)
     {

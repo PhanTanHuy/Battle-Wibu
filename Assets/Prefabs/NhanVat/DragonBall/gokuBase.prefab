@@ -625,14 +625,14 @@ MonoBehaviour:
   nangLuongWU: 100
   nangLuongWI: 150
   tocDo: 18
-  lucNhay: 30
+  lucNhay: 35
   mau: 200
   dame: 3
   tenNhanVat: sgk
   tenUi: Son Goku
-  chuoiCombo: 4
+  chuoiCombo: 5
   anhDanhDien: {fileID: 21300000, guid: d5951fa87cc619744a09159486522e7e, type: 3}
-  hieuUngHit: {fileID: 2262899669663217118, guid: b6e94ec70a153bf4fb4e88c4302237dc, type: 3}
+  hieuUngHit: {fileID: 2262899669663217118, guid: 73026e0f78c0e354abbc5d8f9fdb1ad1, type: 3}
   NangLuongHienTai: 0
   TocDoHoiNangLuong: 50
   NangLuongToiDa: 300
@@ -687,7 +687,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPrefabs:
-  - {fileID: 7488026145468655674, guid: c652cd39e7ae2d342a0cfc93f3c0e0c2, type: 3}
+  - vatTheBanRa: {fileID: 7488026145468655674, guid: c652cd39e7ae2d342a0cfc93f3c0e0c2, type: 3}
+    soLuong: 15
   throwPoint: {fileID: 3624715099738325618}
 --- !u!114 &1819376033408583366
 MonoBehaviour:

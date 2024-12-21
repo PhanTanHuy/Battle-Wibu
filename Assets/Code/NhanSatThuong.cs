@@ -30,21 +30,20 @@ public class NhanSatThuong : MonoBehaviour
             {
                 if (csnv.MauHienTai > 0f)
                 {
-                    if (lucDayKnockOut == 0f)
-                    {
-                        trangThai.StartHurt(directionOfAttack.x, lucHatTung, normalAttack);
-                    }
-                    else
-                    {
-                        QuanLiAmThanh.Instance.PlayTelePunch();
-                        PoolVfx.instance.KhoiKnockOut(transform);
-                        trangThai.StartKnockOut(directionOfAttack.x, lucDayKnockOut, lucHatTung, normalAttack);
-                    }
+                    //if (lucDayKnockOut == 0f)
+                    //{
+                        trangThai.StartHurt(directionOfAttack.x, lucDayKnockOut, lucHatTung, normalAttack);
+                    //}
+                    //else
+                    //{
+                    //    QuanLiAmThanh.Instance.PlayTelePunch();
+                    //    PoolVfx.instance.KhoiKnockOut(transform);
+                    //    trangThai.StartKnockOut(directionOfAttack.x, lucDayKnockOut, lucHatTung, normalAttack);
+                    //}
                 }
                 csnv.MauHienTai -= keGayDame.GetComponentInParent<ChiSoNhanVat>().Dame;
                 Battle.Instance.CapNhatThanhMau(csnv.TenNhanVat, csnv.PhanTramMauHienTai);
                 keGayDame.GetComponentInParent<TrangThai>().Hitting();
-                if (csnv.MauHienTai <= 0f) trangThai.Death(directionOfAttack.x);
             }
             else
             {
@@ -55,6 +54,7 @@ public class NhanSatThuong : MonoBehaviour
                 csnv.MauHienTai -= keGayDame.GetComponentInParent<ChiSoNhanVat>().Dame * 0.2f;
                 Battle.Instance.CapNhatThanhMau(csnv.TenNhanVat, csnv.PhanTramMauHienTai);
             }
+            if (csnv.MauHienTai <= 0f) trangThai.Death(directionOfAttack.x);
         }
         else if (collision.CompareTag("boxObjectAttack"))
         {
@@ -68,13 +68,12 @@ public class NhanSatThuong : MonoBehaviour
                 {
                     if (!trangThai.IsKnockout)
                     {
-                        trangThai.StartHurt(directionOfAttack.x, 3f, false);
+                        trangThai.StartHurt(directionOfAttack.x, 10f, 3f, false);
                     }
                 }
                 csnv.MauHienTai -= cs.Dame;
                 Battle.Instance.CapNhatThanhMau(csnv.TenNhanVat, csnv.PhanTramMauHienTai);
                 PoolVfx.instance.CreateCollideEffect(transform.position, cs.tenNguoiSoHuu, directionOfAttack);
-                if (csnv.MauHienTai <= 0f) trangThai.Death(directionOfAttack.x);
             }
             else
             {
@@ -84,7 +83,7 @@ public class NhanSatThuong : MonoBehaviour
                 csnv.MauHienTai -= cs.Dame * 0.2f;
                 Battle.Instance.CapNhatThanhMau(csnv.TenNhanVat, csnv.PhanTramMauHienTai);
             }
-
+            if (csnv.MauHienTai <= 0f) trangThai.Death(directionOfAttack.x);
         }
     }
 }

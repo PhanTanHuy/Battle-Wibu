@@ -21,15 +21,19 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 21300000, guid: 61a1056ca6d55ed46ac067543e714652, type: 3}
+      value: {fileID: -1778906219, guid: b9d4a74aa099c9445b2421734a551d95, type: 3}
     - time: 0.033333335
-      value: {fileID: 21300000, guid: 3e1e8fa220cab334382ed41289843159, type: 3}
+      value: {fileID: -982462124, guid: b9d4a74aa099c9445b2421734a551d95, type: 3}
     - time: 0.06666667
-      value: {fileID: 21300000, guid: d57ee1de8372851418fca9fbf1817964, type: 3}
+      value: {fileID: -1246454852, guid: b9d4a74aa099c9445b2421734a551d95, type: 3}
     - time: 0.1
-      value: {fileID: 21300000, guid: f308a0d625e0b4d4a88f9c0a1158494f, type: 3}
+      value: {fileID: -1153979091, guid: b9d4a74aa099c9445b2421734a551d95, type: 3}
     - time: 0.13333334
-      value: {fileID: 21300000, guid: 0a91f3732327a9e41bc3338505690f9a, type: 3}
+      value: {fileID: 192863916, guid: b9d4a74aa099c9445b2421734a551d95, type: 3}
+    - time: 0.16666667
+      value: {fileID: 1127396771, guid: b9d4a74aa099c9445b2421734a551d95, type: 3}
+    - time: 0.2
+      value: {fileID: -207806921, guid: b9d4a74aa099c9445b2421734a551d95, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -52,17 +56,19 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 61a1056ca6d55ed46ac067543e714652, type: 3}
-    - {fileID: 21300000, guid: 3e1e8fa220cab334382ed41289843159, type: 3}
-    - {fileID: 21300000, guid: d57ee1de8372851418fca9fbf1817964, type: 3}
-    - {fileID: 21300000, guid: f308a0d625e0b4d4a88f9c0a1158494f, type: 3}
-    - {fileID: 21300000, guid: 0a91f3732327a9e41bc3338505690f9a, type: 3}
+    - {fileID: -1778906219, guid: b9d4a74aa099c9445b2421734a551d95, type: 3}
+    - {fileID: -982462124, guid: b9d4a74aa099c9445b2421734a551d95, type: 3}
+    - {fileID: -1246454852, guid: b9d4a74aa099c9445b2421734a551d95, type: 3}
+    - {fileID: -1153979091, guid: b9d4a74aa099c9445b2421734a551d95, type: 3}
+    - {fileID: 192863916, guid: b9d4a74aa099c9445b2421734a551d95, type: 3}
+    - {fileID: 1127396771, guid: b9d4a74aa099c9445b2421734a551d95, type: 3}
+    - {fileID: -207806921, guid: b9d4a74aa099c9445b2421734a551d95, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.16666667
+    m_StopTime: 0.23333333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -84,12 +90,12 @@ AnimationClip:
   m_Events:
   - time: 0
     functionName: XoayNgauNhien
-    data: -10,10
+    data: 0,360
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.16666667
+  - time: 0.23333333
     functionName: DeactiveObject
     data: 
     objectReferenceParameter: {fileID: 0}

@@ -371,14 +371,14 @@ MonoBehaviour:
   nangLuongWU: 150
   nangLuongWI: 200
   tocDo: 12
-  lucNhay: 30
+  lucNhay: 35
   mau: 700
-  dame: 4
+  dame: 5
   tenNhanVat: gkb
   tenUi: Goku SSJ Blue
   chuoiCombo: 8
   anhDanhDien: {fileID: -2006735461, guid: c0a45e6fbc7684643956868d72e77b9f, type: 3}
-  hieuUngHit: {fileID: 2262899669663217118, guid: b6e94ec70a153bf4fb4e88c4302237dc, type: 3}
+  hieuUngHit: {fileID: 2262899669663217118, guid: 73026e0f78c0e354abbc5d8f9fdb1ad1, type: 3}
   NangLuongHienTai: 0
   TocDoHoiNangLuong: 85
   NangLuongToiDa: 800
@@ -433,7 +433,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPrefabs:
-  - {fileID: 7488026145468655674, guid: 522385ef02dab7f45a12396e0e14b778, type: 3}
+  - vatTheBanRa: {fileID: 7488026145468655674, guid: 522385ef02dab7f45a12396e0e14b778, type: 3}
+    soLuong: 15
   throwPoint: {fileID: 3624715099738325618}
 --- !u!114 &1819376033408583366
 MonoBehaviour:

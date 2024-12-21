@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PoolObject : MonoBehaviour
 {
-    public GameObject[] objectPrefabs; 
-
+    [System.Serializable]
+    public class SkillVatThe
+    {
+        public GameObject vatTheBanRa;
+        public int soLuong = 15;
+    }
+    public SkillVatThe[] objectPrefabs;
     private Dictionary<int, Queue<GameObject>> weaponPools = new Dictionary<int, Queue<GameObject>>();
 
     public Transform throwPoint;
@@ -22,9 +26,9 @@ public class PoolObject : MonoBehaviour
             {
                 weaponPools[i] = new Queue<GameObject>();
             }
-            for (int j = 0; j < 15; j++) 
+            for (int j = 0; j < objectPrefabs[i].soLuong; j++) 
             {
-                GameObject newWeapon = Instantiate(objectPrefabs[i]);
+                GameObject newWeapon = Instantiate(objectPrefabs[i].vatTheBanRa);
                 newWeapon.GetComponent<ChiSo>().tenNguoiSoHuu = csnv.TenNhanVat;
                 newWeapon.SetActive(false); 
                 weaponPools[i].Enqueue(newWeapon);

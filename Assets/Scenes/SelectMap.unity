@@ -852,6 +852,8 @@ MonoBehaviour:
   - {fileID: 5670560496196770106, guid: faac3d461de84f74381de51eb179999a, type: 3}
   - {fileID: 5670560496196770106, guid: e6a33956cb31b7b4490f152609babab1, type: 3}
   - {fileID: 5670560496196770106, guid: d8709052038d34c42888dacfd927a2ce, type: 3}
+  - {fileID: 5670560496196770106, guid: 0c8ea701e4dc25a4e945417eab8a3342, type: 3}
+  - {fileID: 5670560496196770106, guid: 392839acf4e574d43b3e7fdd0a934940, type: 3}
   anhMap: {fileID: 1884565345}
   currentIndexMap: 0
 --- !u!1 &1328009224

@@ -791,9 +791,9 @@ MonoBehaviour:
   nangLuongWU: 200
   nangLuongWI: 200
   tocDo: 5
-  lucNhay: 30
-  mau: 1700
-  dame: 10
+  lucNhay: 35
+  mau: 700
+  dame: 5
   tenNhanVat: gj
   tenUi: Gojo Satoru
   chuoiCombo: 9
@@ -853,8 +853,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPrefabs:
-  - {fileID: 7488026145468655674, guid: 233d844d0d09f3041be8582e1cd2220c, type: 3}
-  - {fileID: 7488026145468655674, guid: 58d846684aebd3e4c862f1fbf32c0498, type: 3}
+  - vatTheBanRa: {fileID: 7488026145468655674, guid: 233d844d0d09f3041be8582e1cd2220c, type: 3}
+    soLuong: 15
+  - vatTheBanRa: {fileID: 7488026145468655674, guid: 58d846684aebd3e4c862f1fbf32c0498, type: 3}
+    soLuong: 15
   throwPoint: {fileID: 3624715099738325618}
 --- !u!114 &1819376033408583366
 MonoBehaviour:

@@ -27,7 +27,9 @@ public class SelectMap : MonoBehaviour
     }
     public void ShowCurrentMap()
     {
-        anhMap.sprite = prefabsMap[currentIndexMap].transform.GetChild(4).GetComponent<SpriteRenderer>().sprite;
+        SpriteRenderer spr = prefabsMap[currentIndexMap].transform.GetChild(4).GetComponent<SpriteRenderer>();
+        anhMap.sprite = spr.sprite;
+        anhMap.color = spr.color;
     }
     public void NextMap()
     {

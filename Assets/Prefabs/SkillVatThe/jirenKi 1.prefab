@@ -181,6 +181,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  giaToc: 0
 --- !u!114 &4807552344267685570
 MonoBehaviour:
   m_ObjectHideFlags: 0
