@@ -31,14 +31,34 @@ public class SlowMotionHit : MonoBehaviour
         }
         resetTimeCor = StartCoroutine(ResetTimeScale(0.3f));
     }
-    public void SlowHit()
+    public void SlowHitNang()
     {
         Time.timeScale = 0.01f;
         if (resetTimeCor != null )
         {
             StopCoroutine(resetTimeCor);
         }
-        resetTimeCor = StartCoroutine(ResetTimeScale(0.0008f));
+        resetTimeCor = StartCoroutine(ResetTimeScale(0.0014f));
+
+    }
+    public void SlowHitNhe()
+    {
+        Time.timeScale = 0.01f;
+        if (resetTimeCor != null)
+        {
+            StopCoroutine(resetTimeCor);
+        }
+        resetTimeCor = StartCoroutine(ResetTimeScale(0.0002f));
+
+    }
+    public void SlowHitVua()
+    {
+        Time.timeScale = 0.01f;
+        if (resetTimeCor != null)
+        {
+            StopCoroutine(resetTimeCor);
+        }
+        resetTimeCor = StartCoroutine(ResetTimeScale(0.0006f));
 
     }
     IEnumerator ResetTimeScale(float time)

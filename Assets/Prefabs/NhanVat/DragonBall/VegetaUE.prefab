@@ -465,9 +465,10 @@ MonoBehaviour:
   nangLuongWU: 100
   nangLuongWI: 100
   tocDo: 4
+  dashBoost: 50
   lucNhay: 35
-  mau: 2200
-  dame: 6
+  mau: 100
+  dame: 1
   tenNhanVat: vgtUE
   tenUi: Vegeta Ultra Ego
   chuoiCombo: 9

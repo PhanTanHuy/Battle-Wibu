@@ -60,7 +60,8 @@ public class PlayerControl : MonoBehaviour
                 rb.velocity = new Vector2(rb.velocity.x, 0f);
                 transform.position = new Vector2(transform.position.x, trangThai.viTriHitting.y);
             }
-            currentComboTimer += Time.deltaTime;
+            if (trangThai.CapNhatCurrentComboTimerForPlayer()) currentCombo = 0;
+
             trangThai.JustHitting -= Time.deltaTime;
             doubleMoveTimer += Time.deltaTime;
             if (doubleMoveTimer > 0.2f && doubleMove < 2) doubleMove = 0;
@@ -72,12 +73,13 @@ public class PlayerControl : MonoBehaviour
     }
     private void dash()
     {
-        if ((Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.A)) && doubleMove < 2)
+        if ((Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.A) || (InputDienThoai.Instance.LeftButtonDown || InputDienThoai.Instance.RightButtonDown)) && doubleMove < 2)
         {
             doubleMove++;
+            Debug.Log(doubleMove);
             doubleMoveTimer = 0f;
         }
-        if (doubleMove >= 2 && (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A)))
+        if (doubleMove >= 2 && (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A) || (InputDienThoai.Instance.LeftButtonUp || InputDienThoai.Instance.RightButtonUp)))
         {
             doubleMove = 0;
         }
@@ -95,12 +97,12 @@ public class PlayerControl : MonoBehaviour
         float veloX = 0f;
         if (canMove)
         {
-            if (Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.D) || InputDienThoai.Instance.RightButtonPressed)
             {
                 veloX = 1f;
                 transform.localScale = right;
             }
-            if (Input.GetKey(KeyCode.A))
+            if (Input.GetKey(KeyCode.A) || InputDienThoai.Instance.LeftButtonPressed)
             {
                 veloX = -1f;
                 transform.localScale = left;
@@ -112,7 +114,7 @@ public class PlayerControl : MonoBehaviour
     private void Jump()
     {
         bool trenDat = IsOnGround();
-        if (Input.GetKeyDown(KeyCode.Space) && trenDat)
+        if ((Input.GetKeyDown(KeyCode.Space) || InputDienThoai.Instance.NhayPressed) && trenDat)
         {
             rb.velocity = new Vector2(rb.velocity.x, 0f);
             rb.AddForce(new Vector2(0f, csnv.LucNhay), ForceMode2D.Impulse);
@@ -140,37 +142,37 @@ public class PlayerControl : MonoBehaviour
 
     private void Attack()
     {
-        if (Input.GetKey(KeyCode.J))
-        {
-            if (currentCombo > csnv.ChuoiCombo - 1) currentCombo = 0;
-            trangThai.Attack(nameAttackCombo[currentCombo]);
-            currentCombo++;
-            currentComboTimer = 0f;
-        }
-        else if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.U))
+       
+        if ((Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.U)) || (InputDienThoai.Instance.TanCongPressed && InputDienThoai.Instance.UpButtonPressed))
         {
             trangThai.Attack(stringKey.Attack.AttackWU);
         }
-        else if (Input.GetKey(KeyCode.U))
+        else if (Input.GetKey(KeyCode.U) || (InputDienThoai.Instance.TanCongPressed && InputDienThoai.Instance.DownButtonPressed))
         {
             trangThai.Attack(stringKey.Attack.AttackU);
+        } 
+        else if (Input.GetKey(KeyCode.J) ||  InputDienThoai.Instance.TanCongPressed)
+        {
+            if (currentCombo > csnv.ChuoiCombo - 1) currentCombo = 0;
+            
+            trangThai.Attack(nameAttackCombo[currentCombo], ref currentCombo);
+            currentComboTimer = 0f;
         }
-        else if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.I))
+        else if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.I) || (InputDienThoai.Instance.GongPressed && InputDienThoai.Instance.UpButtonPressed))
         {
             trangThai.Attack(stringKey.Attack.AttackWI);
         }
-        else if (Input.GetKey(KeyCode.I))
+        else if (Input.GetKey(KeyCode.I) || (InputDienThoai.Instance.GongPressed && InputDienThoai.Instance.DownButtonPressed))
         {
             trangThai.Attack(stringKey.Attack.AttackI);
         }
-        if (currentComboTimer > 0.75f) currentCombo = 0;
     }
     private void Defense()
     {
-        trangThai.Defense(Input.GetKey(KeyCode.S));
+        trangThai.Defense(Input.GetKey(KeyCode.S) || InputDienThoai.Instance.PhongThuPressed);
     }
     private void Aura()
     {
-        trangThai.Aura(Input.GetKey(KeyCode.K));
+        trangThai.Aura(Input.GetKey(KeyCode.K) || InputDienThoai.Instance.GongPressed);
     }
 }

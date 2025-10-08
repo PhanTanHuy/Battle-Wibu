@@ -177,6 +177,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: vegeta_blue_evolution__dbs__sprite_sheet_swl__by_darksonicgamer_dfaq3sr_2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1704
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c498223cd3dd14a8ba5502aa857d0e
+      internalID: -770747130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -190,6 +211,7 @@ TextureImporter:
     nameFileIdTable:
       vegeta_blue_evolution__dbs__sprite_sheet_swl__by_darksonicgamer_dfaq3sr_0: 1257593415
       vegeta_blue_evolution__dbs__sprite_sheet_swl__by_darksonicgamer_dfaq3sr_1: 297178571
+      vegeta_blue_evolution__dbs__sprite_sheet_swl__by_darksonicgamer_dfaq3sr_2: -770747130
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

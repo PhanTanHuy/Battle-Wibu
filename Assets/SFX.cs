@@ -40,4 +40,9 @@ public class SFX : MonoBehaviour
     {
         QuanLiAmThanh.Instance.PlayKiBlast();
     }
+    public void PlayExplosion()
+    {
+        QuanLiAmThanh.Instance.PlayExPolison();
+
+    }
 }

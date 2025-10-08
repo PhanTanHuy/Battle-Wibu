@@ -4039,11 +4039,11 @@ AnimationClip:
     intParameter: 1
     messageOptions: 0
   - time: 0
-    functionName: SetBatTu
+    functionName: PlusDame
     data: 
     objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 1
+    floatParameter: 10
+    intParameter: 0
     messageOptions: 0
   - time: 1.9333333
     functionName: PlaySfxIndex

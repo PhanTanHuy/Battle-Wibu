@@ -5,7 +5,7 @@ using UnityEngine;
 public class ChiSoNhanVat : MonoBehaviour
 {
     public float nangLuongU, nangLuongI, nangLuongWU, nangLuongWI;
-    [SerializeField] private float tocDo, lucNhay, mau, dame;
+    [SerializeField] private float tocDo,dashBoost, lucNhay, mau, dame;
     [SerializeField] private string tenNhanVat;
     public string tenUi;
     [SerializeField] private int chuoiCombo;
@@ -46,6 +46,10 @@ public class ChiSoNhanVat : MonoBehaviour
     {
         get { return tenNhanVat; }
         set { tenNhanVat = value; }
+    }
+    public float DashBoost
+    {
+        get { return dashBoost;  }
     }
     public float TocDo
     {

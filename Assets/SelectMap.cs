@@ -12,14 +12,13 @@ public class SelectMap : MonoBehaviour
     [HideInInspector] public int currentIndexMap;
     private void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-            currentIndexMap = 0;
-            ShowCurrentMap();
-            DontDestroyOnLoad(gameObject);
-        }
-        else Destroy(gameObject);
+        if (Instance != null) Destroy(Instance.gameObject);
+        Instance = this;
+        SelectCharacter.Instance._khungSelect.SetActive(false);
+        QuanLiChuyenScene.instance.BatDauSceneMoi();
+        currentIndexMap = 0;
+        ShowCurrentMap();
+        DontDestroyOnLoad(gameObject);
     }
     public GameObject MapDaDuocChon()
     {
@@ -45,7 +44,10 @@ public class SelectMap : MonoBehaviour
     }
     public void VoGame()
     {
-        SelectMap.Instance.gameObject.SetActive(false);
-        SceneManager.LoadScene("Battle");
+        QuanLiChuyenScene.instance.LoadSceneKhac("Battle");
+    }
+    public void Back()
+    {
+        QuanLiChuyenScene.instance.LoadSceneKhac("SelectCharacter");
     }
 }

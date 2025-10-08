@@ -1,0 +1,395 @@
+fileFormatVersion: 2
+guid: d5c545322f994e54d9692f2bd20b5b63
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: saitama_jus_updated_2_0_by_gameinvader247_da2krdc_0
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 530
+        width: 23
+        height: 62
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f91f63aa925564f825524cda02ca76
+      internalID: -85665959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saitama_jus_updated_2_0_by_gameinvader247_da2krdc_1
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 515
+        width: 26
+        height: 92
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37be7ffadfa24d649b26ea6494736c06
+      internalID: -1101907306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saitama_jus_updated_2_0_by_gameinvader247_da2krdc_2
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 507
+        width: 26
+        height: 108
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f50c3b69b499c4c9db478e110c7fbb
+      internalID: 552303024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saitama_jus_updated_2_0_by_gameinvader247_da2krdc_3
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 503
+        width: 26
+        height: 116
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b0901a6fa7f3948b0192e6666df835
+      internalID: -828532662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saitama_jus_updated_2_0_by_gameinvader247_da2krdc_4
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 501
+        width: 27
+        height: 122
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2e64886d4b98b4b98b0ef649b4b43a
+      internalID: 1260888035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saitama_jus_updated_2_0_by_gameinvader247_da2krdc_5
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 282
+        width: 134
+        height: 79
+      alignment: 9
+      pivot: {x: 0.7238806, y: 0.050632913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a66701565f06945bdeee0dfac43f52
+      internalID: -808873988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saitama_jus_updated_2_0_by_gameinvader247_da2krdc_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 279
+        width: 130
+        height: 87
+      alignment: 9
+      pivot: {x: 0.88461536, y: 0.08045977}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026a55cb8a0b3944e86b17e01bbcf045
+      internalID: -1030708705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saitama_jus_updated_2_0_by_gameinvader247_da2krdc_7
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 278
+        width: 169
+        height: 92
+      alignment: 9
+      pivot: {x: 0.65680474, y: 0.06521739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500dfa65742b3a348b7980c89c0d5a16
+      internalID: -333029065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saitama_jus_updated_2_0_by_gameinvader247_da2krdc_8
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 279
+        width: 122
+        height: 106
+      alignment: 9
+      pivot: {x: 0.909836, y: 0.03773585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4196a72b0b38a42905165ec5ba5c76
+      internalID: 1537549032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saitama_jus_updated_2_0_by_gameinvader247_da2krdc_9
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 257
+        width: 108
+        height: 116
+      alignment: 9
+      pivot: {x: 0.9444445, y: 0.15517241}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d00e505c68b2443a00d7e20b3232ac
+      internalID: -64379610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: saitama_jus_updated_2_0_by_gameinvader247_da2krdc_10
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 255
+        width: 116
+        height: 93
+      alignment: 9
+      pivot: {x: 0.94897956, y: 0.09677419}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56fcac98bafb99459ceed88a4917f13
+      internalID: -1621118222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      saitama_jus_updated_2_0_by_gameinvader247_da2krdc_0: -85665959
+      saitama_jus_updated_2_0_by_gameinvader247_da2krdc_1: -1101907306
+      saitama_jus_updated_2_0_by_gameinvader247_da2krdc_10: -1621118222
+      saitama_jus_updated_2_0_by_gameinvader247_da2krdc_2: 552303024
+      saitama_jus_updated_2_0_by_gameinvader247_da2krdc_3: -828532662
+      saitama_jus_updated_2_0_by_gameinvader247_da2krdc_4: 1260888035
+      saitama_jus_updated_2_0_by_gameinvader247_da2krdc_5: -808873988
+      saitama_jus_updated_2_0_by_gameinvader247_da2krdc_6: -1030708705
+      saitama_jus_updated_2_0_by_gameinvader247_da2krdc_7: -333029065
+      saitama_jus_updated_2_0_by_gameinvader247_da2krdc_8: 1537549032
+      saitama_jus_updated_2_0_by_gameinvader247_da2krdc_9: -64379610
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

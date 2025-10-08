@@ -1,0 +1,5081 @@
+fileFormatVersion: 2
+guid: e479514de05c544469e5f3fc7b2f2b11
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3560
+        width: 35
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.49056605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2606828f3bd9dd541bb25755524c3af7
+      internalID: 1889738897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 3560
+        width: 35
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b4921d21184a94a9e64957346403e2
+      internalID: 188732486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 3560
+        width: 35
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be070dd0088e3c44588c3db3240f23af
+      internalID: -293588820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 3560
+        width: 35
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84558f21b7d99e341b8fc798000cfee4
+      internalID: -1587697714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3475
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1b93bc7a4b57d48aaeca9bab75aee9
+      internalID: -993297953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 3394
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bc16ad6c4a071458bc3d71271e34ca
+      internalID: -793888530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 3394
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8500d7ebb0fd34544a761e0be016e02c
+      internalID: 567495641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_7
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 3304
+        width: 32
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5, y: 0.46428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed99e83e06420043bdda8c68303c509
+      internalID: -779730603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 3304
+        width: 34
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.46428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bba2443d5327641936017a12d055ce
+      internalID: 699269005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3304
+        width: 48
+        height: 52
+      alignment: 9
+      pivot: {x: 0.6041667, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f5e290b4c007f48976d8362723dbfe
+      internalID: -567877645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_10
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 3304
+        width: 47
+        height: 53
+      alignment: 9
+      pivot: {x: 0.59574467, y: 0.49056605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb42bd2cc13e3ba48b7c4cf7b9dd235b
+      internalID: -1785057575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 3304
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9565744c9c2592d479791b3328a1e930
+      internalID: -934640307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_12
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 3304
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9f03e8091ee3446922c10cc51307fb
+      internalID: -1674368261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 3221
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdc76234696a324ca4aa34ab288dbe0
+      internalID: -221877170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3221
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd78162ca1bc4f64ab54e17992256745
+      internalID: 1518007574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_15
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 3221
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588a0d152fe17d14db52624849d72bb3
+      internalID: -1571453770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_16
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 3221
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977ae2591ccbdc74799caeea26abf895
+      internalID: 471872837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_17
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 3134
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9308f77b73eb04ea822f363e466f95
+      internalID: -1743712825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 3134
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac007a8fe34cff4eb810ed0ba72630d
+      internalID: 615175518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_19
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 3134
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932449302f4f81642b3f24de886855cb
+      internalID: 2090662605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_20
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 3055
+        width: 43
+        height: 45
+      alignment: 9
+      pivot: {x: 0.53488374, y: 0.5777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47412086199f23844a1c00cf8e603105
+      internalID: 396274361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 3055
+        width: 48
+        height: 43
+      alignment: 9
+      pivot: {x: 0.5833334, y: 0.60465115}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934ed0168990fea4bb8e7d86d764fbae
+      internalID: -156275449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 3055
+        width: 43
+        height: 45
+      alignment: 9
+      pivot: {x: 0.53488374, y: 0.5777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f54dac5ab57c744b4cb5cc9fb67ccc
+      internalID: -2124043428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3055
+        width: 33
+        height: 45
+      alignment: 9
+      pivot: {x: 0.3939394, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78909ad0aea4bf247b335145398d93a0
+      internalID: -621745455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_24
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 3055
+        width: 43
+        height: 46
+      alignment: 9
+      pivot: {x: 0.53488374, y: 0.54347825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2d49bfa82548948ac88fa6a1078ba1
+      internalID: 501026981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_25
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 3055
+        width: 43
+        height: 44
+      alignment: 9
+      pivot: {x: 0.53488374, y: 0.5909091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5e14b92c729c74db6cb46939ff3c4f
+      internalID: -6917885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_26
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 3055
+        width: 42
+        height: 45
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.5777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0456895b526963a45a8905241e19f5f6
+      internalID: 448306645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_27
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 3055
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.375, y: 0.58695656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6280dc9b0d0f34d9eaac6fff951650
+      internalID: -412108078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_28
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 3055
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f32bebf345384b4baaae1c21ee6ced9
+      internalID: 1418765419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_29
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2984
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45ea90202284f941910dd68e7007ace
+      internalID: 635794036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_30
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 2985
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17a08bc4edcf1545a87b45484af0a4f
+      internalID: -1508016038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_31
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2984
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a275af2417824cf4180c9460ce797dd9
+      internalID: 872783954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_32
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2985
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def5e2d971852894490c37f8fcc289ff
+      internalID: -555249243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_33
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2896
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7138867b9207f48ab428670e047cf9
+      internalID: 1179514677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2896
+        width: 44
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87fa0eb216ac434795c0a2d4c734fd9
+      internalID: 855432159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_35
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2896
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4210ea8f3493fe4ebe46ccd414197f4
+      internalID: -1684454373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_36
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 2896
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba81af62586dc549a048fd6c41165e1
+      internalID: 755182380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_37
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2807
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8f74be1a27c7e4a8097422942a965e
+      internalID: 327111420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_38
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 2807
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a1f95d27b4a4e489da5df743a8f631
+      internalID: -571494763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_39
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2722
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7714e9913abe435499cefec1dbb7512a
+      internalID: -866860192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_40
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 2722
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc0d33422937634e931e88766d74cb1
+      internalID: 1619769782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_41
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2722
+        width: 43
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba61d7bba177c44a885ae34d762ee1f
+      internalID: 905412787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_42
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2722
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c08181e078aa248bb2e9305817d80d
+      internalID: 2089633475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_43
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 2722
+        width: 58
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92234f3b115016c4db3ec492d467846a
+      internalID: 1007659704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_44
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 2722
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0e4c09bc0cf3d4eb30786c4b58c59e
+      internalID: 269015384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_45
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2636
+        width: 39
+        height: 53
+      alignment: 9
+      pivot: {x: 0.51282054, y: 0.49056605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dd34c08cc31ec409e24f9e4a9f458c
+      internalID: -1640162529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_46
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 2636
+        width: 45
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4888889, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b78225c093ac4843bc9955db24be95c
+      internalID: 1426822300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_47
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 2636
+        width: 70
+        height: 49
+      alignment: 9
+      pivot: {x: 0.47142857, y: 0.53061223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f64f4899b28d74eb75c2251b5aa4fb
+      internalID: 896326265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_48
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 2636
+        width: 51
+        height: 49
+      alignment: 9
+      pivot: {x: 0.4117647, y: 0.53061223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3daa58d6cfe11494995255b8ea33ed61
+      internalID: -2073012496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_49
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 2636
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6c7b569a8385b4b917df36c515660f
+      internalID: -2112307282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_50
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2550
+        width: 37
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5135135, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c1e88dfa0357847b32763cbcf37d50
+      internalID: 684045767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_51
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 2550
+        width: 33
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.49056605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ea71f963c025a4c95dc6c32a8fa1a8
+      internalID: 583756221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_52
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2550
+        width: 50
+        height: 48
+      alignment: 9
+      pivot: {x: 0.35999998, y: 0.5416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b01e715a68f6254b9fc15550f7ceb97
+      internalID: 619834248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_53
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 2550
+        width: 48
+        height: 44
+      alignment: 9
+      pivot: {x: 0.375, y: 0.5909091}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e999fc3539fceaa48a993f467bc2edad
+      internalID: -709900462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_54
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 2550
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3619b13c58608624c93def975436ec00
+      internalID: 1017826443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_55
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 2550
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ad125f117d11341b149ade94a1425a
+      internalID: 937454664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_56
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 2550
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb8ad1f2ba75fa47977cced9d5a1b49
+      internalID: -874774993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_57
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2465
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bcd15cfeb0fa749976a509fa75ad05
+      internalID: -280387118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_58
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2465
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990edfb8cb2f65a4fb1e772dfdc29633
+      internalID: 1089936909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_59
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2465
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3fff6769cf1c041b349c744be07c0c
+      internalID: -2147468801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_60
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 2465
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0416e36efc6d8754e8ecebab7aa9a9e3
+      internalID: 1715012302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_61
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2465
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba652a66b9ffc5a429ad9e781209a9e7
+      internalID: 1283734303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_62
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 2465
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314c78a04defe2c409303ed8387c4e83
+      internalID: 2019145064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_63
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 2465
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35f471a06db56541acfe62fffcd1ff5
+      internalID: -624435125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_64
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2376
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b07cd8aa9c7b8f4d84d573e1dcca836
+      internalID: 801425409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_65
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 2376
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7e6ff4559603f4eb24bc336bf5a78b
+      internalID: -1926645305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_66
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 2376
+        width: 41
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5121951, y: 0.47272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc30112aad27330469472e5d5c2ee217
+      internalID: -91754552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_67
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2376
+        width: 39
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5641026, y: 0.46428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72289d0bbe162d04dbf6294fdf2b20f3
+      internalID: -351911308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_68
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 2376
+        width: 37
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5675676, y: 0.46428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9057d24516e6ad4b831446e682485f4
+      internalID: -283747187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_69
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2376
+        width: 33
+        height: 56
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0.46428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713b015b93d84c64ebcdd8c6e6f4b486
+      internalID: 912673450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_70
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2287
+        width: 32
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5625, y: 0.49056605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52b64dcec706cd4cb9406e3413b347a
+      internalID: 1008926357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_71
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 2287
+        width: 29
+        height: 55
+      alignment: 9
+      pivot: {x: 0.62068963, y: 0.47272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3128a8c23264e354b9b32cfbb913ffaa
+      internalID: -1072186296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_72
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2287
+        width: 58
+        height: 56
+      alignment: 9
+      pivot: {x: 0.44827586, y: 0.46428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40de0398fe4631d438854100051b2635
+      internalID: 1455770684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_73
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2287
+        width: 53
+        height: 56
+      alignment: 9
+      pivot: {x: 0.49056605, y: 0.46428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f499fcd7b897449abbb5838b6c7136
+      internalID: -72380376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_74
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 2287
+        width: 31
+        height: 55
+      alignment: 9
+      pivot: {x: 0.58064514, y: 0.47272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be98c1da4efebd245be8c026ad79e104
+      internalID: -1064855768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_75
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 2287
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6e3b911f6c40f408d5685e791311a0
+      internalID: -1945072928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_76
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 2287
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6a172d6c6d62a4e8806acbbb93c44f
+      internalID: -309475227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_77
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 2287
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5426e13d85bd9504ebfc98d531388a5d
+      internalID: -369944596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_78
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2205
+        width: 37
+        height: 45
+      alignment: 9
+      pivot: {x: 0.4864865, y: 0.5777778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367342ab3b81ef1429fa80169e9124e6
+      internalID: -561646761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_79
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2205
+        width: 54
+        height: 48
+      alignment: 9
+      pivot: {x: 0.46296296, y: 0.5416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0d884f16541704587e8720e3031948
+      internalID: 1473688536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 2205
+        width: 43
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.5531915}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e9d50581965ea458fc429c70cddabb
+      internalID: -1652198807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_81
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 2205
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fdf5acf9b89014d981802199cb0bb2
+      internalID: 1170991612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_82
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2119
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ec854335f16a04ab168f1771c48453
+      internalID: 258161904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_83
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 2119
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f009f17c0f559444c9463d05a840a4f2
+      internalID: -2000595835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_84
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2119
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefe0fc70b3ba5648a92ba4bb0bf6d83
+      internalID: 324509329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_85
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2119
+        width: 59
+        height: 52
+      alignment: 9
+      pivot: {x: 0.42372882, y: 0.5769231}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ac0ddfb2239ad42a0588298175d18d
+      internalID: -901925046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_86
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 2119
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be2d78116cd81a42b0f853a4d3853b1
+      internalID: 95192301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_87
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2033
+        width: 33
+        height: 53
+      alignment: 9
+      pivot: {x: 0.54545456, y: 0.49056605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e4856d67f22bf4fb7b52424f7b11bf
+      internalID: -1762222122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_88
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2033
+        width: 46
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53061223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78a2e8200708fd44a1383d0bc396cd0
+      internalID: 1108129481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_89
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 2033
+        width: 46
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.68421054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37aa6d757396653448f8f28666ae74a9
+      internalID: -1801699470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_90
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2033
+        width: 39
+        height: 40
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.65000004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3f5ad8304bbe741a1c5b587347fae7
+      internalID: -2021289459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_91
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1947
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4107a221bbc2fc44be0bd8d8389145d
+      internalID: 924340452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_92
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1948
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26f0ff585c38374a883eee5ea8ff576
+      internalID: -708857354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_93
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 1949
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f3fbbb2d8176e459f319fac5132058
+      internalID: 621269586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_94
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1950
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e0821184762ae4d9081e61d39b4638
+      internalID: -1176820482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_95
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1949
+        width: 44
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0a4a6d215b08f4d9f7c95348951328
+      internalID: 1379716107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_96
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1862
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8924856647505784a9899b632f556a80
+      internalID: 691245820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_97
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1862
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077a92efae53b5b4f844a7012e702432
+      internalID: 416443163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_98
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1862
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370b24008351f6247b3a7ea0744ff829
+      internalID: -2053415485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_99
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1862
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846165bf8bd19cb4da2b5362f9daa82a
+      internalID: 167083590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_100
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1862
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dedde7dd46d0e94ab45dbafa9a3ea0d
+      internalID: 1378525150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_101
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1772
+        width: 39
+        height: 51
+      alignment: 9
+      pivot: {x: 0.51282054, y: 0.50980395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa88fd7af8efa641985de2b8ab40ddc
+      internalID: 544149750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_102
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1772
+        width: 46
+        height: 51
+      alignment: 9
+      pivot: {x: 0.58695656, y: 0.50980395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188c9946ee66067469e5bee8233e0bc7
+      internalID: 1693508591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_103
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1772
+        width: 65
+        height: 57
+      alignment: 9
+      pivot: {x: 0.35384616, y: 0.45614034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd8895349241e8469564bb2a13e9dc4
+      internalID: -475891117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_104
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1772
+        width: 41
+        height: 55
+      alignment: 9
+      pivot: {x: 0.4634146, y: 0.47272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357ad34eb2e64db419b310616d3b0005
+      internalID: 71767311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_105
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1772
+        width: 36
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5421cd057368ed847810e885cb621f6a
+      internalID: 775406041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_106
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1685
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd5723a8ac936c408b2179ee73403c3
+      internalID: -673256134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_107
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1685
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c39766073151d41b7efa80379dbc56
+      internalID: -89730060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_108
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1685
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ffd7d5498460a4d90e396676ba17c3
+      internalID: -867856698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_109
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1685
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504128fd2da4aeb4eaee9c484483d7f5
+      internalID: -758334271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_110
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1685
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473fa1df63232254e950fe5ac4df1126
+      internalID: 1892283880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_111
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1685
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df60d56f6bfa39a45b8748d9c20a4aae
+      internalID: -1329208014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_112
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1685
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844d5261fbb20be499e5cc2a43069506
+      internalID: -698454338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_113
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1685
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13709a6c7237c74cbe342f1e7c8ec37
+      internalID: 1859209672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_114
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1685
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2baa01e56121386498be7e722e8efc6f
+      internalID: 509022147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_115
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1598
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcac2b1cda32eb24cb418cc512e263f2
+      internalID: -1630132413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_116
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1598
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2de70dfb626eb6458f3d9f5ac213804
+      internalID: -1411278244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_117
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1598
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3570bb1f97d42c14885cb13a164983c4
+      internalID: 1137038727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_118
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 1598
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eba067b8a9d23240a7a3e7879ca96fa
+      internalID: -1133882682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_119
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1598
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43eb1bd7508bec049b492c909b762f3f
+      internalID: 739031485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_120
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1598
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0f16396d85bca43985e30eddcb7551
+      internalID: 512097264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_121
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1510
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5687e5019a4109b4398db23f35d266d2
+      internalID: -1209744276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_122
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1510
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5521bd8c982a18148aa7c371835043ca
+      internalID: 109968040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_123
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1510
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e129060363652648996e1a76e0ef83a
+      internalID: 692662778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_124
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1510
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26703ca069b55b140bd276baa3f321d1
+      internalID: -1464490394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_125
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1510
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ca92e615096a743a08a2372ba89e57
+      internalID: -1524616087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_126
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1510
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0812f5569069b64c84608bceee9e5a4
+      internalID: -285071866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_127
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1510
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39b0e49570bb894292e5b14d597bbf6
+      internalID: -1404411445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_128
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1426
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18869c37e233214cb6dde0d965135d6
+      internalID: 1926366609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_129
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1425
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb221d84c124d64c8d954775b6fc5fb
+      internalID: 1372333947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_130
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1430
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fad6b54b7aa05146908453e77e3ba90
+      internalID: -1121960717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_131
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1437
+        width: 57
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a59d15cd67914f4ba625d7d8e420ffd
+      internalID: 1040769241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_132
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1436
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944cfc65a01eac148baf848831b650e1
+      internalID: 1122098972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_133
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1436
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6143686214c53a24393b47e5c2a022f7
+      internalID: 45813228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_134
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1436
+        width: 58
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d102dfa5d13c8f049b21e13b8918a11c
+      internalID: -2047081903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_135
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1431
+        width: 50
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94382ea47a8d89429494f4b9f5170fb
+      internalID: -2035780858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_136
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1429
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addced0cfdfad5246acfc997d2dc07e3
+      internalID: 801758894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_137
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1427
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a84a7f9f573e2c41af2c2a1a119e6e0
+      internalID: 87188918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_138
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 1426
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8957ffd3f77e16a478ecc9a48c5d6932
+      internalID: 786780580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_139
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1424
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89364de1f84ced540a5f8b248fdf53f8
+      internalID: 1265395607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_140
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1429
+        width: 53
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41017f3b474212243b34e20e2635d58f
+      internalID: -1082268475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_141
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1427
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161fb9b61d9f8b84c853c4d6c8138ec6
+      internalID: -2008743540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_142
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1423
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a182ff1b4e3a14d9e846779f5bc12f
+      internalID: -694778944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_143
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1336
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fd571285b98ae419b99e6ebc2f9dca
+      internalID: -1872036575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_144
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1336
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb83fca8a5c61647ae312d0214000bc
+      internalID: 488398159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_145
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1336
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd543c8c4de00945aa45c9c1ae3f192
+      internalID: -449571718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_146
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1336
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8cf0f45470769419af761d14a68b4f
+      internalID: -1857489744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_147
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1247
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844d58afdedff274aaead3262c54a803
+      internalID: 117361133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_148
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1251
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dd59dfb335d0e418a9b8c07440e257
+      internalID: 1384177895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_149
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1258
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8ede794d56e3142a59dcf00a368257
+      internalID: 1075636640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_150
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1258
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9670aa0b4bc16024a9b7ad65a09d1911
+      internalID: 968248833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_151
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1253
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8128ba87d112ba6488e3236d4695cfca
+      internalID: 2079633201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_152
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1250
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28380a12e392b649ac3e317ef66c02f
+      internalID: -1376285859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_153
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1161
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878a9c21ef598854ea2ae21d55a8b1b0
+      internalID: 2101117781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_154
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1161
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5859caf6bbd901e4598afd66cd137914
+      internalID: 1802869927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_155
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1161
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9f94d412390ca4d9bc4eee24171f2f
+      internalID: 1023753437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_156
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 1161
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52755387d61991e408d3b062cac3d704
+      internalID: 1232940480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_157
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1161
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ea32b09bf0214499d353926e913ba0
+      internalID: -1139396435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_158
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1161
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6bed0c50c35b343ae08c357e5b2ed2
+      internalID: 1603077777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_159
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1074
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745a4f00e5ba09149a1e5ed14c57ca13
+      internalID: -798752948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_160
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1074
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f360a5b1d71734c9ef6722e88c872d
+      internalID: 2109899430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1074
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873f178919b8eb04a8e32c313942593e
+      internalID: -1203181600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_162
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1074
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11bc7fc5e4c06de4081ac4b1e1824a6c
+      internalID: -776848875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_163
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 988
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea619431b879cd4eb6aa85817ed09f4
+      internalID: -240811614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_164
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 989
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b450e0f73fdc0c34e836b2d694e3eead
+      internalID: 2034550099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_165
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 989
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b778cdfb014cb17419f1432c34382e29
+      internalID: -892837623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_166
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 989
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0043f5c4796cec42a6b5b2671f07e02
+      internalID: -1112080625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_167
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 989
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b268f3399623047b98a6a052faf314
+      internalID: -1353065228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_168
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 990
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3233062551fa2dc4a97eae25f6b42012
+      internalID: 996859295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_169
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 990
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804aaa25fd1bee24188fe05eb770c5b4
+      internalID: 487011769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_170
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 990
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f6b60a9f605c14fb8ae6d877ce6b0f
+      internalID: 1777574448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_171
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 990
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ced766c33b9984ba2a23e3d0ac4d0b
+      internalID: -575819838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_172
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 904
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b174e90360a5a5459e30e157208afa1
+      internalID: -1279558344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_173
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 905
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad248ceb5c515244e930f34a9903d1e6
+      internalID: -222607256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_174
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 905
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041df318eb440a3418928334855a293b
+      internalID: 549734115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_175
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 906
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c80fb0e5ca9c764886aca06d31e1e76
+      internalID: -623565327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_176
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 819
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff05fe55ac3aed8449ef9d4b4167b066
+      internalID: -1381342935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_177
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 819
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acda2bf5a055914cb2c4458dce4e800
+      internalID: -1228018624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_178
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 819
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d948bca59825114893e61bb4af43933
+      internalID: 2129413644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_179
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 819
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8485f4ea6659e174182cc1e89d6f9aa1
+      internalID: 187087058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_180
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 731
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ba71e5fa892ca49ae44141dfe03ef3
+      internalID: 1749118890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_181
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 731
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198923b0aa454364fbf5aca2a6f3ee45
+      internalID: 1480827086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_182
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 731
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181e02cf60885d74597c8361bb9e4bc1
+      internalID: -539287959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_183
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 731
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031b8bc8528b3ba4aa07d1ca40fb71f1
+      internalID: -790449221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_184
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 731
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3613ab68c6add884787bd65739cd34a2
+      internalID: -1546647973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_185
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 644
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bfa2249c7e4c84f8f88ef7e388efe5
+      internalID: -42522059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_186
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 644
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1ff1372d9aab44bafb418b880c53a9
+      internalID: -1188706833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_187
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 644
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04d3e322389e1d47a690340f775f88a
+      internalID: 887985986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_188
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 548
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d199d6489dd056546aa8e3f66c76043e
+      internalID: -810257528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_189
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 548
+        width: 37
+        height: 56
+      alignment: 9
+      pivot: {x: 0.5405406, y: 0.46428573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8c5f69647c2504cb1bdb2593e7bd6c
+      internalID: -154984612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_190
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 548
+        width: 48
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5416667, y: 0.41269845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2f428716151174c88d98ba1325c3de
+      internalID: -611847862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_191
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 548
+        width: 63
+        height: 55
+      alignment: 9
+      pivot: {x: 0.36507937, y: 0.47272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0409dd267953342ba5ca1ba4b6047c
+      internalID: 1958659900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_192
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 548
+        width: 43
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4883721, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6de53d8fdeb8640b4326ce2cd8f616
+      internalID: -1168141205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_193
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 548
+        width: 34
+        height: 55
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dbc0e7230701ad4586ce1860ffffda0
+      internalID: -973523943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_194
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 463
+        width: 40
+        height: 52
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3dd23e0b855d747bb7cd33b7a13596
+      internalID: 2098459430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_195
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 463
+        width: 38
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.50980395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f72cb929d94c0542ae2b2cb7ed40be7
+      internalID: 1805522757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_196
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 463
+        width: 38
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd06c643324fe74bb058df2c5e08e96
+      internalID: 338855984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_197
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 463
+        width: 37
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4864865, y: 0.50980395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97d098873934984daa421ed73302629
+      internalID: -749850328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_198
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 463
+        width: 40
+        height: 52
+      alignment: 9
+      pivot: {x: 0.55, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c475113b916e18e47bb3f826f9aa9daf
+      internalID: -1345327839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_199
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 463
+        width: 39
+        height: 51
+      alignment: 9
+      pivot: {x: 0.51282054, y: 0.50980395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e479fc515ffb81449714b5a4586274e
+      internalID: -1595200315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_200
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 382
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c267afff7d4c04eb60df673badf62f
+      internalID: 1055156459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_201
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 382
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf0895d7e6994b45a47bc2f0eca26e6
+      internalID: 1465477706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_202
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 382
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8154d2956dd2f54291feb365485c629
+      internalID: -88835533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_203
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 294
+        width: 35
+        height: 55
+      alignment: 9
+      pivot: {x: 0.51428574, y: 0.47272727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac82985027c24304ea91cc24c62fa692
+      internalID: -587208662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_204
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 297
+        width: 44
+        height: 52
+      alignment: 9
+      pivot: {x: 0.38636366, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cd50143a7cdcb4e894cfa4d1dd11de
+      internalID: -433975416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_205
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 295
+        width: 44
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5454e8143bc6b8041a670a544daf7c9c
+      internalID: -888669701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_206
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 297
+        width: 43
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9905b41dc8321e44491079c8e96c6f5d
+      internalID: 1414183347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_207
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 295
+        width: 43
+        height: 54
+      alignment: 9
+      pivot: {x: 0.5116279, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd104d5a6127054a8d506840fc5ab4e
+      internalID: 2017071506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_208
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 209
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dc7c831d59fdb41a01a607d19425cd
+      internalID: -824977957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_209
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 210
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4173b8e9589d0774da74b563a49e98e0
+      internalID: 1878710634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_210
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 210
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e391378583ecba946b9c8ee2dfb7e6f9
+      internalID: -818023027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_211
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 123
+        width: 38
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49056605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d149c9ac3d2bb794d8d5219c78f6f877
+      internalID: -950390044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_212
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 123
+        width: 43
+        height: 52
+      alignment: 9
+      pivot: {x: 0.39534885, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607074896f14a9c439aa056896ffc8fb
+      internalID: 2089189798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_213
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 123
+        width: 40
+        height: 51
+      alignment: 9
+      pivot: {x: 0.425, y: 0.50980395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5842b0b8899f941a3c363065509fe5
+      internalID: -198437715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_214
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 123
+        width: 38
+        height: 50
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ae2cc26eff7f24e9bf9e0512e22eba
+      internalID: 1358562182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_215
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 123
+        width: 39
+        height: 51
+      alignment: 9
+      pivot: {x: 0.46153846, y: 0.50980395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0551711ef8a3e74b82ab8e2be47c610
+      internalID: 2025215958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_216
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 36
+        width: 37
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f99aa4490eee440bd96754276d147d
+      internalID: -1999621154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_217
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 36
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb62082aa23fe24e94b0a2e08876829
+      internalID: -1013046743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_218
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 36
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98a268b8d23c254dbd33d87df7b7071
+      internalID: 709376045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_219
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 36
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93670f76b00a99b47ae539c4a74b80e4
+      internalID: 1934294407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_220
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 36
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1383785351077b947a4869f717abd3fa
+      internalID: -58866606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_221
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 36
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbef6fb4b1ab3f48bb67d2c7fcc811e
+      internalID: -1880918774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_222
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 36
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635df69679c99a245b1f31c691604d2f
+      internalID: -2029463111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_223
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 3581
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f7059f75c7ddc408408a635eb25bb5
+      internalID: 1512679383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_0: 1889738897
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_1: 188732486
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_10: -1785057575
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_100: 1378525150
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_101: 544149750
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_102: 1693508591
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_103: -475891117
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_104: 71767311
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_105: 775406041
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_106: -673256134
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_107: -89730060
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_108: -867856698
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_109: -758334271
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_11: -934640307
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_110: 1892283880
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_111: -1329208014
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_112: -698454338
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_113: 1859209672
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_114: 509022147
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_115: -1630132413
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_116: -1411278244
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_117: 1137038727
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_118: -1133882682
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_119: 739031485
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_12: -1674368261
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_120: 512097264
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_121: -1209744276
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_122: 109968040
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_123: 692662778
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_124: -1464490394
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_125: -1524616087
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_126: -285071866
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_127: -1404411445
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_128: 1926366609
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_129: 1372333947
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_13: -221877170
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_130: -1121960717
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_131: 1040769241
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_132: 1122098972
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_133: 45813228
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_134: -2047081903
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_135: -2035780858
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_136: 801758894
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_137: 87188918
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_138: 786780580
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_139: 1265395607
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_14: 1518007574
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_140: -1082268475
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_141: -2008743540
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_142: -694778944
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_143: -1872036575
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_144: 488398159
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_145: -449571718
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_146: -1857489744
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_147: 117361133
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_148: 1384177895
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_149: 1075636640
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_15: -1571453770
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_150: 968248833
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_151: 2079633201
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_152: -1376285859
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_153: 2101117781
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_154: 1802869927
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_155: 1023753437
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_156: 1232940480
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_157: -1139396435
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_158: 1603077777
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_159: -798752948
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_16: 471872837
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_160: 2109899430
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_161: -1203181600
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_162: -776848875
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_163: -240811614
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_164: 2034550099
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_165: -892837623
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_166: -1112080625
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_167: -1353065228
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_168: 996859295
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_169: 487011769
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_17: -1743712825
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_170: 1777574448
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_171: -575819838
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_172: -1279558344
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_173: -222607256
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_174: 549734115
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_175: -623565327
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_176: -1381342935
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_177: -1228018624
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_178: 2129413644
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_179: 187087058
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_18: 615175518
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_180: 1749118890
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_181: 1480827086
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_182: -539287959
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_183: -790449221
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_184: -1546647973
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_185: -42522059
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_186: -1188706833
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_187: 887985986
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_188: -810257528
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_189: -154984612
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_19: 2090662605
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_190: -611847862
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_191: 1958659900
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_192: -1168141205
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_193: -973523943
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_194: 2098459430
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_195: 1805522757
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_196: 338855984
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_197: -749850328
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_198: -1345327839
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_199: -1595200315
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_2: -293588820
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_20: 396274361
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_200: 1055156459
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_201: 1465477706
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_202: -88835533
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_203: -587208662
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_204: -433975416
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_205: -888669701
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_206: 1414183347
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_207: 2017071506
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_208: -824977957
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_209: 1878710634
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_21: -156275449
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_210: -818023027
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_211: -950390044
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_212: 2089189798
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_213: -198437715
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_214: 1358562182
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_215: 2025215958
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_216: -1999621154
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_217: -1013046743
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_218: 709376045
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_219: 1934294407
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_22: -2124043428
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_220: -58866606
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_221: -1880918774
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_222: -2029463111
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_223: 1512679383
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_23: -621745455
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_24: 501026981
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_25: -6917885
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_26: 448306645
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_27: -412108078
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_28: 1418765419
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_29: 635794036
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_3: -1587697714
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_30: -1508016038
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_31: 872783954
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_32: -555249243
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_33: 1179514677
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_34: 855432159
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_35: -1684454373
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_36: 755182380
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_37: 327111420
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_38: -571494763
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_39: -866860192
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_4: -993297953
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_40: 1619769782
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_41: 905412787
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_42: 2089633475
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_43: 1007659704
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_44: 269015384
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_45: -1640162529
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_46: 1426822300
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_47: 896326265
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_48: -2073012496
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_49: -2112307282
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_5: -793888530
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_50: 684045767
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_51: 583756221
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_52: 619834248
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_53: -709900462
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_54: 1017826443
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_55: 937454664
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_56: -874774993
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_57: -280387118
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_58: 1089936909
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_59: -2147468801
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_6: 567495641
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_60: 1715012302
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_61: 1283734303
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_62: 2019145064
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_63: -624435125
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_64: 801425409
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_65: -1926645305
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_66: -91754552
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_67: -351911308
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_68: -283747187
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_69: 912673450
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_7: -779730603
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_70: 1008926357
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_71: -1072186296
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_72: 1455770684
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_73: -72380376
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_74: -1064855768
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_75: -1945072928
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_76: -309475227
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_77: -369944596
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_78: -561646761
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_79: 1473688536
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_8: 699269005
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_80: -1652198807
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_81: 1170991612
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_82: 258161904
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_83: -2000595835
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_84: 324509329
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_85: -901925046
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_86: 95192301
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_87: -1762222122
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_88: 1108129481
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_89: -1801699470
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_9: -567877645
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_90: -2021289459
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_91: 924340452
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_92: -708857354
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_93: 621269586
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_94: -1176820482
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_95: 1379716107
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_96: 691245820
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_97: 416443163
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_98: -2053415485
+      katsuki_bakugo_jus_by_leanboox_by_rivelio_dem5m7t_99: 167083590
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class QuanLiAmThanh : MonoBehaviour
 {
-    public AudioSource audioSource, auraSource;
+    public AudioSource audioSource, auraSource, musicSource;
 
     public static QuanLiAmThanh Instance;
     public AudioClip dash, jump, onground, walk, startAura, aura, tele, telePunch, kiBlast, explosion;
@@ -20,6 +20,15 @@ public class QuanLiAmThanh : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+    public void ChangeMusicSourceVolume(float vl)
+    {
+        musicSource.volume = vl;
+    }
+    public void ChangeSFXSourceVolume(float vl)
+    {
+        audioSource.volume = vl;
+        auraSource.volume = vl;
     }
     private void Start()
     {

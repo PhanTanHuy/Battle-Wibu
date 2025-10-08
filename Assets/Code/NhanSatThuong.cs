@@ -25,21 +25,11 @@ public class NhanSatThuong : MonoBehaviour
             PoolVfx.instance.CreateCollideEffect(transform.position, keGayDame.GetComponentInParent<ChiSoNhanVat>().TenNhanVat, directionOfAttack);
             float lucDayKnockOut = keGayDame.GetComponentInParent<TrangThai>().LucKnockOut;
             float lucHatTung = keGayDame.GetComponentInParent<TrangThai>().LucHatTung;
-            bool normalAttack = keGayDame.GetComponentInParent<TrangThai>().nangLuongTieuHao == 0f;
             if (!trangThai.IsDefense)
             {
                 if (csnv.MauHienTai > 0f)
                 {
-                    //if (lucDayKnockOut == 0f)
-                    //{
-                        trangThai.StartHurt(directionOfAttack.x, lucDayKnockOut, lucHatTung, normalAttack);
-                    //}
-                    //else
-                    //{
-                    //    QuanLiAmThanh.Instance.PlayTelePunch();
-                    //    PoolVfx.instance.KhoiKnockOut(transform);
-                    //    trangThai.StartKnockOut(directionOfAttack.x, lucDayKnockOut, lucHatTung, normalAttack);
-                    //}
+                    trangThai.StartHurt(directionOfAttack.x, lucDayKnockOut, lucHatTung);
                 }
                 csnv.MauHienTai -= keGayDame.GetComponentInParent<ChiSoNhanVat>().Dame;
                 Battle.Instance.CapNhatThanhMau(csnv.TenNhanVat, csnv.PhanTramMauHienTai);
@@ -48,7 +38,7 @@ public class NhanSatThuong : MonoBehaviour
             else
             {
                 keGayDame.GetComponentInParent<TrangThai>().Hitting();
-                RungCameraSingleton.Instance.Shake(0.15f, 4f, 1f);
+                RungCameraSingleton.Instance.Shake(0.1f, 4f, 1f);
                 QuanLiAmThanh.Instance.PlayHit();
                 csnv.PlusNangLuong(0.0075f);
                 csnv.MauHienTai -= keGayDame.GetComponentInParent<ChiSoNhanVat>().Dame * 0.2f;
@@ -68,7 +58,10 @@ public class NhanSatThuong : MonoBehaviour
                 {
                     if (!trangThai.IsKnockout)
                     {
-                        trangThai.StartHurt(directionOfAttack.x, 10f, 3f, false);
+                        float bl = cs.BatLui > 0f ? cs.BatLui : 3f;
+                        float ht = cs.HatTung > 0f ? cs.HatTung : 0f;
+
+                        trangThai.StartHurtObjectAttack(directionOfAttack.x, bl, ht);
                     }
                 }
                 csnv.MauHienTai -= cs.Dame;
@@ -77,7 +70,7 @@ public class NhanSatThuong : MonoBehaviour
             }
             else
             {
-                RungCameraSingleton.Instance.Shake(0.15f, 4f, 1f);
+                RungCameraSingleton.Instance.Shake(0.1f, 4f, 1f);
                 QuanLiAmThanh.Instance.PlayHit();
                 csnv.PlusNangLuong(0.0075f);
                 csnv.MauHienTai -= cs.Dame * 0.2f;

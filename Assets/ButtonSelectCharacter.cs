@@ -9,6 +9,7 @@ public class ButtonSelectCharacter : MonoBehaviour
     public void NhanVatDangDuocChon()
     {
         SelectCharacter.Instance.indexNhanVatDcChon = index;
+        SelectCharacter.Instance.SpriteToUIImage();
         SelectCharacter.Instance._khungSelect.SetActive(true);
         SelectCharacter.Instance._khungSelect.transform.SetParent(transform);
         RectTransform rectTransform = SelectCharacter.Instance._khungSelect.GetComponent<RectTransform>();

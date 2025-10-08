@@ -371,14 +371,16 @@ MonoBehaviour:
   nangLuongWU: 150
   nangLuongWI: 200
   tocDo: 12
+  dashBoost: 40
   lucNhay: 35
-  mau: 700
-  dame: 5
+  mau: 100
+  dame: 1
   tenNhanVat: gkb
   tenUi: Goku SSJ Blue
   chuoiCombo: 8
   anhDanhDien: {fileID: -2006735461, guid: c0a45e6fbc7684643956868d72e77b9f, type: 3}
   hieuUngHit: {fileID: 2262899669663217118, guid: 73026e0f78c0e354abbc5d8f9fdb1ad1, type: 3}
+  mauHit: {r: 1, g: 1, b: 1, a: 1}
   NangLuongHienTai: 0
   TocDoHoiNangLuong: 85
   NangLuongToiDa: 800

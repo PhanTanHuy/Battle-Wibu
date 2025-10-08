@@ -15,11 +15,13 @@ public class PoolObject : MonoBehaviour
 
     public Transform throwPoint;
     private ChiSoNhanVat csnv;
+    private TrangThai tt;
     //public float throwForce = 10f; 
 
     private void Start()
     {
         csnv = GetComponent<ChiSoNhanVat>();
+        tt = GetComponent<TrangThai>();
         for (int i = 0; i < objectPrefabs.Length; i++)
         {
             if (!weaponPools.ContainsKey(i))
@@ -51,7 +53,7 @@ public class PoolObject : MonoBehaviour
             obj.transform.localScale = new Vector3(transform.localScale.x * Mathf.Abs(obj.transform.localScale.x), obj.transform.localScale.y);
             obj.SetActive(true);
             obj.GetComponent<ChuyenDong>().DatHuongDiChuyen(transform.localScale.x > 0 ? Vector3.right : Vector3.left);
-            obj.GetComponent<ChiSo>().Dame = csnv.Dame;
+            obj.GetComponent<ChiSo>().SetChiSo(csnv.Dame, tt.LucKnockOut, tt.LucHatTung);
             StartCoroutine(DeactivateAfterTime(obj, 3f, index));
         }
     }

@@ -21,10 +21,10 @@ public class Battle : MonoBehaviour
             Avartar.sprite = avt;
             ThanhMau.fillAmount = 1f;
             ThanhNangLuong.fillAmount = 0f;
+            soLanTichLuyNl = 0;
             soLanTichLuyThanhNangLuong.text = soLanTichLuyNl.ToString();
             tenNhanVat.text = t;
             tenNhanVatString = tLogic;
-            soLanTichLuyNl = 0;
             maxTichLuy = (int)maxTl;
             mau = 1f;
             nangLuong = 0f;
@@ -57,11 +57,16 @@ public class Battle : MonoBehaviour
     }
     public HubStruct Hub1, Hub2;
     public static Battle Instance;
+    public GameObject PauseMenu;
     public GameObject Shadows;
+    public GameObject[] SoTranThang2NguoiUI;
+    private int[] dem2SoTranThangUI;
     public Transform sanDau;
     public CinemachineTargetGroup targetGroup;
     public Animator textUiTranDau;
-    private int currentRound;
+    [HideInInspector] public bool vuaXongTran, playerDaThua;
+    [HideInInspector] public int currentRound, idexTournament;
+    public GameObject Tournament;
 
     // Start is called before the first frame update
     private void Awake()
@@ -69,17 +74,30 @@ public class Battle : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            KhoiTaoMap();
-            QuanLiCharacter.Instance.KhoiTaoNhanVat();
-            KhoiTaoBattle();
+            SelectMap.Instance.gameObject.SetActive(false);
+            SelectCharacter.Instance.gameObject.SetActive(false);
+            //KhoiTaoMap();
+            //QuanLiCharacter.Instance.KhoiTaoNhanVat();
+            QuanLiChuyenScene.instance.BatDauSceneMoi();
+            //KhoiTaoBattle();
         }
         else Destroy(gameObject);
     }
-    //void Start()
-    //{
-    //    QuanLiCharacter.Instance.KhoiTaoNhanVat();
-    //    KhoiTaoBattle();
-    //}
+    void Start()
+    {
+        currentRound = 0;
+        playerDaThua = false;
+        KhoiTaoMap();
+        QuanLiCharacter.Instance.KhoiTaoNhanVat();
+        PoolVfx.instance.KhoiTaoPoolVfx();
+        if (QuanLiCheDoChoi.Instance.fightMode != QuanLiCheDoChoi.FightMode.Tournament) KhoiTaoBattle();
+        SetBoundCamera();
+        KhoiTaoSoTranThangUI();
+    }
+    public void SetBoundCamera()
+    {
+        GameObject.Find("Virtual Camera").GetComponent<CinemachineConfiner>().m_BoundingShape2D = GameObject.Find("boundVirtualCamera").GetComponent<PolygonCollider2D>();
+    }
     public void KhoiTaoMap()
     {
         GameObject map = Instantiate(SelectMap.Instance.MapDaDuocChon());
@@ -88,7 +106,8 @@ public class Battle : MonoBehaviour
     }
     public void KhoiTaoBattle()
     {
-        currentRound = 0;
+        PoolVfx.instance.KhoiTaoCollideVFX();
+        vuaXongTran = false;
         Hub1.KhoiTao(QuanLiCharacter.Instance.csnv[0].anhDanhDien, QuanLiCharacter.Instance.csnv[0].tenUi, QuanLiCharacter.Instance.csnv[0].TenNhanVat, QuanLiCharacter.Instance.csnv[0].NangLuongToiDa / 100f);
         Hub2.KhoiTao(QuanLiCharacter.Instance.csnv[1].anhDanhDien, QuanLiCharacter.Instance.csnv[1].tenUi, QuanLiCharacter.Instance.csnv[1].TenNhanVat, QuanLiCharacter.Instance.csnv[1].NangLuongToiDa / 100f);
         for (int i = 0; i < QuanLiCharacter.Instance.characters.Length; i++)
@@ -137,6 +156,24 @@ public class Battle : MonoBehaviour
         // Gán lại mảng target mới cho Target Group
         targetGroup.m_Targets = newTargets;
     }
+    public void KhoiTaoSoTranThangUI()
+    {
+        dem2SoTranThangUI = new int[2];
+        int k = QuanLiCheDoChoi.Instance.soRounds / 2 + 1;
+        for (int i=0; i<2; i++)
+        {
+            for (int j=0; j<k; j++)
+            {
+                SoTranThang2NguoiUI[i].transform.GetChild(j).gameObject.SetActive(true);
+                SoTranThang2NguoiUI[i].transform.GetChild(j).gameObject.GetComponent<Image>().color = Color.white;
+            }
+        }
+    }
+    public void ThemSoTranThangUI(int idx)
+    {
+        SoTranThang2NguoiUI[idx].transform.GetChild(dem2SoTranThangUI[idx]).gameObject.GetComponent<Image>().color = Color.green;
+        dem2SoTranThangUI[idx]++;
+    }
     public void CapNhatThanhMau(string tenNhanVat, float value)
     {
         if (tenNhanVat == Hub1.TenNhanVatString) Hub1.CapNhatThanhMau(value);
@@ -164,16 +201,80 @@ public class Battle : MonoBehaviour
     {
         textUiTranDau.Play("endDen");
     }
+    public void HienThiTournamentUI(int a, int b, Queue<int> cacNguoiDangCho)
+    {
+        Queue<int> danhSachTrenTour = new Queue<int>();
+        danhSachTrenTour.Enqueue(a);
+        danhSachTrenTour.Enqueue(b);
+        foreach (int item in cacNguoiDangCho)
+        {
+            danhSachTrenTour.Enqueue(item);
+        }
+        Tournament.SetActive(true);
+        // 2-1 4-2 8-3
+        GameObject rootGoj = Tournament.transform.GetChild(SelectCharacter.Instance.indexSoTranDanh + 1).gameObject;
+        rootGoj.SetActive(true);
+        foreach (int item in danhSachTrenTour)
+        {
+            rootGoj.transform.GetChild(idexTournament).GetChild(0).GetComponent<Image>().sprite = SelectCharacter.Instance.Characters[item].GetComponent<ChiSoNhanVat>().anhDanhDien;
+            idexTournament++;
+        }
+    }
     public void SetCharacterNextGround()
     {
-        QuanLiCharacter.Instance.KhoiTaoNhanVat();
-        KhoiTaoBattle();
-        EndDen();
+        if (playerDaThua)
+        {
+            ReturnMainMenu();
+            return;
+        }
+        if (QuanLiCheDoChoi.Instance.fightMode == QuanLiCheDoChoi.FightMode.Tournament)
+        {
+            if (SelectCharacter.Instance.tournament.danhSachNguoiThamGia.Count != 1)
+            {
+                if (currentRound == QuanLiCheDoChoi.Instance.soRounds) currentRound = 0;
+                QuanLiCharacter.Instance.KhoiTaoNhanVat();
+                if (currentRound != 0) KhoiTaoBattle();
+                EndDen();
+            }
+            else
+            {
+                //EndDen();
+                ReturnMainMenu();
+            }
+        }
+        else
+        {
+            if (currentRound == QuanLiCheDoChoi.Instance.soRounds)
+            {
+                //EndDen();
+                ReturnMainMenu();
+            }
+            else
+            {
+                QuanLiCharacter.Instance.KhoiTaoNhanVat();
+                KhoiTaoBattle();
+                EndDen();
+            }
+        }
     }
     public void NextRound()
     {
-        if (currentRound == SelectCharacter.Instance.maxRound) return;
+        vuaXongTran = true;
         Invoke("StartNextRound", 2f);
-        currentRound++;
+    }
+    public void ReturnMainMenu()
+    {
+        Time.timeScale = 1f;
+        QuanLiChuyenScene.instance.LoadSceneKhac("MainMenu");
+    }
+    public void ContinueGame()
+    {
+        Time.timeScale = 1f;
+        PauseMenu.SetActive(false);
+    }
+    public void OpenPauseMenu()
+    {
+        Time.timeScale = 0f;
+        PauseMenu.SetActive(true);
     }
 }

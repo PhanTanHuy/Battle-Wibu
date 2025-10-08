@@ -23,6 +23,8 @@ public class TrangThai : MonoBehaviour
     private ChiSoNhanVat csnv;
     private Rigidbody2D rb;
     private Transform doiPhuong;
+    private Coroutine batLuiCorou;
+    private float currentComboTimer;
     private void Start()
     {
         performance = true;
@@ -188,7 +190,7 @@ public class TrangThai : MonoBehaviour
                 isDash = true;
                 EndAttack();
                 controlAnimator.Dash(isDash);
-                BoostAttacking(30f);
+                BoostAttacking(csnv.DashBoost);
                 thu.DashSmoke();
                 SetDungYenTrenKhong(1);
             }
@@ -226,6 +228,11 @@ public class TrangThai : MonoBehaviour
         {
             isDefense = true;
             controlAnimator.Defense(isDefense);
+            if (isHurt)
+            {
+                DichChuyenToiDoiPhuong();
+                EndHurt();
+            }
             EndAttack();
         }
         else if (!_isDefense && isDefense)
@@ -246,7 +253,6 @@ public class TrangThai : MonoBehaviour
         else if (!_isAura && isAura)
         {
             isAura = false;
-            RungCameraSingleton.Instance.StopShake();
             controlAnimator.Aura(isAura);
             QuanLiAmThanh.Instance.StopAura();
         }
@@ -264,9 +270,9 @@ public class TrangThai : MonoBehaviour
     }
     IEnumerator DichChuyenIE()
     {
-        float x = transform.position.x;
+        float khoangCach = doiPhuong.position.x - transform.position.x;
         thu.Tele();
-        transform.position = doiPhuong.position;
+        transform.position = doiPhuong.position + new Vector3(Mathf.Sign(khoangCach) * 1f, 0f, 0f);
         yield return null;
         XoayVeDoiPhuong();
         thu.Tele();
@@ -287,9 +293,10 @@ public class TrangThai : MonoBehaviour
         yield return new WaitForSeconds(time);
         boostAttack = boost;
     }
-    public bool Attack(string nameAttackAnim)
+    public bool Attack(string nameAttackAnim, ref int currentCombo)
     {
-        if (isDash) return false;
+        if (isDash || isAttack) return false;
+        currentCombo++;
         nangLuongTieuHao = 0f;
         switch (nameAttackAnim)
         {
@@ -306,9 +313,39 @@ public class TrangThai : MonoBehaviour
                 nangLuongTieuHao = csnv.nangLuongWI;
                 break;
         }
-        if (nangLuongTieuHao != 0f) isNotSetHurt = true;
         if (csnv.NangLuongHienTai >= nangLuongTieuHao)
         {
+            if (nangLuongTieuHao != 0) isNotSetHurt = true;
+            StartAttack();
+            controlAnimator.AttackWithName(nameAttackAnim);
+            csnv.NangLuongHienTai -= nangLuongTieuHao;
+            Battle.Instance.CapNhatThanhNangLuong(csnv.TenNhanVat, csnv.NangLuongHienTai / 100f);
+            return true;
+        }
+        else return false;
+    }
+    public bool Attack(string nameAttackAnim)
+    {
+        if (isDash || isAttack) return false;
+        nangLuongTieuHao = 0f;
+        switch (nameAttackAnim)
+        {
+            case stringKey.Attack.AttackU:
+                nangLuongTieuHao = csnv.nangLuongU;
+                break;
+            case stringKey.Attack.AttackI:
+                nangLuongTieuHao = csnv.nangLuongI;
+                break;
+            case stringKey.Attack.AttackWU:
+                nangLuongTieuHao = csnv.nangLuongWU;
+                break;
+            case stringKey.Attack.AttackWI:
+                nangLuongTieuHao = csnv.nangLuongWI;
+                break;
+        }
+        if (csnv.NangLuongHienTai >= nangLuongTieuHao)
+        {
+            if (nangLuongTieuHao != 0) isNotSetHurt = true;
             StartAttack();
             controlAnimator.AttackWithName(nameAttackAnim);
             csnv.NangLuongHienTai -= nangLuongTieuHao;
@@ -331,7 +368,8 @@ public class TrangThai : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, 0f);
             rb.AddForce(new Vector2(0f, 25f), ForceMode2D.Impulse);
         }
-        StartCoroutine(NgungBatLui(time, boostBatLui));
+        if (batLuiCorou != null) StopCoroutine(batLuiCorou);
+        batLuiCorou = StartCoroutine(NgungBatLui(time, boostBatLui));
     }
     IEnumerator NgungBatLui(float time, float doLon)
     {
@@ -368,6 +406,7 @@ public class TrangThai : MonoBehaviour
         boostAttack = 0f;
         lucHatTung = 0f;
         lucKnockOut = 0f;
+        currentComboTimer = 0f;
         dungYenTrenKhong = false;
         if (isWin)
         {
@@ -378,27 +417,70 @@ public class TrangThai : MonoBehaviour
             viTriHitting = Vector2.zero;
         }
     }
-    public void StartHurt(float huongTanCong, float _lucKnockOut, float _lucHatTung, bool nmat)
+    public void StartHurt(float huongTanCong, float _lucKnockOut, float _lucHatTung)
     {
         if (!isNotSetHurt)
         {
-            if (_lucKnockOut == 0f) _lucKnockOut = 8f;
-            Hurt(_lucHatTung, nmat);
+            if (_lucKnockOut == 0f) _lucKnockOut = 3f;
+            Hurt(_lucHatTung);
             controlAnimator.Hurt();
-            if (_lucKnockOut >= 50f)
+            if (_lucKnockOut > 20f)
             {
                 QuanLiAmThanh.Instance.PlayTelePunch();
                 PoolVfx.instance.KhoiKnockOut(transform);
-                RungCameraSingleton.Instance.Shake(0.35f, 13f, 1f);
+                RungCameraSingleton.Instance.Shake(0.3f, 20f, 2f);
             }
             else
             {
                 RungCameraSingleton.Instance.Shake(0.15f, 5f, 1f);
             }
-            BatLui(huongTanCong, _lucKnockOut, 0.5f, false);
+            BatLui(huongTanCong, _lucKnockOut, 0.35f, false);
+        }
+        if (rb.velocity.y < -1f)
+        {
+            justHitting = 0.35f;
+            viTriHitting = transform.position;
+        }
+        if (_lucHatTung != 0f)
+        {
+            justHitting = -1f;
+        }
+        if (Mathf.Abs(_lucHatTung) > 10f || _lucKnockOut > 4f)
+        {
+            SlowMotionHit.Instance.SlowHitNang();
+        }
+        else
+        {
+            SlowMotionHit.Instance.SlowHitNhe();
         }
     }
-    public void Hurt(float _lucHatTung, bool nmat)
+    public bool CapNhatCurrentComboTimerForPlayer()
+    {
+        currentComboTimer += Time.deltaTime;
+        if (currentComboTimer > 0.75f) return true;
+        else return false;
+               
+    }
+    public void StartHurtObjectAttack(float huongTanCong, float _lucKnockOut, float _lucHatTung)
+    {
+        if (!isNotSetHurt)
+        {
+            Hurt(_lucHatTung);
+            controlAnimator.Hurt();
+            RungCameraSingleton.Instance.Shake(0.15f, 5f, 1f);
+            BatLui(huongTanCong, _lucKnockOut, 0.35f, false);
+            if (rb.velocity.y < -1f)
+            {
+                justHitting = 0.35f;
+                viTriHitting = transform.position;
+            }
+            if (_lucHatTung != 0f)
+            {
+                justHitting = -1f;
+            }
+        }
+    }
+    public void Hurt(float _lucHatTung)
     {
         dungYenTrenKhong = false;
         isHurt = true;
@@ -414,7 +496,6 @@ public class TrangThai : MonoBehaviour
         EndAttack();
         OnGround();
         QuanLiAmThanh.Instance.PlayHit();
-        if (nmat) SlowMotionHit.Instance.SlowHit();
         csnv.PlusNangLuong(0.0075f);
         if (_lucHatTung != 0f)
         {
@@ -425,18 +506,6 @@ public class TrangThai : MonoBehaviour
     {
         isHurt = false;
     }
-    //public void StartKnockOut(float huongTanCong, float lucBatLui, float _lucHatTung, bool nmat)
-    //{
-    //    if (!isNotSetHurt)
-    //    {
-    //        RungCameraSingleton.Instance.Shake(0.35f, 10f, 1f);
-    //        isKnockout = true;
-    //        Hurt(_lucHatTung, nmat);
-    //        //controlAnimator.KnockOut();
-    //        controlAnimator.Hurt();
-    //        BatLui(huongTanCong, lucBatLui, 1f, true);
-    //    }
-    //}
     public void EndKnockOut()
     {
         isKnockout = false;
@@ -476,6 +545,6 @@ public class TrangThai : MonoBehaviour
     }
     public bool CanDefense()
     {
-        return !isAttack && !isAura && !isHurt && !isKnockout;
+        return !isAttack && !isAura && !isKnockout;
     }
 }

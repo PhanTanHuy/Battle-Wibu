@@ -547,14 +547,16 @@ MonoBehaviour:
   nangLuongWU: 50
   nangLuongWI: 50
   tocDo: 14
+  dashBoost: 25
   lucNhay: 35
-  mau: 200
-  dame: 2
+  mau: 100
+  dame: 1
   tenNhanVat: z
   tenUi: Zenitsu
   chuoiCombo: 4
   anhDanhDien: {fileID: 21300000, guid: 01cf76e39ed1da44398b8fd1ab09dede, type: 3}
   hieuUngHit: {fileID: 2262899669663217118, guid: 088d5d5a14eb3eb45b4b87f59cca3855, type: 3}
+  mauHit: {r: 1, g: 1, b: 1, a: 1}
   NangLuongHienTai: 0
   TocDoHoiNangLuong: 30
   NangLuongToiDa: 300

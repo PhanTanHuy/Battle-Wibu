@@ -19,6 +19,7 @@ public class EnemyAi : MonoBehaviour
     private int currentCombo;
     private bool isGrounded;
     private float currentComboTimer, jumpTimer, moveTimer, _moveTimer, attackTimer, auraTimer, timeAura, dashTimer, timeDash, defenseTimer, timeDefense;
+    private float thoiGianTanCongSauKhiHurt, fromThoiGianTanCongDacBiet, toThoiGianTanCongDacBiet, fromThoiGianTanCongCombo, toThoiGianTanCongCombo;
     void Start()
     {
         csnv = GetComponent<ChiSoNhanVat>();
@@ -36,6 +37,30 @@ public class EnemyAi : MonoBehaviour
         {
             combos.Add(skills[i]);
         }
+        switch (SelectCharacter.Instance.modeIndex)
+        {
+            case 0:
+                thoiGianTanCongSauKhiHurt = 0.7f;
+                fromThoiGianTanCongDacBiet = 0.25f;
+                toThoiGianTanCongDacBiet = 1.5f;
+                fromThoiGianTanCongCombo = 0.75f;
+                toThoiGianTanCongCombo = 1.25f;
+                break;
+            case 1:
+                thoiGianTanCongSauKhiHurt = 0.25f;
+                fromThoiGianTanCongDacBiet = 0f;
+                toThoiGianTanCongDacBiet = 0.75f;
+                fromThoiGianTanCongCombo = 0.35f;
+                toThoiGianTanCongCombo = 0.75f;
+                break;
+            case 2:
+                thoiGianTanCongSauKhiHurt = 0f;
+                fromThoiGianTanCongDacBiet = 0f;
+                toThoiGianTanCongDacBiet = 0.5f;
+                fromThoiGianTanCongCombo = 0.15f;
+                toThoiGianTanCongCombo = 0.5f;
+                break;
+        }
         right = new Vector2(1f, 1f);
         left = new Vector2(-1f, 1f);
         currentCombo = 0;
@@ -43,13 +68,12 @@ public class EnemyAi : MonoBehaviour
         attackTimer = 0f;
         auraTimer = Random.Range(5f, 15f);
         dashTimer = Random.Range(0f, 5f);
-        defenseTimer = Random.Range(5f, 15f);
+        defenseTimer = Random.Range(5, 15f);
         timeDefense = 0f;
         jumpTimer = Random.Range(0f, 5f);
 
         //
      
-        Flip();
     }
 
     // Update is called once per frame
@@ -65,7 +89,7 @@ public class EnemyAi : MonoBehaviour
                 jumpTimer = Random.Range(2f, 4f);
                 auraTimer = Random.Range(1f, 2f);
                 dashTimer = Random.Range(1f, 2f);
-                attackTimer = 0.3f;
+                attackTimer = thoiGianTanCongSauKhiHurt;
             }
             if (trangThai.CanJump()) Jump();
             Defense();
@@ -87,10 +111,11 @@ public class EnemyAi : MonoBehaviour
             dashTimer -= Time.deltaTime;
             defenseTimer -= Time.deltaTime;
             timeDefense -= Time.deltaTime;
-            if (timeDefense <= 0f) attackTimer = -1f;
             jumpTimer -= Time.deltaTime;
             timeDash -= Time.deltaTime;
             trangThai.JustHitting -= Time.deltaTime;
+            Flip();
+
         }
         else if (trangThai.Performance && trangThai.viTriHitting != Vector2.zero)
         {
@@ -114,7 +139,7 @@ public class EnemyAi : MonoBehaviour
     }
     private void Flip()
     {
-        if (trangThai.IsDash) return;
+        if (trangThai.IsDash || trangThai.IsAttack) return;
         direction = player.position.x - transform.position.x > 0f ? right : left;
         transform.localScale = direction;
     }
@@ -129,8 +154,8 @@ public class EnemyAi : MonoBehaviour
                 _moveTimer = Random.Range(-2.25f, -1.5f);
             }
             else if (moveTimer > 0f) velo = direction.x;
-            if (!(trangThai.BoostAttack > 0f || !isGrounded))
-            Flip();
+            //if (!(trangThai.BoostAttack > 0f || !isGrounded))
+            //Flip();
         }
         else velo = 0f;
         if (Mathf.Abs(distanceFromPlayer.x) < 2.75f)
@@ -173,15 +198,11 @@ public class EnemyAi : MonoBehaviour
     }
     private string AttackString()
     {
-        if (trangThai.IsHurt || trangThai.IsAura)
-        {
-            attackTimer = 0.3f;
-        }
         if (attackTimer < 0f)
         {
-            Flip();
+            //Flip();
             jumpTimer = Random.Range(0.5f, 1f);
-            attackTimer = Random.Range(0f, 1.25f);
+            attackTimer = Random.Range(fromThoiGianTanCongDacBiet, toThoiGianTanCongDacBiet);
             int rd;
             if (Random.Range(0f, 1f) < 0.3f) rd = Random.Range(0, combos.Count);
             else rd = Random.Range(csnv.ChuoiCombo, combos.Count);
@@ -193,10 +214,13 @@ public class EnemyAi : MonoBehaviour
                 currentCombo++;
                 dashTimer = Random.Range(0.5f, 1.5f);
                 currentComboTimer = 0f;
-                if (currentCombo >= csnv.ChuoiCombo) currentCombo = 0;
+                if (currentCombo >= csnv.ChuoiCombo)
+                {
+                    currentCombo = 0;
+                }
                 if (rd == csnv.ChuoiCombo - 1)
                 {
-                    attackTimer = Random.Range(0.75f, 1.25f);
+                    attackTimer = Random.Range(fromThoiGianTanCongCombo, toThoiGianTanCongCombo);
                     return s;
                 }
                 
@@ -209,7 +233,7 @@ public class EnemyAi : MonoBehaviour
     private void Attack()
     {
         string nameAttackAnimaiton = AttackString();
-        if (nameAttackAnimaiton != "") if(!trangThai.IsAttack) if (!trangThai.Attack(nameAttackAnimaiton)) attackTimer = -1f;
+        if (nameAttackAnimaiton != "") if(!trangThai.IsAttack) if (trangThai.Attack(nameAttackAnimaiton)!) attackTimer = -1f;
         if (currentComboTimer > 0.75f) currentCombo = 0;
     }
     private bool canAura()

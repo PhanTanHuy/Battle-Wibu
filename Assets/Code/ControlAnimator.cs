@@ -54,7 +54,7 @@ public class ControlAnimator : MonoBehaviour
     }
     public void Hurt()
     {
-        animator.Play("hurt");
+        animator.Play("hurt", 0, 0f);
     }
     public void KnockOut()
     {
@@ -76,7 +76,11 @@ public class ControlAnimator : MonoBehaviour
             animator.Play("startAura");
             animator.SetBool("isAura", value);
         }
-        else animator.SetBool("isAura", value);
+        else
+        {
+            animator.SetBool("isAura", value);
+            animator.Play("idle");
+        }
     }
     public void Dash(bool isDash)
     {

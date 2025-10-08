@@ -1065,6 +1065,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 9
     messageOptions: 0
+  - time: 1.15
+    functionName: DichChuyenToiDoiPhuong
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0.25
+    intParameter: 0
+    messageOptions: 0
   - time: 1.2
     functionName: PlaySfxIndex
     data: 
@@ -1079,6 +1086,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 9
     messageOptions: 0
+  - time: 1.4333333
+    functionName: DichChuyenToiDoiPhuong
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0.25
+    intParameter: 0
+    messageOptions: 0
   - time: 1.6833333
     functionName: PlaySfxIndex
     data: 
@@ -1086,12 +1100,26 @@ AnimationClip:
     floatParameter: 0
     intParameter: 9
     messageOptions: 0
+  - time: 1.7333333
+    functionName: DichChuyenToiDoiPhuong
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0.25
+    intParameter: 0
+    messageOptions: 0
   - time: 1.9666667
     functionName: PlaySfxIndex
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 9
+    messageOptions: 0
+  - time: 2.1
+    functionName: DichChuyenToiDoiPhuong
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0.25
+    intParameter: 0
     messageOptions: 0
   - time: 2.1
     functionName: SetLucKnockOut

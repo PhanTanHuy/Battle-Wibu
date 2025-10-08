@@ -25,24 +25,15 @@ public class RungCameraSingleton : MonoBehaviour
     }
     public void Shake(float time, float doManh, float tanSo)
     {
-        sk.Shake(time, doManh, tanSo, false);
+        sk.Shake(time, doManh, tanSo);
     }
-    public void Shake(float doManh, float tanSo, bool s)
-    {
-        sk.Shake(doManh, tanSo, s);
-    }
+    //public void Shake(float doManh, float tanSo, bool s)
+    //{
+    //    sk.Shake(doManh, tanSo, s);
+    //}
     public void AuraShake()
     {
         Shake(0.2f, 22, 0.75f);
     }
    
-    public void StopShake()
-    {
-        sk.StopShake2();
-        if (currentShakeCoroutine != null)
-        {
-            StopCoroutine(currentShakeCoroutine);
-            currentShakeCoroutine = null;
-        }
-    }
 }
