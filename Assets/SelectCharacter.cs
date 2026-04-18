@@ -48,7 +48,7 @@ public class SelectCharacter : MonoBehaviour
         if (SelectMap.Instance != null) Destroy(SelectMap.Instance.gameObject);
         Instance = this;
         //
-        soTranDanh = new int[3];
+        soTranDanh = new int[2];
         indexSoTranDanh = 0;
         int soTranDanhFirst = 2;
         for (int i=0; i<soTranDanh.Length; i++)

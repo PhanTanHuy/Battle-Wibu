@@ -40,7 +40,7 @@ public class PoolVfx : MonoBehaviour
         KhoiTaoCollideVFX();
         //
         AddQueue(ref SmokeDashQueue, 15, dashSmoke);
-        AddQueue(ref TeleQueue, 10, tele);
+        AddQueue(ref TeleQueue, 15, tele);
         AddQueue(ref DatVoQueue, 10, datVo);
         AddQueue(ref GhostEffectQueue, 30, ghostEffect);
         AddQueue(ref BloodQueue, 20, bloodEffect);

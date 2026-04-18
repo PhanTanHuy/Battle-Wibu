@@ -1059,6 +1059,7 @@ MonoBehaviour:
   prefabsMap:
   - {fileID: 5670560496196770106, guid: f4e976f8af6f5be45ac34b7f6f31fd45, type: 3}
   - {fileID: 5670560496196770106, guid: faac3d461de84f74381de51eb179999a, type: 3}
+  - {fileID: 5670560496196770106, guid: a54ff22296194834b957ffad8bd1284c, type: 3}
   - {fileID: 5670560496196770106, guid: e6a33956cb31b7b4490f152609babab1, type: 3}
   - {fileID: 5670560496196770106, guid: d8709052038d34c42888dacfd927a2ce, type: 3}
   - {fileID: 5670560496196770106, guid: 0c8ea701e4dc25a4e945417eab8a3342, type: 3}

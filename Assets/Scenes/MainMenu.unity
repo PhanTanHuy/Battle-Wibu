@@ -2984,7 +2984,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Battle Power
+  m_text: Battle Wibu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 48d5d72152f2fef4ca6f179ad04eb7a9, type: 2}
   m_sharedMaterial: {fileID: 9139724317609022556, guid: 48d5d72152f2fef4ca6f179ad04eb7a9, type: 2}
@@ -8998,7 +8998,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Battle Power
+  m_text: Battle Wibu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 48d5d72152f2fef4ca6f179ad04eb7a9, type: 2}
   m_sharedMaterial: {fileID: 9139724317609022556, guid: 48d5d72152f2fef4ca6f179ad04eb7a9, type: 2}
