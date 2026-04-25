@@ -15,7 +15,6 @@ public class PlayerControl : MonoBehaviour
     private TrangThai trangThai;
     private Vector2 right, left;
     private int currentCombo;
-    private float currentComboTimer;
     private bool isGrounded;
     private int doubleMove;
     private float doubleMoveTimer;
@@ -32,7 +31,6 @@ public class PlayerControl : MonoBehaviour
         right = new Vector2(1f, 1f);
         left = new Vector2(-1f, 1f);
         currentCombo = 0;
-        currentComboTimer = 0f;
         doubleMove = 0;
         doubleMoveTimer = 0f;
         nameAttackCombo = new string[csnv.ChuoiCombo];
@@ -156,7 +154,6 @@ public class PlayerControl : MonoBehaviour
             if (currentCombo > csnv.ChuoiCombo - 1) currentCombo = 0;
             
             trangThai.Attack(nameAttackCombo[currentCombo], ref currentCombo);
-            currentComboTimer = 0f;
         }
         else if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.I) || (InputDienThoai.Instance.GongPressed && InputDienThoai.Instance.UpButtonPressed))
         {

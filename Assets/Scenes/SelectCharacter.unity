@@ -1373,6 +1373,7 @@ MonoBehaviour:
   - {fileID: 3643880292200942609, guid: 15b1712ece955a447872910c71d65265, type: 3}
   - {fileID: 3643880292200942609, guid: 769e85c0286441e40b7cb61e5d4f1975, type: 3}
   - {fileID: 3643880292200942609, guid: e4705b559af116a4dad0811a04497ee4, type: 3}
+  - {fileID: 3643880292200942609, guid: 03f3bedb41c5dee44aa58aab1af948f8, type: 3}
   container: {fileID: 704605399}
   prefabsSelectMau: {fileID: 1029734152792316349, guid: 8c853fdc1ce82fb479d7283f81f48d71, type: 3}
   khungSelect: {fileID: 7981777581505828013, guid: 14babb1b0af868c42b5fc6807cb58512, type: 3}

@@ -9,6 +9,7 @@ public class PoolObject : MonoBehaviour
     {
         public GameObject vatTheBanRa;
         public int soLuong = 15;
+        public float timeReturn = 3f;
     }
     public SkillVatThe[] objectPrefabs;
     private Dictionary<int, Queue<GameObject>> weaponPools = new Dictionary<int, Queue<GameObject>>();
@@ -54,7 +55,7 @@ public class PoolObject : MonoBehaviour
             obj.SetActive(true);
             obj.GetComponent<ChuyenDong>().DatHuongDiChuyen(transform.localScale.x > 0 ? Vector3.right : Vector3.left);
             obj.GetComponent<ChiSo>().SetChiSo(csnv.Dame, tt.LucKnockOut, tt.LucHatTung);
-            StartCoroutine(DeactivateAfterTime(obj, 3f, index));
+            StartCoroutine(DeactivateAfterTime(obj, objectPrefabs[index].timeReturn, index));
         }
     }
     public void ThrowPrefabsTarget(int index)
@@ -74,7 +75,7 @@ public class PoolObject : MonoBehaviour
             Vector3 direction = QuanLiCharacter.Instance.GetTransFormEnemy(csnv.TenNhanVat).position - obj.transform.position;
             obj.GetComponent<ChuyenDong>().DatHuongDiChuyen(direction.normalized);
             obj.GetComponent<ChiSo>().Dame = csnv.Dame;
-            StartCoroutine(DeactivateAfterTime(obj, 3f, index));
+            StartCoroutine(DeactivateAfterTime(obj, objectPrefabs[index].timeReturn, index));
         }
     }
 

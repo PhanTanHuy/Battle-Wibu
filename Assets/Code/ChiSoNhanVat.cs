@@ -16,6 +16,7 @@ public class ChiSoNhanVat : MonoBehaviour
     private float mauHienTai;
     public float NangLuongHienTai, TocDoHoiNangLuong, NangLuongToiDa;
     private float _dame;
+    [HideInInspector] public bool batTu = false;
     private void Start()
     {
         mauHienTai = mau;
@@ -85,6 +86,7 @@ public class ChiSoNhanVat : MonoBehaviour
         get { return mauHienTai; }
         set
         {
+            if (batTu) return;
             mauHienTai = value;
         }
     }

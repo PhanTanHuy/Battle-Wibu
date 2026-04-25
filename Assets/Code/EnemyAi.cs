@@ -16,7 +16,7 @@ public class EnemyAi : MonoBehaviour
     private CapsuleCollider2D cs;
     private TaoHieuUng thu;
     private Vector2 right, left, direction, distanceFromPlayer;
-    private int currentCombo;
+    private int currentCombo, modeAI;
     private bool isGrounded;
     private float currentComboTimer, jumpTimer, moveTimer, _moveTimer, attackTimer, auraTimer, timeAura, dashTimer, timeDash, defenseTimer, timeDefense;
     private float thoiGianTanCongSauKhiHurt, fromThoiGianTanCongDacBiet, toThoiGianTanCongDacBiet, fromThoiGianTanCongCombo, toThoiGianTanCongCombo;
@@ -57,8 +57,9 @@ public class EnemyAi : MonoBehaviour
                 thoiGianTanCongSauKhiHurt = 0f;
                 fromThoiGianTanCongDacBiet = 0f;
                 toThoiGianTanCongDacBiet = 0.5f;
-                fromThoiGianTanCongCombo = 0.15f;
-                toThoiGianTanCongCombo = 0.5f;
+                fromThoiGianTanCongCombo = 0f;
+                toThoiGianTanCongCombo = 0.25f;
+                modeAI = 2;
                 break;
         }
         right = new Vector2(1f, 1f);
@@ -68,7 +69,7 @@ public class EnemyAi : MonoBehaviour
         attackTimer = 0f;
         auraTimer = Random.Range(5f, 15f);
         dashTimer = Random.Range(0f, 5f);
-        defenseTimer = Random.Range(5, 15f);
+        defenseTimer = Random.Range(4f, 10f);
         timeDefense = 0f;
         jumpTimer = Random.Range(0f, 5f);
 
@@ -81,7 +82,6 @@ public class EnemyAi : MonoBehaviour
     {
         if (trangThai.IsAlive && !trangThai.Performance)
         {
-            if (!canAttack && !trangThai.IsHurt) csnv.MauHienTai += csnv.Mau * 0.5f * Time.deltaTime;
             distanceFromPlayer = player.position - transform.position;
             Move(trangThai.CanMove() && timeAura < 0f);
             if (trangThai.IsHurt)
@@ -259,7 +259,7 @@ public class EnemyAi : MonoBehaviour
     }
     private bool canDefense()
     {
-        if (timeDefense > 0f && Mathf.Abs(distanceFromPlayer.x) < 3f)
+        if (timeDefense > 0f)
         {
             return true;
         }
@@ -268,7 +268,7 @@ public class EnemyAi : MonoBehaviour
             if (defenseTimer < 0f)
             {
                 timeDefense = Random.Range(0.5f, 1.5f);
-                defenseTimer = Random.Range(5f, 10f);
+                defenseTimer = Random.Range(4f, 10f);
             }
             return false;
         }
@@ -279,10 +279,10 @@ public class EnemyAi : MonoBehaviour
     }
     private void Defense()
     {
-        //if (trangThai.IsHurt)
-        //{
-        //    timeDefense = Random.Range(0.5f, 1f);
-        //}
+        if (modeAI == 2 && trangThai.IsHurt)
+        {
+            timeDefense = Random.Range(-0.1f, 1f);
+        }
         if (trangThai.CanDefense()) trangThai.Defense(canDefense());
     }
 }

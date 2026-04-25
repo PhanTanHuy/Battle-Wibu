@@ -7,7 +7,7 @@ public class ChuyenDong : MonoBehaviour
     [SerializeField] private float speed, giaToc;
     private float _speed;
     private Vector3 huongDiChuyen;
-    private void Start()
+    private void OnEnable()
     {
         _speed = giaToc == 0f ? speed : 0f;
     }
@@ -21,7 +21,10 @@ public class ChuyenDong : MonoBehaviour
     {
         huongDiChuyen = _huongDiChuyen;
     }
-
+    private void OnDisable()
+    {
+        _speed = 0f;
+    }
     public void SetSpeed(float value)
     {
         _speed = value;

@@ -391,6 +391,7 @@ public class TrangThai : MonoBehaviour
     }
     public void StartAttack()
     {
+        if (currentComboTimer != 0) currentComboTimer = 0f;
         XoayVeDoiPhuong();
         isAttack = true;
         boostAttack = 0f;
