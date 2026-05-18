@@ -478,6 +478,7 @@ MonoBehaviour:
   NangLuongHienTai: 0
   TocDoHoiNangLuong: 100
   NangLuongToiDa: 700
+  batTu: 0
 --- !u!114 &1680216066868466390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,8 +532,10 @@ MonoBehaviour:
   objectPrefabs:
   - vatTheBanRa: {fileID: 7488026145468655674, guid: fc612082e5dc5e648be58632bcbb301f, type: 3}
     soLuong: 30
+    timeReturn: 3
   - vatTheBanRa: {fileID: 7488026145468655674, guid: 6e1df9a7a71f5f84f9f98cddf92086d6, type: 3}
     soLuong: 7
+    timeReturn: 3
   throwPoint: {fileID: 3624715099738325618}
 --- !u!114 &1819376033408583366
 MonoBehaviour:
@@ -984,7 +987,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7013372964291565095
 Transform:
   m_ObjectHideFlags: 0

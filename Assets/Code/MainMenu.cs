@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
     public Slider musicSlider;
     public Slider sfxSlider;
     public TextMeshProUGUI textRounds;
+  
     public void VsCpu()
     {
         QuanLiCheDoChoi.Instance.fightMode = QuanLiCheDoChoi.FightMode.PVE;
