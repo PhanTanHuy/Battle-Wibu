@@ -1,9 +1,12 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class ChiSoNhanVat : MonoBehaviour
 {
+    public static event Action<ChiSoNhanVat> OnNangLuongDay;
+    private bool isMaxNangLuong = false;
     public float nangLuongU, nangLuongI, nangLuongWU, nangLuongWI;
     [SerializeField] private float tocDo,dashBoost, lucNhay, mau, dame;
     [SerializeField] private string tenNhanVat;
@@ -25,8 +28,8 @@ public class ChiSoNhanVat : MonoBehaviour
     }
     public void PlusNangLuong()
     {
-        if (NangLuongHienTai + TocDoHoiNangLuong * Time.deltaTime < NangLuongToiDa) NangLuongHienTai += TocDoHoiNangLuong * Time.deltaTime;
-        if (NangLuongHienTai > NangLuongToiDa) NangLuongHienTai = NangLuongToiDa * 0.99f;
+        NangLuongHienTai += TocDoHoiNangLuong * Time.deltaTime;
+        KiemTraNangLuongDay();
         if (Battle.Instance.CapNhatThanhNangLuong(TenNhanVat, NangLuongHienTai / 100f))
         {
             RungCameraSingleton.Instance.AuraShake();
@@ -35,9 +38,23 @@ public class ChiSoNhanVat : MonoBehaviour
     }
     public void PlusNangLuong(float value)
     {
-        if (NangLuongHienTai + NangLuongToiDa * value < NangLuongToiDa) NangLuongHienTai += NangLuongToiDa * value;
-        if (NangLuongHienTai > NangLuongToiDa) NangLuongHienTai = NangLuongToiDa * 0.99f;
+        NangLuongHienTai += NangLuongToiDa * value;
+        KiemTraNangLuongDay();
         Battle.Instance.CapNhatThanhNangLuong(TenNhanVat, NangLuongHienTai / 100f);
+    }
+    private void KiemTraNangLuongDay()
+    {
+        if (NangLuongHienTai > NangLuongToiDa)
+        {
+            Debug.Log("Len cap tiep theo ChiSo");
+            NangLuongHienTai = NangLuongToiDa;
+            if (!isMaxNangLuong)
+            {
+                isMaxNangLuong = true;
+                OnNangLuongDay?.Invoke(this);
+            }
+        }
+        else if (isMaxNangLuong) isMaxNangLuong = false;
     }
     public int ChuoiCombo
     {

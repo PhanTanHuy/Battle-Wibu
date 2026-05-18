@@ -11,8 +11,18 @@ public class LenCap : MonoBehaviour
     {
         currentAnimator = GetComponent<Animator>();
     }
-    public void LenCapTiepTheo()
+    private void OnEnable()
     {
+        ChiSoNhanVat.OnNangLuongDay += LenCapTiepTheo;
+    }
+
+    private void OnDisable()
+    {
+        ChiSoNhanVat.OnNangLuongDay -= LenCapTiepTheo;
+    }
+    public void LenCapTiepTheo(ChiSoNhanVat chiSo)
+    {
+        Debug.Log("Len cap tiep theo");
         if (currentCap >= runtimeAnims.Length) return;
         currentAnimator.runtimeAnimatorController = runtimeAnims[currentCap];
         currentCap++;

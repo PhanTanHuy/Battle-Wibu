@@ -74,7 +74,6 @@ public class PlayerControl : MonoBehaviour
         if ((Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.A) || (InputDienThoai.Instance.LeftButtonDown || InputDienThoai.Instance.RightButtonDown)) && doubleMove < 2)
         {
             doubleMove++;
-            Debug.Log(doubleMove);
             doubleMoveTimer = 0f;
         }
         if (doubleMove >= 2 && (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.A) || (InputDienThoai.Instance.LeftButtonUp || InputDienThoai.Instance.RightButtonUp)))

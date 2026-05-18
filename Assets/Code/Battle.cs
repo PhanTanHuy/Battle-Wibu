@@ -36,16 +36,11 @@ public class Battle : MonoBehaviour
         }
         public bool CapNhatThanhNangLuong(float value)
         {
-            if (value > soLanTichLuyNl + 1 && soLanTichLuyNl < maxTichLuy - 2)
+            if ((int)value > soLanTichLuyNl && soLanTichLuyNl < maxTichLuy - 1)
             {
                 soLanTichLuyNl++;
                 soLanTichLuyThanhNangLuong.text = soLanTichLuyNl.ToString();
                 return true;
-            }
-            else if (value < soLanTichLuyNl)
-            {
-                soLanTichLuyNl = (int)value;
-                soLanTichLuyThanhNangLuong.text = soLanTichLuyNl.ToString();
             }
             ThanhNangLuong.fillAmount = value - soLanTichLuyNl;
             return false;
