@@ -348,7 +348,7 @@ public class TrangThai : MonoBehaviour
             if (nangLuongTieuHao != 0) isNotSetHurt = true;
             StartAttack();
             controlAnimator.AttackWithName(nameAttackAnim);
-            csnv.NangLuongHienTai -= nangLuongTieuHao;
+            csnv.DungNangLuong(nangLuongTieuHao);
             Battle.Instance.CapNhatThanhNangLuong(csnv.TenNhanVat, csnv.NangLuongHienTai / 100f);
             return true;
         }
@@ -458,7 +458,7 @@ public class TrangThai : MonoBehaviour
     public bool CapNhatCurrentComboTimerForPlayer()
     {
         currentComboTimer += Time.deltaTime;
-        if (currentComboTimer > 0.75f) return true;
+        if (currentComboTimer > 1f) return true;
         else return false;
                
     }

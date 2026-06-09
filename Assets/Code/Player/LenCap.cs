@@ -1,30 +1,99 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class LenCap : MonoBehaviour
 {
-    [SerializeField] private RuntimeAnimatorController[] runtimeAnims;
+    [System.Serializable]
+    public struct LenCapData
+    {
+        public RuntimeAnimatorController animatorController;
+
+        [Header("Tỷ lệ cộng thêm (0.2 = 20%)")]
+        public float phanTramMau;
+        public float phanTramDame;
+        public float phanTramTocDo;
+        public float phanTramLucNhay;
+        public float phanTramTocDoHoiNangLuong;
+        public float phanTramDashBoost;
+    }
+
+    [Header("Cấu hình danh sách các cấp độ")]
+    [SerializeField] private LenCapData[] danhSachCapDo;
+
     private int currentCap = 0;
     private Animator currentAnimator;
-    private void Start()
+    private ChiSoNhanVat selfChiSoNhanVat;
+    [HideInInspector] public bool isPlayer = false;
+
+    private void Awake()
     {
         currentAnimator = GetComponent<Animator>();
+        selfChiSoNhanVat = GetComponent<ChiSoNhanVat>();
     }
+
     private void OnEnable()
     {
-        ChiSoNhanVat.OnNangLuongDay += LenCapTiepTheo;
+        selfChiSoNhanVat.OnNangLuongDay += OnNangLuongDay;
+        selfChiSoNhanVat.OnNangLuongThieu += OnNangLuongThieu;
     }
 
     private void OnDisable()
     {
-        ChiSoNhanVat.OnNangLuongDay -= LenCapTiepTheo;
+        selfChiSoNhanVat.OnNangLuongDay -= OnNangLuongDay;
+        selfChiSoNhanVat.OnNangLuongThieu -= OnNangLuongThieu;
     }
-    public void LenCapTiepTheo(ChiSoNhanVat chiSo)
+
+    private void OnNangLuongDay()
     {
-        Debug.Log("Len cap tiep theo");
-        if (currentCap >= runtimeAnims.Length) return;
-        currentAnimator.runtimeAnimatorController = runtimeAnims[currentCap];
+        if (currentCap >= danhSachCapDo.Length)
+        {
+            Debug.LogWarning($"{gameObject.name} đã đạt cấp độ cấu hình tối đa!");
+            return;
+        }
+        if (isPlayer) MobileUIManager.Instance.ShowNutLenCap(true);
+        else LenCapTiepTheo();
+    }
+
+    private void OnNangLuongThieu()
+    {
+        if (isPlayer) MobileUIManager.Instance.ShowNutLenCap(false);
+    }
+    public void LenCapTiepTheo()
+    {
+
+        if (currentCap >= danhSachCapDo.Length)
+        {
+            Debug.LogWarning($"{gameObject.name} đã đạt cấp độ cấu hình tối đa!");
+            return;
+        }
+
+        Debug.Log($"Tiến hành lên cấp tiếp theo cho: {gameObject.name}");
+
+        LenCapData dataCapMoi = danhSachCapDo[currentCap];
+
+        if (dataCapMoi.animatorController != null)
+        {
+            currentAnimator.runtimeAnimatorController = dataCapMoi.animatorController;
+        }
+
+        if (selfChiSoNhanVat != null)
+        {
+            selfChiSoNhanVat.PlusChiSoTheoPhanTram(
+                dataCapMoi.phanTramMau,
+                dataCapMoi.phanTramDame,
+                dataCapMoi.phanTramTocDo,
+                dataCapMoi.phanTramLucNhay,
+                dataCapMoi.phanTramTocDoHoiNangLuong,
+                dataCapMoi.phanTramDashBoost
+            );
+
+            selfChiSoNhanVat.NangLuongHienTai = 0f;
+            Battle.Instance.ResetThanhNangLuong(selfChiSoNhanVat.TenNhanVat);
+        }
+
         currentCap++;
+        GetComponent<TrangThai>().EndAttack();
+        RungCameraSingleton.Instance.Shake(0.2f, 20f, 1f);
     }
 }

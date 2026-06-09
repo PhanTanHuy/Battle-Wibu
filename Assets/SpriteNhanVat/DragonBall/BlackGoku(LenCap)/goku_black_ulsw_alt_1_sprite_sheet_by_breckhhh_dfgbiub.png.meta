@@ -1,0 +1,5395 @@
+fileFormatVersion: 2
+guid: 088d90b94d517b24887a2c775ad5810d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 2152
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960431cca226e284cb27c1050e17d22a
+      internalID: -251553821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_1
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 267
+        width: 117
+        height: 1943
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e31a6c26c80034abf0e2cf4c640e7b
+      internalID: 1072848429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_2
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 2051
+        width: 74
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4473684}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8296c8f380a9c4b8470ad558477ec6
+      internalID: 519496670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_3
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2018
+        width: 78
+        height: 71
+      alignment: 9
+      pivot: {x: 0.525641, y: 0.33802816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa7971af07017243aa963cd140ef0d7
+      internalID: 1676464234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_4
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 2000
+        width: 85
+        height: 89
+      alignment: 9
+      pivot: {x: 0.49411765, y: 0.3258427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbfa2b7a8ef74f4683a9cb66c89e836
+      internalID: -577366233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_5
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1997
+        width: 78
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3152174}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4ffd02b04626541b49432ae0b95244
+      internalID: 637741372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_6
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 2000
+        width: 85
+        height: 89
+      alignment: 9
+      pivot: {x: 0.5411765, y: 0.31460676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be46d0f01f89e9f46b6ff11916296fc4
+      internalID: -1676657263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_7
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1997
+        width: 78
+        height: 92
+      alignment: 9
+      pivot: {x: 0.55128205, y: 0.33695653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacc29da4618e6143950407e6f752273
+      internalID: -839439217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_11
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1997
+        width: 89
+        height: 82
+      alignment: 9
+      pivot: {x: 0.5280899, y: 0.3414634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290453d44b242b443b0a857a61f9bd80
+      internalID: 368684263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_13
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1997
+        width: 31
+        height: 56
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b66d52168afbfe4d86a98741047bb88
+      internalID: -767806575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_20
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 1997
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a87394374ef6a43989c5a7ba44b13c
+      internalID: -1344182295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_21
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1997
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143d8ae2a4c85a84ea7dc0cd9b7125e0
+      internalID: 2086583624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_28
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1885
+        width: 31
+        height: 53
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.49056605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f57ba526097de4da6e315a23d7e65b
+      internalID: 1249046656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_30
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1886
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe66f56cd9c23bf40992e8902df0fdde
+      internalID: -447486740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_31
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1886
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fa2aaa61186d14ebf07d2477312d89
+      internalID: -697662879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_32
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1885
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7fd8398e586f64cbc6f313dd070c15
+      internalID: 956589478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_44
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1885
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677484023e954134d9438543d5c79d7d
+      internalID: -1724233911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_49
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1818
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddaeacce06532ec4fa16517d0cc1c2b8
+      internalID: -1701485086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_50
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1817
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062b6a367857cb444a42d85820eaa5d5
+      internalID: 1822293009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_51
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1818
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad23e1b1c40dde49a3dc6d91a8297e3
+      internalID: 552187304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_52
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 1818
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ecdeda6fa187b4aa30b0f60d28e3ff
+      internalID: 1539114701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_55
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1818
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94e13b2085941e469b0baebb4edfb39
+      internalID: -1668051257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_56
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1818
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1f84d3155ea424091fa5dd28ff1280
+      internalID: -480964712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_57
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1828
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fab304375b883541a67b98263a20b78
+      internalID: 1945738130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_58
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1820
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628cca50b071c29409f0ae0165d840f7
+      internalID: -411681749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_59
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1818
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315fd120e1d082c419b607dfb9e152e5
+      internalID: -2146550289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_60
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1818
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf30404ff0dba448a5736c2e7060ada
+      internalID: -2067702787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_61
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1818
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c720d7a59e6944a4f90051fe63556b9b
+      internalID: -1687865520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_62
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1818
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45f5a678fbf0a74399923f17b2b7698
+      internalID: 563172047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_63
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1818
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2597b65df7e9a4a89a552710cdd668
+      internalID: -1764333349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_66
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1751
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.41935483, y: 0.53061223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb5ade90f1ad6d48be7ed7320d7e245
+      internalID: 1146087157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_67
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1751
+        width: 42
+        height: 47
+      alignment: 9
+      pivot: {x: 0.26190478, y: 0.5744681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a69602213d18d8438ebce3a323a4a0c
+      internalID: -869610924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_68
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1751
+        width: 47
+        height: 47
+      alignment: 9
+      pivot: {x: 0.23404254, y: 0.5744681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a139fc04f88c26448998e779470a7084
+      internalID: 1496021849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_69
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1751
+        width: 39
+        height: 48
+      alignment: 9
+      pivot: {x: 0.2820513, y: 0.5416667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c03fb1439994040a8e84094b10ac20
+      internalID: 1631561567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_70
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1751
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17803b0a144270d489dcfc4a88f89a75
+      internalID: -1710811828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_71
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1751
+        width: 32
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5319149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b9807595063b94a898b238a9f71b92
+      internalID: 976023820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_72
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1751
+        width: 36
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53061223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2455c2b374bd7824798b3e1092db362b
+      internalID: -870168641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_73
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1751
+        width: 40
+        height: 49
+      alignment: 9
+      pivot: {x: 0.4, y: 0.53061223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4665b9e6e1016bd49aa468a0fdf48dea
+      internalID: -1895770256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_74
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1751
+        width: 44
+        height: 49
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.5510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369e736349c8fb84b9bc0a05037e3b6d
+      internalID: 1132625612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_75
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1751
+        width: 41
+        height: 45
+      alignment: 9
+      pivot: {x: 0.41463414, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a00db3f4c518d408476c1ddd7d9c04
+      internalID: -934962354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_76
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1751
+        width: 47
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5106383, y: 0.53999996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1565d1c7a4dd8664fa7a73eb17a7c7ee
+      internalID: -250789499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_77
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 1751
+        width: 40
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4, y: 0.53999996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051e2c1ed302c1b408432dbb915f1dfa
+      internalID: -1877831124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_78
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1751
+        width: 41
+        height: 47
+      alignment: 9
+      pivot: {x: 0.3902439, y: 0.5744681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e03302af5a5274e90d93a027ba429b
+      internalID: -929579724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_79
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 1751
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea8ff96aa8975849be7315d0c3fc7c1
+      internalID: 1674307322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_80
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1751
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e87096be9961264986a1416c7fc889b
+      internalID: -1150881228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_81
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 1751
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d031465c8e5e364d8056ed08832c5a9
+      internalID: -545946992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_82
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1751
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725f22ae580e97b45b784589a4eecf5c
+      internalID: 1239851005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_83
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1751
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acc5e6ff691def49af315120a6cbe06
+      internalID: 1634919038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_84
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1753
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f83400f639c9a41923860e604a3e6d
+      internalID: -1325014092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_85
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1750
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cc95b3ecd60274598eaffa3c980538
+      internalID: -71247096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_86
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1748
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b55492a83efb6245b9e18f2c5f18f67
+      internalID: -1191978852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_87
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1672
+        width: 34
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49056605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106ee32801e934d418bf25beb93a9bd4
+      internalID: -1267717117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_88
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1673
+        width: 54
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4814815, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43273950c3fe01240a09688b423a1c48
+      internalID: -396254692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_89
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1674
+        width: 42
+        height: 50
+      alignment: 9
+      pivot: {x: 0.45238096, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12cb21957027504bbf9ebb643bf93cb
+      internalID: 1549042127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_90
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1674
+        width: 35
+        height: 53
+      alignment: 9
+      pivot: {x: 0.45714286, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9201641b96b335e478506c6157073497
+      internalID: 1304045370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_91
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1674
+        width: 41
+        height: 51
+      alignment: 9
+      pivot: {x: 0.4634146, y: 0.50980395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941f7d9fa2027a84e8b7fbf38852a6de
+      internalID: 487213553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_92
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 1679
+        width: 48
+        height: 44
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5681818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6f2ac904abd114997682bbd74a684d
+      internalID: 35762929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_93
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1679
+        width: 48
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f3ce4597d2497542b130b15fe2207d7
+      internalID: 517627715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_94
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1679
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93c09f31408b5e4fb5d3cc0546fc6be
+      internalID: -672814355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_95
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1679
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894383712ec7c63459619329bd180d62
+      internalID: -1320521984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_96
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1679
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0dcccab70d038a4ea438fe0ae1d0292
+      internalID: 1074729464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_97
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1685
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3d0a87a76fba2469958f4ace4f11c8
+      internalID: 1137985024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_98
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1679
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670e23f53b3bca84a88a93a64185db25
+      internalID: -1844852717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_99
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1679
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c450b853522faa4894ac025643c645d
+      internalID: -528390851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_100
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1679
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bab58e663a25774fb8992c4b9e7577a
+      internalID: 1780580723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_101
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1679
+        width: 36
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50980395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cb572274f7e4e4fbb4b7ed7e3f2639
+      internalID: 121548324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_102
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1679
+        width: 31
+        height: 51
+      alignment: 9
+      pivot: {x: 0.58064514, y: 0.50980395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a5cb3e29edd664c946645f4709a032
+      internalID: -1106001182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_103
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1685
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3681b9ade0ea64d4994e5c6add379be2
+      internalID: -2022652127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_104
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1681
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2542f7117c4ec8448807b9348b7d66aa
+      internalID: -1560341451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_105
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 1678
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687661057cc4fa64b83f715ee8b9b764
+      internalID: 1656230120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_106
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 1677
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b720975dfa4cee743878f649321ebcd4
+      internalID: 1663616660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_107
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1678
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7dd7dcd62750740aa043147c98c7ba
+      internalID: 1190782173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_108
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1682
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d692d53470c9e45894150d1f8485d9
+      internalID: 944553726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_109
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 1677
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a814e70e539245047afa5a7164d562ef
+      internalID: -319268678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_110
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1678
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d28de8d9003b7b4daae71fe8a1b5a5b
+      internalID: -556351648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_111
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1603
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6757118416ec07f4cb63e6a70ff7c565
+      internalID: 84499987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_112
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1603
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc52d17829d81b40aadd50c0a823908
+      internalID: -130293393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_113
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1603
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9cc0c7fdda499469ebe5b1f1ee6994
+      internalID: -1507095094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_114
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1603
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f318592c4f41c48b53b42a03f41119
+      internalID: -1983323373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_115
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1603
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84451a12b18651643aa281db2bfffd62
+      internalID: 627353878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_116
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1603
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce6c7ec000341b44846560e848b77f8
+      internalID: -1741094336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_117
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1603
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76eb7abc1b93ec747a49c4c969aeeeb3
+      internalID: 815781623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_118
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1603
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb73dcac0558e2408ce8886ad431b03
+      internalID: 2038229449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_119
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1603
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c280440d6b01574469185958dc82c30a
+      internalID: -1629698999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_120
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1603
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929e806930677b34cafcdb105f5e9a50
+      internalID: 2094363519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_121
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1603
+        width: 27
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6a5a2258bc87941b13f2b7a16ba849
+      internalID: 1647132011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_122
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1603
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf26dc92c2fa394286dd6ff8c52276f
+      internalID: -498760818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_123
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1529
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9ff8ab0d173e84da3e6ed8c04cc9e8
+      internalID: 769204234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_124
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1445
+        width: 38
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53999996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 193aab7ac2967ad40be4b73a796ad53b
+      internalID: 439047102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_125
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1529
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08109b2de5acd514fbe496dd2f3528b0
+      internalID: 1438640855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_126
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1445
+        width: 34
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.53999996}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ede8fb37d355d4bb0ce9380f6e8ea7
+      internalID: 736970326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_127
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1443
+        width: 34
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42093a45c8161b041ad90c035152e9a2
+      internalID: -150709616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_128
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1529
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e1efb3dcdea094a92c68e263dcba35
+      internalID: 1394736115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_129
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1444
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134ee22be69e6eb47acff7847ab076c0
+      internalID: 1386331831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_130
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1529
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4523892ce89012147b6f29544d44654e
+      internalID: 539448101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_131
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1444
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be1895f1a7e39644aa4815d644ac712
+      internalID: -361674578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_132
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1444
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71910f2f26b54c745b7d047b680ca61c
+      internalID: -1651767930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_133
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1529
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9135ad75f593749b8710b74b978380
+      internalID: -2036949599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_134
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1529
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15559847bebbd5b42b658296db498fed
+      internalID: 1811326561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_135
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1529
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a1cc62b4081e244b6510e9b42a7f90
+      internalID: 1448559608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_136
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1529
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50abaa726752b234fa6bcc7581c89a61
+      internalID: -1306635252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_137
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1529
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb711a6b799034f4691cf9305f4bcbab
+      internalID: 615836595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_138
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1529
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d0078b373c1174d87a81a53b2b9de3
+      internalID: 865217286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_139
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1535
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683ef8672e5dedd4da57d8e131f0607a
+      internalID: -159127090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_140
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1533
+        width: 47
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ce3b47e9d6f72429ab38d4d9e3574a
+      internalID: -1921625067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_141
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1329
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11011580b2667514e81842fb52980968
+      internalID: -744690283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_142
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1329
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ca8f084865d1f4489856683d8c5682
+      internalID: -1854862267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_143
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1333
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be19c90abd925ab48bbcdbf59489aa60
+      internalID: -1167563355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_144
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1332
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bed5feea1507d468cfd6ae34dcff59
+      internalID: -145996169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_145
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1353
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846c2496b03d02e49825d33786161a1f
+      internalID: 143235486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_146
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1346
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d90bf99c82ac7049a6b11c2712542d7
+      internalID: 1352282185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_147
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1322
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858a892e3c0e8dd48aa694b4bc671464
+      internalID: -1477545184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_148
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1237
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abace975ab80b2418534bb07efe1a2b
+      internalID: -517754073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_149
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1237
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daadcaa3ff5593041b61b1fe51c6f256
+      internalID: -1427981098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_150
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1237
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b952f6931cd12442ba3d4ee640e84f5
+      internalID: -1688535406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_151
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1237
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3f9e004cc1b0a488001dc3b5566718
+      internalID: 1931893600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_152
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1251
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8624989041a79c247840cbb0d3e5f5aa
+      internalID: -1661760622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_153
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1244
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da67e524e3657ca499c9d6d9c00e0585
+      internalID: -1609215002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_154
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1220
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fabe518b5985744399b9a1e07174b08
+      internalID: -514071209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_155
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1138
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f8c9601cf285d499aec0331b9cf46e
+      internalID: 1282393324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_156
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1138
+        width: 28
+        height: 50
+      alignment: 9
+      pivot: {x: 0.46428573, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb58bcb5d0c48d541b688712ea62998a
+      internalID: 2094199441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_157
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1138
+        width: 36
+        height: 50
+      alignment: 9
+      pivot: {x: 0.3611111, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a0445f89bdd604b80a9ccca97592c2
+      internalID: 1012557400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_158
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1138
+        width: 31
+        height: 53
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da924ae6d8c33c74e9ede7bf9c27c93d
+      internalID: 687394987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_159
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1138
+        width: 31
+        height: 53
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0273e25b19897cc4398ed12298355aae
+      internalID: -1431263713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_160
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1138
+        width: 37
+        height: 53
+      alignment: 9
+      pivot: {x: 0.43243244, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58f3275279071b499b1b68acb4b360c
+      internalID: -1013374568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_161
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b723dfc4dc36017439c91d82d9b03256
+      internalID: -819791208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_162
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1151
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037d39a2836a7e643a0239024851d4ae
+      internalID: -453834101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_163
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1152
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43c9d5e85249f145b57ec2913eb7399
+      internalID: -682239469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_164
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1154
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79daaced4d115124592a4248ee186444
+      internalID: 405085760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_168
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1099
+        width: 121
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddedac1276403f549b8bd9ea7a8082aa
+      internalID: -442098732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_169
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1124
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d96ac04229c0b4a9b564dcea6099b1
+      internalID: 15599505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_170
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1117
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccaffaaef18be6469bcc3035d45d972
+      internalID: -821508655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_171
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1118
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38eafb90fc2c5554bb21c3ec96804112
+      internalID: 232093246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_172
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 973
+        width: 32
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dc452ed26515e4fb947ebd2150dd08
+      internalID: 1316857536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_173
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 973
+        width: 41
+        height: 53
+      alignment: 9
+      pivot: {x: 0.60975605, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1599a6809f6a5ab4aa1209d5552d0824
+      internalID: -2031710477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_174
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 973
+        width: 43
+        height: 53
+      alignment: 9
+      pivot: {x: 0.627907, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b284d85e7ea5554b9836ef997b01294
+      internalID: 1853537807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_177
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 973
+        width: 71
+        height: 38
+      alignment: 9
+      pivot: {x: 0.6760563, y: 0.71052635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b57576a77cb959418ed298d629d33b6
+      internalID: 1368237071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_178
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 973
+        width: 36
+        height: 51
+      alignment: 9
+      pivot: {x: 0.5277778, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad23fd61b96cfc14f8ed86f5c6ea7c29
+      internalID: 1873458654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_179
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 973
+        width: 44
+        height: 48
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81347002fb039a249844ae7dbd88b108
+      internalID: 1982071409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_180
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 973
+        width: 43
+        height: 51
+      alignment: 9
+      pivot: {x: 0.44186047, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7911f7581f256c4b99be04f541de1d9
+      internalID: 2076942747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_181
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 973
+        width: 50
+        height: 49
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d3f7633276eb544a2a2cd538f3590d
+      internalID: -360926978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_182
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 973
+        width: 48
+        height: 45
+      alignment: 9
+      pivot: {x: 0.4375, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dab89347dbaf1a419f74bb7fe3d0af9
+      internalID: -517181459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_183
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 973
+        width: 38
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799737f3e4c086e49a52ebd1cf8cec3c
+      internalID: -1480166764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_184
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 973
+        width: 45
+        height: 47
+      alignment: 9
+      pivot: {x: 0.4888889, y: 0.5744681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e918808645e5c4a9f9d04c5b56c2c5
+      internalID: -1491705250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_185
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 973
+        width: 57
+        height: 49
+      alignment: 9
+      pivot: {x: 0.22807017, y: 0.5510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7213ed284236c564da64822efa21020e
+      internalID: -274922935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_186
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 973
+        width: 49
+        height: 49
+      alignment: 9
+      pivot: {x: 0.26530612, y: 0.5510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5507761484bce304abf77df7df48bfc3
+      internalID: 1165998478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_187
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 973
+        width: 45
+        height: 49
+      alignment: 9
+      pivot: {x: 0.2888889, y: 0.5510204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a9fc638d4b4bf4384c12af4d5f2a87
+      internalID: -400173739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_188
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 888
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3826c9e10bf934c4b89b2e05d5a93e90
+      internalID: -1370430595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_189
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 888
+        width: 33
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5151515, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a15474720b9e0c418c428f0c5c82b9a
+      internalID: 917340815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_190
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 888
+        width: 41
+        height: 53
+      alignment: 9
+      pivot: {x: 0.60975605, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f22afc06aec1354f95b5a86b1f30b1d
+      internalID: -39756545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_191
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 888
+        width: 43
+        height: 53
+      alignment: 9
+      pivot: {x: 0.627907, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9049df16bd8b62e45b7f9e8c7309035c
+      internalID: 1668980528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_192
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 892
+        width: 60
+        height: 40
+      alignment: 9
+      pivot: {x: 0.6833334, y: 0.675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c59236072ed7cf4f83ac9570b780a7b
+      internalID: 4497331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_193
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 892
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cf2e6d4cea7064f9e3c367a3f52e2b
+      internalID: -178557074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_194
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 890
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf4355492641c840b30024f2c53e51c
+      internalID: 899198370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_195
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 890
+        width: 44
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5681818, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a5f585b6822b24a9f493060c7ce638
+      internalID: 632377494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_196
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 890
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa53a51bf58c0a48851db2e74324411
+      internalID: 36547269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_197
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 890
+        width: 55
+        height: 51
+      alignment: 9
+      pivot: {x: 0.49090907, y: 0.4901961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c76ebf6b45620846b8a209d12a22f1b
+      internalID: 88855587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_198
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 890
+        width: 45
+        height: 51
+      alignment: 9
+      pivot: {x: 0.35555556, y: 0.4901961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629203c592327c441a80a2c97c52bf51
+      internalID: 1982534709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_199
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 890
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa35ce37f7bd6e645bef98e60607434d
+      internalID: -1907656708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_200
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 890
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7f94d8d528a7247adb34e597420db2
+      internalID: 962387222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_201
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 890
+        width: 48
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5833334, y: 0.4888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01d311390e3c394b92e4111f01d7d33
+      internalID: 1214953227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_202
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 798
+        width: 34
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5294118, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8d2b426335b5b478bc193f033d9687
+      internalID: 840522338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_203
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 798
+        width: 31
+        height: 53
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8951af801f3326448877e40bbbfda2cc
+      internalID: 1822135202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_204
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 798
+        width: 31
+        height: 53
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba883970f5558743bbcf9ec89893b93
+      internalID: -1705762136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_205
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 798
+        width: 34
+        height: 53
+      alignment: 9
+      pivot: {x: 0.44117647, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2d33590b8342641ac4a72aefc70e03
+      internalID: -272881750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_206
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 798
+        width: 41
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4634146, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee68dc1287a3f44cbde50be5d914188
+      internalID: -1380580400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_207
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 798
+        width: 31
+        height: 51
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.5294118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb106624a245f0049b9b235f8b682f09
+      internalID: -1154423564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_208
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 798
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6baf9ea62bf322d489072c47114a0888
+      internalID: 1910253733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_209
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 798
+        width: 37
+        height: 48
+      alignment: 9
+      pivot: {x: 0.4054054, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6b8657b6806fe4c8ec14d3e9fbc27c
+      internalID: -1268210168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_210
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 798
+        width: 40
+        height: 48
+      alignment: 9
+      pivot: {x: 0.375, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9947c62ba805794abeeb6f31e69640d
+      internalID: -1434930895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_212
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 798
+        width: 32
+        height: 48
+      alignment: 9
+      pivot: {x: 0.46875, y: 0.5625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8341658e3645bff4596cb7c977018893
+      internalID: 1579553045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_213
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 798
+        width: 32
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7283c2633a2840c409776fcf524d4560
+      internalID: 1581241453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_214
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 798
+        width: 42
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5744681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c30a1b95ba1ebf45a5031363dc474d3
+      internalID: -1780027342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_215
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 798
+        width: 46
+        height: 47
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.5744681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aeebc293be659542aa5e566b4392801
+      internalID: 484267296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_217
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 790
+        width: 144
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ba4ef2974b5c6429486864a92b5ad3
+      internalID: 2029726003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_219
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 791
+        width: 143
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac74c7284f5bc24a91c81713305e84c
+      internalID: -378645044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_228
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 534
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba42500f42798e4ca298e243f10db0f
+      internalID: 1123588145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_230
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 460
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3298a168041260540b5ee0cea10bfda7
+      internalID: 828263157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_231
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 460
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d457da34058ab05448b20a3d1929ebf6
+      internalID: 1069834620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_232
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 459
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bbead4a81b147408abc3993d16866e
+      internalID: 535155820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_233
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 458
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca509941314d7345b794d6869246da9
+      internalID: 442527737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_234
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 459
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abd11c240a277147913cdd5f1992efe
+      internalID: 1507544568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_235
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 461
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefc1d98315871a42954fecd53b3d5b2
+      internalID: 1224563670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_236
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 462
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b03df63b9d3a3498282a8926ebe81d
+      internalID: -220699767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_237
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 466
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f908733f79a98b42875aebc9fbd1549
+      internalID: -963494615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_238
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 276
+        width: 30
+        height: 53
+      alignment: 9
+      pivot: {x: 0.4666667, y: 0.49056605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de769b4b8426e64a927470e260ed8ba
+      internalID: 8765997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_239
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 276
+        width: 53
+        height: 53
+      alignment: 9
+      pivot: {x: 0.509434, y: 0.49056605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afafd78464456ec449a5b979ed4504e1
+      internalID: -431302162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_240
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 276
+        width: 63
+        height: 78
+      alignment: 9
+      pivot: {x: 0.49206352, y: 0.34615386}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739b84c8cd13cc54f98c59b89cbfcdae
+      internalID: 1797451757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_241
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 276
+        width: 69
+        height: 79
+      alignment: 9
+      pivot: {x: 0.5072464, y: 0.34177217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1885307e855294a4b9ce89192aee311a
+      internalID: 391869536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_242
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 276
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff21e4fb1388c4449bc76d8a08470dec
+      internalID: -1215777913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_243
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 280
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a965920db1f35bc45b4ad02a46e2a2b1
+      internalID: 1608453220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_244
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 280
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db2b1763d1d531458921f05de6ce063
+      internalID: -1789932112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_245
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 280
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2effc3baf332c4840b6832482aabc4e0
+      internalID: -1497066529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_246
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 280
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74780a6e673da048826b64ddd1a0ca3
+      internalID: 896278717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_247
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 281
+        width: 57
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c04cf5493f6c8d429ab69275769178e
+      internalID: -33524618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_248
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 281
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e866dc75403c64597a3292c3e8adb7
+      internalID: -349421164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_249
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 199
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf68f42f029499c458acd44728c6c31a
+      internalID: -1960772580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_250
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 199
+        width: 31
+        height: 49
+      alignment: 9
+      pivot: {x: 0.41935483, y: 0.53061223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cd9d3cca8fe04449d59e847f9c781c
+      internalID: 1297954274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_251
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 199
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d401834b738278e439c31096496747cb
+      internalID: 678829381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_252
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 199
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6202538596c5dfc468903f6442a47fb4
+      internalID: 1288617629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_253
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 199
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41438efc86640c647a25c15201e5ebe6
+      internalID: -2104648817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_254
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 199
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a0b2da53c855940a77ff991669fca9
+      internalID: 1239936051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_255
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 199
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30008254c99abb94a974b224be06c1d5
+      internalID: 1867844298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_256
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 199
+        width: 47
+        height: 48
+      alignment: 9
+      pivot: {x: 0.65957445, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7d83686f4b2d14eaa94140b996bd14
+      internalID: -2127228287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_257
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 199
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91827e7ed78993c41bb292ebe73c38fb
+      internalID: -671426005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_258
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 199
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606a9783664261c4ca66695f764b2e15
+      internalID: 1617969459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_259
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 199
+        width: 42
+        height: 36
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.7222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bcc06f63688d64083f030e8c177cff
+      internalID: -338053926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_260
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 199
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2627044d1d06c4eb9e139adff8020a
+      internalID: 13434967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_261
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 195
+        width: 55
+        height: 29
+      alignment: 9
+      pivot: {x: 0.49090907, y: 1.0689656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557b7c2fabf8d5c42ba7bebaff92b81f
+      internalID: -1677045306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_262
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 197
+        width: 59
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f719d601b905ec9419754bc2972b6e11
+      internalID: -619448324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_263
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 120
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda3673ca29c039409a9c50f5a6ca2c7
+      internalID: -1850335212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_264
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 120
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f326b2a76e9aba34d9f6f0d6b05baeb8
+      internalID: -1968366889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_265
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 120
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8cc06729501a346afb9bc3beccd083
+      internalID: 1801868010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_266
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 120
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e834ff1d338df53488e63a78db5a10e4
+      internalID: 507051144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_267
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 120
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f575d7bbf36a94448bd81fa484b96eea
+      internalID: 1095271100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_268
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 120
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1021be51bb73e874e9457135a7b7ed90
+      internalID: 513186778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_269
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 120
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd2c7c6268bcf04b8bec09102feb133
+      internalID: 1876357548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_270
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 120
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f04b3d73b9e5a45bfdb297f205c1e8
+      internalID: -1083651286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_271
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 120
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed22282e3d43a6843b69b175c23c438f
+      internalID: -896392938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_272
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 120
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a36c06380bdde4a87faba32c0638b0
+      internalID: -866043119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_273
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 120
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b14eae49963cb4a93a327460a974ba
+      internalID: 845319315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_274
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 120
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14baa737483a7494da1ce966c994dc51
+      internalID: -1688747484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_275
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 26
+        width: 31
+        height: 53
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f1cc7773fd355499a6335e2c89fbeb
+      internalID: -705288447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_276
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 26
+        width: 31
+        height: 53
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bed3981b2a2f25428c86b220881a314
+      internalID: 1975847222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_277
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 26
+        width: 31
+        height: 53
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.509434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474611705f777f44b825b0844195d8e4
+      internalID: 38902474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_278
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 26
+        width: 34
+        height: 54
+      alignment: 9
+      pivot: {x: 0.44117647, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d666e317cd7ed5d4599c7cf1048bd8b0
+      internalID: -1978450252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_279
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 26
+        width: 30
+        height: 60
+      alignment: 9
+      pivot: {x: 0.4666667, y: 0.45000002}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb031ef71d4c704096249bbc3aafa00
+      internalID: 687136759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_280
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 26
+        width: 38
+        height: 53
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.49056605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f77273cd66a5c8479dbf474ad6fe4e7
+      internalID: 264611770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_281
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 26
+        width: 31
+        height: 52
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3f6679b9a629142a6e0dfd916b4396
+      internalID: 272849316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_282
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 26
+        width: 29
+        height: 54
+      alignment: 9
+      pivot: {x: 0.44827586, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e7cb4d037fcb1439e327743d86a0b3
+      internalID: -990332284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_283
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 26
+        width: 29
+        height: 54
+      alignment: 9
+      pivot: {x: 0.44827586, y: 0.4814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b234f44f773124baed9044e0cfc7c1
+      internalID: 101919336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_284
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 26
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b280339a33a4174ca0fa922a42018c4
+      internalID: -823280910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_285
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 26
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e546d960a5ce441950d7d84d9c7060
+      internalID: 940441729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_8
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1825
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226cf755bc22fc84f989ecd229a4a866
+      internalID: -1628658946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_9
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1825
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a4544e723da17429d4cd0818deda51
+      internalID: 342156934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1138
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cf2788f561c4b42830d73fb688b315
+      internalID: -1666690708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_0: -251553821
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_1: 1072848429
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_10: -1666690708
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_100: 1780580723
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_101: 121548324
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_102: -1106001182
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_103: -2022652127
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_104: -1560341451
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_105: 1656230120
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_106: 1663616660
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_107: 1190782173
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_108: 944553726
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_109: -319268678
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_11: 368684263
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_110: -556351648
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_111: 84499987
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_112: -130293393
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_113: -1507095094
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_114: -1983323373
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_115: 627353878
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_116: -1741094336
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_117: 815781623
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_118: 2038229449
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_119: -1629698999
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_12: -1639852172
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_120: 2094363519
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_121: 1647132011
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_122: -498760818
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_123: 769204234
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_124: 439047102
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_125: 1438640855
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_126: 736970326
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_127: -150709616
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_128: 1394736115
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_129: 1386331831
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_13: -767806575
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_130: 539448101
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_131: -361674578
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_132: -1651767930
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_133: -2036949599
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_134: 1811326561
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_135: 1448559608
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_136: -1306635252
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_137: 615836595
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_138: 865217286
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_139: -159127090
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_14: 912733853
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_140: -1921625067
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_141: -744690283
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_142: -1854862267
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_143: -1167563355
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_144: -145996169
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_145: 143235486
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_146: 1352282185
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_147: -1477545184
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_148: -517754073
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_149: -1427981098
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_15: 2096150204
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_150: -1688535406
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_151: 1931893600
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_152: -1661760622
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_153: -1609215002
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_154: -514071209
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_155: 1282393324
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_156: 2094199441
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_157: 1012557400
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_158: 687394987
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_159: -1431263713
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_16: -405815673
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_160: -1013374568
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_161: -819791208
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_162: -453834101
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_163: -682239469
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_164: 405085760
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_165: 769460448
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_166: -1582351880
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_167: 1519168030
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_168: -442098732
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_169: 15599505
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_17: -1169072052
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_170: -821508655
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_171: 232093246
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_172: 1316857536
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_173: -2031710477
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_174: 1853537807
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_175: -1938972593
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_176: -415437258
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_177: 1368237071
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_178: 1873458654
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_179: 1982071409
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_18: -300593802
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_180: 2076942747
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_181: -360926978
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_182: -517181459
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_183: -1480166764
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_184: -1491705250
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_185: -274922935
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_186: 1165998478
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_187: -400173739
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_188: -1370430595
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_189: 917340815
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_19: 426911544
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_190: -39756545
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_191: 1668980528
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_192: 4497331
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_193: -178557074
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_194: 899198370
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_195: 632377494
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_196: 36547269
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_197: 88855587
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_198: 1982534709
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_199: -1907656708
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_2: 519496670
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_20: -1344182295
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_200: 962387222
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_201: 1214953227
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_202: 840522338
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_203: 1822135202
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_204: -1705762136
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_205: -272881750
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_206: -1380580400
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_207: -1154423564
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_208: 1910253733
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_209: -1268210168
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_21: 2086583624
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_210: -1434930895
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_211: 479337683
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_212: 1579553045
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_213: 1581241453
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_214: -1780027342
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_215: 484267296
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_216: -2041819785
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_217: 2029726003
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_218: -784541566
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_219: -378645044
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_22: 382762847
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_220: -1171023442
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_221: -563694184
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_222: 127625435
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_223: -1396049528
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_224: -1966068198
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_225: 2055551057
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_226: -1300740026
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_227: -1086535354
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_228: 1123588145
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_229: -160678272
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_23: -1390700297
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_230: 828263157
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_231: 1069834620
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_232: 535155820
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_233: 442527737
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_234: 1507544568
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_235: 1224563670
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_236: -220699767
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_237: -963494615
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_238: 8765997
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_239: -431302162
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_24: 517678374
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_240: 1797451757
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_241: 391869536
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_242: -1215777913
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_243: 1608453220
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_244: -1789932112
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_245: -1497066529
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_246: 896278717
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_247: -33524618
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_248: -349421164
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_249: -1960772580
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_25: -559921296
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_250: 1297954274
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_251: 678829381
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_252: 1288617629
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_253: -2104648817
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_254: 1239936051
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_255: 1867844298
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_256: -2127228287
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_257: -671426005
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_258: 1617969459
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_259: -338053926
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_26: -61068328
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_260: 13434967
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_261: -1677045306
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_262: -619448324
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_263: -1850335212
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_264: -1968366889
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_265: 1801868010
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_266: 507051144
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_267: 1095271100
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_268: 513186778
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_269: 1876357548
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_27: -1842491770
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_270: -1083651286
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_271: -896392938
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_272: -866043119
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_273: 845319315
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_274: -1688747484
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_275: -705288447
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_276: 1975847222
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_277: 38902474
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_278: -1978450252
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_279: 687136759
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_28: 1249046656
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_280: 264611770
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_281: 272849316
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_282: -990332284
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_283: 101919336
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_284: -823280910
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_285: 940441729
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_29: -906434130
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_3: 1676464234
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_30: -447486740
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_31: -697662879
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_32: 956589478
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_33: -1460532736
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_34: -867839153
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_35: -333568994
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_36: 638509294
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_37: 1252282755
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_38: -1923651562
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_39: 580390578
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_4: -577366233
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_40: 271921106
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_41: 1664574080
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_42: 2120490102
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_43: -1697885755
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_44: -1724233911
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_45: 953482477
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_46: 1427658740
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_47: 1460698056
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_48: -240289436
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_49: -1701485086
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_5: 637741372
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_50: 1822293009
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_51: 552187304
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_52: 1539114701
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_53: -1185175041
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_54: 1649319258
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_55: -1668051257
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_56: -480964712
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_57: 1945738130
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_58: -411681749
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_59: -2146550289
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_6: -1676657263
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_60: -2067702787
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_61: -1687865520
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_62: 563172047
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_63: -1764333349
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_64: -357808190
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_65: -1117735504
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_66: 1146087157
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_67: -869610924
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_68: 1496021849
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_69: 1631561567
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_7: -839439217
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_70: -1710811828
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_71: 976023820
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_72: -870168641
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_73: -1895770256
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_74: 1132625612
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_75: -934962354
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_76: -250789499
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_77: -1877831124
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_78: -929579724
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_79: 1674307322
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_8: -1628658946
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_80: -1150881228
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_81: -545946992
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_82: 1239851005
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_83: 1634919038
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_84: -1325014092
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_85: -71247096
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_86: -1191978852
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_87: -1267717117
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_88: -396254692
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_89: 1549042127
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_9: 342156934
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_90: 1304045370
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_91: 487213553
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_92: 35762929
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_93: 517627715
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_94: -672814355
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_95: -1320521984
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_96: 1074729464
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_97: 1137985024
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_98: -1844852717
+      goku_black_ulsw_alt_1_sprite_sheet_by_breckhhh_dfgbiub_99: -528390851
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

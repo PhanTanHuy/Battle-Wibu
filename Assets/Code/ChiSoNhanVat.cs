@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ChiSoNhanVat : MonoBehaviour
 {
-    public static event Action<ChiSoNhanVat> OnNangLuongDay;
+    public event Action OnNangLuongDay, OnNangLuongThieu;
     private bool isMaxNangLuong = false;
     public float nangLuongU, nangLuongI, nangLuongWU, nangLuongWI;
     [SerializeField] private float tocDo,dashBoost, lucNhay, mau, dame;
@@ -25,6 +25,45 @@ public class ChiSoNhanVat : MonoBehaviour
         mauHienTai = mau;
         NangLuongHienTai = 0f;
         _dame = dame;
+    }
+    public void PlusChiSoTheoPhanTram(float phanTramMau, float phanTramDame, float phanTramTocDo, float phanTramLucNhay, float phanTramTocDoHoiNangLuong, float phanTramDashBoost)
+    {
+        if (phanTramMau != 0f)
+        {
+            float luongMauCongThem = mau * phanTramMau;
+            Mau += luongMauCongThem;
+            MauHienTai += luongMauCongThem; 
+        }
+        if (phanTramDame != 0f)
+        {
+            dame += dame  * phanTramDame;
+        }
+        if (phanTramTocDo != 0f)
+        {
+            tocDo += tocDo * phanTramTocDo;
+        }
+        if (phanTramLucNhay != 0f)
+        {
+            lucNhay += lucNhay * phanTramLucNhay;
+        }
+        if (phanTramTocDoHoiNangLuong != 0f)
+        {
+            TocDoHoiNangLuong += TocDoHoiNangLuong * phanTramTocDoHoiNangLuong;
+        }
+        if (phanTramDashBoost != 0f)
+        {
+            dashBoost += dashBoost * phanTramDashBoost;
+        }
+    }
+    public void DungNangLuong(float th)
+    {
+        NangLuongHienTai -= th;
+        if (isMaxNangLuong)
+        {
+            isMaxNangLuong = false;
+            OnNangLuongThieu?.Invoke();
+            Debug.Log("duma thieu nang luong");
+        }
     }
     public void PlusNangLuong()
     {
@@ -51,10 +90,15 @@ public class ChiSoNhanVat : MonoBehaviour
             if (!isMaxNangLuong)
             {
                 isMaxNangLuong = true;
-                OnNangLuongDay?.Invoke(this);
+                OnNangLuongDay?.Invoke();
             }
         }
-        else if (isMaxNangLuong) isMaxNangLuong = false;
+        else if (isMaxNangLuong)
+        {
+            isMaxNangLuong = false;
+            OnNangLuongThieu?.Invoke();
+            Debug.Log("duma thieu nang luong");
+        }
     }
     public int ChuoiCombo
     {

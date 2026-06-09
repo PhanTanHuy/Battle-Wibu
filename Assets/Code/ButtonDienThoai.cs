@@ -14,7 +14,8 @@ public class ButtonDienThoai : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         TanCong,
         PhongThu,
         Gong,
-        Nhay
+        Nhay,
+        LenCap
 
     }
     public Type buttonType; 
@@ -72,6 +73,16 @@ public class ButtonDienThoai : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         {
             InputDienThoai.Instance.NhayPressed = false;
         }
+
+        if (type == Type.LenCap)
+        {
+            InputDienThoai.Instance.LenCapPressed = false;
+        }
+    }
+    private void OnDisable()
+    {
+        if (buttonType != Type.LenCap) return;
+            ThaNut(buttonType);
     }
 
     void NhanNut(Type type)
@@ -119,7 +130,13 @@ public class ButtonDienThoai : MonoBehaviour, IPointerDownHandler, IPointerUpHan
         {
             InputDienThoai.Instance.NhayPressed = true;
         }
+
+        if (type == Type.LenCap)
+        {
+            InputDienThoai.Instance.LenCapPressed = true;
+        }
     }
+
     IEnumerator FrameSauLaFalse(string buttonName)
     {
         yield return new WaitForEndOfFrame();

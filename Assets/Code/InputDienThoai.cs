@@ -5,7 +5,7 @@ using UnityEngine;
 public class InputDienThoai : MonoBehaviour
 {
     public static InputDienThoai Instance;
-    [HideInInspector] public bool RightButtonPressed, LeftButtonPressed, RightButtonDown, RightButtonUp, LeftButtonDown, LeftButtonUp, UpButtonPressed, DownButtonPressed, TanCongPressed, PhongThuPressed, NhayPressed, GongPressed;
+    [HideInInspector] public bool LenCapPressed, RightButtonPressed, LeftButtonPressed, RightButtonDown, RightButtonUp, LeftButtonDown, LeftButtonUp, UpButtonPressed, DownButtonPressed, TanCongPressed, PhongThuPressed, NhayPressed, GongPressed;
     private void Awake()
     {
         if (Instance != null) Destroy(Instance.gameObject);

@@ -34,6 +34,12 @@ public class Battle : MonoBehaviour
         {
             ThanhMau.fillAmount = value;
         }
+        public void ResetNangLuong()
+        {
+            nangLuong = 0f;
+            soLanTichLuyNl = 0;
+            CapNhatThanhNangLuong(0f);
+        }
         public bool CapNhatThanhNangLuong(float value)
         {
             if ((int)value > soLanTichLuyNl && soLanTichLuyNl < maxTichLuy - 1)
@@ -183,6 +189,11 @@ public class Battle : MonoBehaviour
     {
         if (tenNhanVat == Hub1.TenNhanVatString) return Hub1.CapNhatThanhNangLuong(value);
         else return Hub2.CapNhatThanhNangLuong(value);
+    }
+    public void ResetThanhNangLuong(string tenNhanVat)
+    {
+        if (tenNhanVat == Hub1.TenNhanVatString) Hub1.ResetNangLuong();
+        else Hub2.ResetNangLuong();
     }
     private bool KiemTraCoAiChetChua()
     {

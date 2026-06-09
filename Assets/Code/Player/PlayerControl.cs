@@ -41,7 +41,7 @@ public class PlayerControl : MonoBehaviour
         //
        
     }
-
+    
     // Update is called once per frame
     void Update()
     {
@@ -161,6 +161,11 @@ public class PlayerControl : MonoBehaviour
         else if (Input.GetKey(KeyCode.I) || (InputDienThoai.Instance.GongPressed && InputDienThoai.Instance.DownButtonPressed))
         {
             trangThai.Attack(stringKey.Attack.AttackI);
+        }
+        else if (InputDienThoai.Instance.LenCapPressed)
+        {
+            trangThai.Attack("lenCap");
+            MobileUIManager.Instance.ShowNutLenCap(false);
         }
     }
     private void Defense()

@@ -116,7 +116,13 @@ public class QuanLiCharacter : MonoBehaviour
             characters[1].GetComponent<ChiSoNhanVat>().batTu = true;
             characters[1].GetComponent<PlayerControl>().enabled = false;
         }
-
+        for (int i = 0; i < characters.Length; i++)
+        {
+            if (characters[i].TryGetComponent<LenCap>(out LenCap lenCap))
+            {
+                lenCap.isPlayer = !characters[i].GetComponent<EnemyAi>().enabled;
+            }
+        }
         soNhanVatDaXuatHienXong = 0;
         animator = GetComponent<Animator>();
         csnv = new ChiSoNhanVat[characters.Length];

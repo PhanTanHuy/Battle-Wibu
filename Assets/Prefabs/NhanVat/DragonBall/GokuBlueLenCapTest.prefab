@@ -527,8 +527,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2ebfa836bf024f43b2bb6420e08f83b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  runtimeAnims:
-  - {fileID: 9100000, guid: c205978f7d9f4f64c8e1ac6bdd1b83f2, type: 2}
+  danhSachCapDo:
+  - animatorController: {fileID: 9100000, guid: de6b7eb7dddf43f44a6c04906536c348, type: 2}
+    phanTramMau: 0.2
+    phanTramDame: 0.2
+    phanTramTocDo: 0.2
+    phanTramLucNhay: 0.2
+    phanTramTocDoHoiNangLuong: 0.2
+    phanTramDashBoost: 0.2
+  - animatorController: {fileID: 9100000, guid: c205978f7d9f4f64c8e1ac6bdd1b83f2, type: 2}
+    phanTramMau: 0.5
+    phanTramDame: 0.5
+    phanTramTocDo: 0.5
+    phanTramLucNhay: 0.5
+    phanTramTocDoHoiNangLuong: 0.5
+    phanTramDashBoost: 0.5
 --- !u!1 &3893749162462271874
 GameObject:
   m_ObjectHideFlags: 0
