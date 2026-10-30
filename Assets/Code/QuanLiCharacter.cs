@@ -79,7 +79,8 @@ public class QuanLiCharacter : MonoBehaviour
                 
             }
         }
-        
+        characters[0].tag = "Player";
+        characters[1].tag = "Opponent";
         if (QuanLiCheDoChoi.Instance.fightMode == QuanLiCheDoChoi.FightMode.Tournament && Battle.Instance.currentRound == 0)
         {
             Battle.Instance.HienThiTournamentUI(id2charWin[0], id2charWin[1], SelectCharacter.Instance.tournament.danhSachNguoiThamGia);
@@ -121,6 +122,10 @@ public class QuanLiCharacter : MonoBehaviour
             if (characters[i].TryGetComponent<LenCap>(out LenCap lenCap))
             {
                 lenCap.isPlayer = !characters[i].GetComponent<EnemyAi>().enabled;
+            }
+            if (characters[i].TryGetComponent<NarutoSkill>(out NarutoSkill narutoSkill))
+            {
+                narutoSkill.isPlayer = !characters[i].GetComponent<EnemyAi>().enabled;
             }
         }
         soNhanVatDaXuatHienXong = 0;
@@ -169,9 +174,10 @@ public class QuanLiCharacter : MonoBehaviour
         }
         StartCoroutine(DenMap(time));
     }
-    public void XuatHienXongRoi()
+    public bool XuatHienXongRoi()
     {
         soNhanVatDaXuatHienXong++;
+        if (soNhanVatDaXuatHienXong > characters.Length) return false;
         if (soNhanVatDaXuatHienXong == characters.Length)
         {
             for (int i = 0; i < characters.Length; i++)
@@ -179,14 +185,20 @@ public class QuanLiCharacter : MonoBehaviour
                 characters[i].GetComponent<TrangThai>().Performance = false;
             }
             Battle.Instance.textUiTranDau.Play("Fight");
-
         }
+        return true;
     }
     public Transform GetTransFormEnemy(string tenEnemyAi)
     {
+        Debug.Log(tenEnemyAi);
         foreach (ChiSoNhanVat cs in csnv)
         {
-            if (tenEnemyAi != cs.TenNhanVat) return cs.transform;
+            if (tenEnemyAi != cs.TenNhanVat)
+            {
+                Debug.Log(cs.TenNhanVat);
+
+                return cs.transform;
+            }
         }
         return null;
     }

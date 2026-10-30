@@ -42,12 +42,14 @@ public class Battle : MonoBehaviour
         }
         public bool CapNhatThanhNangLuong(float value)
         {
-            if ((int)value > soLanTichLuyNl && soLanTichLuyNl < maxTichLuy - 1)
+            if ((int)value > soLanTichLuyNl && (int)value < maxTichLuy - 2)
             {
                 soLanTichLuyNl++;
                 soLanTichLuyThanhNangLuong.text = soLanTichLuyNl.ToString();
                 return true;
             }
+            soLanTichLuyNl = (int)value;
+            soLanTichLuyThanhNangLuong.text = soLanTichLuyNl.ToString();
             ThanhNangLuong.fillAmount = value - soLanTichLuyNl;
             return false;
         }
@@ -183,6 +185,7 @@ public class Battle : MonoBehaviour
         {
             int winner = Hub2.ThanhMau.fillAmount == 0f ? 0 : 1;
             QuanLiCharacter.Instance.SetWinner(winner);
+            SlowMotionHit.Instance.SlowKO();
         }
     }
     public bool CapNhatThanhNangLuong(string tenNhanVat, float value)

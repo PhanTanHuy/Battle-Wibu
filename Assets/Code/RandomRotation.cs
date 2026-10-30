@@ -20,7 +20,7 @@ public class RandomRotation : MonoBehaviour
         if (float.TryParse(values[0], out float from) &&
             float.TryParse(values[1], out float to))
         {
-            mucTieuXoay.transform.rotation = Quaternion.Euler(0f, 0f, Random.Range(from, to));
+            mucTieuXoay.transform.rotation = Quaternion.Euler(0f, 0f, Random.Range(70, 120));
         }
     }
     public void ResetRotation()

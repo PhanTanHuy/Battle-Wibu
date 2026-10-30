@@ -39,9 +39,17 @@ AnimationClip:
     - time: 0.53333336
       value: {fileID: 101919336, guid: 088d90b94d517b24887a2c775ad5810d, type: 3}
     - time: 0.6
-      value: {fileID: -823280910, guid: 088d90b94d517b24887a2c775ad5810d, type: 3}
+      value: {fileID: 2016289923, guid: 2507b7d79d7df5340b43c4e75e2b888f, type: 3}
     - time: 0.6666667
-      value: {fileID: 940441729, guid: 088d90b94d517b24887a2c775ad5810d, type: 3}
+      value: {fileID: 15525167, guid: 2507b7d79d7df5340b43c4e75e2b888f, type: 3}
+    - time: 0.73333335
+      value: {fileID: -1434742998, guid: 2507b7d79d7df5340b43c4e75e2b888f, type: 3}
+    - time: 0.8
+      value: {fileID: 939613891, guid: 2507b7d79d7df5340b43c4e75e2b888f, type: 3}
+    - time: 0.8666667
+      value: {fileID: -1892207700, guid: 2507b7d79d7df5340b43c4e75e2b888f, type: 3}
+    - time: 0.93333334
+      value: {fileID: 1657579098, guid: 2507b7d79d7df5340b43c4e75e2b888f, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -73,14 +81,18 @@ AnimationClip:
     - {fileID: 272849316, guid: 088d90b94d517b24887a2c775ad5810d, type: 3}
     - {fileID: -990332284, guid: 088d90b94d517b24887a2c775ad5810d, type: 3}
     - {fileID: 101919336, guid: 088d90b94d517b24887a2c775ad5810d, type: 3}
-    - {fileID: -823280910, guid: 088d90b94d517b24887a2c775ad5810d, type: 3}
-    - {fileID: 940441729, guid: 088d90b94d517b24887a2c775ad5810d, type: 3}
+    - {fileID: 2016289923, guid: 2507b7d79d7df5340b43c4e75e2b888f, type: 3}
+    - {fileID: 15525167, guid: 2507b7d79d7df5340b43c4e75e2b888f, type: 3}
+    - {fileID: -1434742998, guid: 2507b7d79d7df5340b43c4e75e2b888f, type: 3}
+    - {fileID: 939613891, guid: 2507b7d79d7df5340b43c4e75e2b888f, type: 3}
+    - {fileID: -1892207700, guid: 2507b7d79d7df5340b43c4e75e2b888f, type: 3}
+    - {fileID: 1657579098, guid: 2507b7d79d7df5340b43c4e75e2b888f, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.68333334
+    m_StopTime: 1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -107,7 +119,21 @@ AnimationClip:
     floatParameter: 3
     intParameter: 0
     messageOptions: 0
-  - time: 0.68333334
+  - time: 0.78333336
+    functionName: PlaySfxIndex
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 13
+    messageOptions: 0
+  - time: 0.8
+    functionName: Shake
+    data: 0.45,20,1
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1
     functionName: LenCapTiepTheo
     data: 
     objectReferenceParameter: {fileID: 0}

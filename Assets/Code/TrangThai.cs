@@ -28,6 +28,17 @@ public class TrangThai : MonoBehaviour
     private void Start()
     {
         performance = true;
+        
+        boostAttack = lucKnockOut = 0f;
+        controlAnimator = GetComponent<ControlAnimator>();
+        thu = GetComponent<TaoHieuUng>();
+        csnv = GetComponent<ChiSoNhanVat>();
+        rb = GetComponent<Rigidbody2D>();
+        viTriHitting = Vector2.zero;
+        doiPhuong = QuanLiCharacter.Instance.TFDoiThuGanNhat(csnv.TenNhanVat);
+    }
+    private void OnEnable()
+    {
         isAttack = false;
         isDefense = false;
         isHurt = false;
@@ -38,17 +49,15 @@ public class TrangThai : MonoBehaviour
         dungYenTrenKhong = false;
         isWin = false;
         isAlive = true;
-        boostAttack = lucKnockOut = 0f;
-        controlAnimator = GetComponent<ControlAnimator>();
-        thu = GetComponent<TaoHieuUng>();
-        csnv = GetComponent<ChiSoNhanVat>();
-        rb = GetComponent<Rigidbody2D>();
-        viTriHitting = Vector2.zero;
-        doiPhuong = QuanLiCharacter.Instance.TFDoiThuGanNhat(csnv.TenNhanVat);
+        if (rb != null)
+        {
+            rb.gravityScale = 9f;
+            GetComponent<Collider2D>().enabled = true;
+        }
     }
     public void KetThucManXuatHien()
     {
-        QuanLiCharacter.Instance.XuatHienXongRoi();
+        if (!QuanLiCharacter.Instance.XuatHienXongRoi()) performance = false;
     }
     public void SetDungYenTrenKhong(int value)
     {
@@ -117,7 +126,7 @@ public class TrangThai : MonoBehaviour
         performance = true;
         viTriHitting = transform.position;
         EndAttack();
-        GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
         StartCoroutine(HetDungIm(time));
         GetComponent<Animator>().speed = 0f;
     }
@@ -259,7 +268,7 @@ public class TrangThai : MonoBehaviour
         if (isAura)
         {
             csnv.PlusNangLuong();
-            rb.velocity = Vector2.zero;
+            rb.linearVelocity = Vector2.zero;
         }
 
     }
@@ -365,7 +374,7 @@ public class TrangThai : MonoBehaviour
 
         if (hatTung)
         {
-            rb.velocity = new Vector2(rb.velocity.x, 0f);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(new Vector2(0f, 25f), ForceMode2D.Impulse);
         }
         if (batLuiCorou != null) StopCoroutine(batLuiCorou);
@@ -387,7 +396,7 @@ public class TrangThai : MonoBehaviour
     IEnumerator BodyVelocityZero(Rigidbody2D bd, float time)
     {
         yield return new WaitForSeconds(time);
-        bd.velocity = Vector2.zero;
+        bd.linearVelocity = Vector2.zero;
     }
     public void StartAttack()
     {
@@ -413,7 +422,7 @@ public class TrangThai : MonoBehaviour
         {
             EndHurt();
             controlAnimator.Win();
-            GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
             performance = true;
             viTriHitting = Vector2.zero;
         }
@@ -437,7 +446,7 @@ public class TrangThai : MonoBehaviour
             }
             BatLui(huongTanCong, _lucKnockOut, 0.35f, false);
         }
-        if (rb.velocity.y < -1f)
+        if (rb.linearVelocity.y < -1f)
         {
             justHitting = 0.35f;
             viTriHitting = transform.position;
@@ -470,7 +479,7 @@ public class TrangThai : MonoBehaviour
             controlAnimator.Hurt();
             RungCameraSingleton.Instance.Shake(0.15f, 5f, 1f);
             BatLui(huongTanCong, _lucKnockOut, 0.35f, false);
-            if (rb.velocity.y < -1f)
+            if (rb.linearVelocity.y < -1f)
             {
                 justHitting = 0.35f;
                 viTriHitting = transform.position;
@@ -518,8 +527,9 @@ public class TrangThai : MonoBehaviour
         {
             isAlive = false;
             controlAnimator.Death();
-            SlowMotionHit.Instance.SlowKO();
-            rb.velocity = Vector2.zero;
+            rb.gravityScale = 0f;
+            rb.linearVelocity = Vector2.zero;
+            GetComponent<Collider2D>().enabled = false;
             //bd.AddForce(new Vector2(10f * flip, 30f), ForceMode2D.Impulse);
             //StartCoroutine(BodyVelocityZero(bd, 0.75f));
         }

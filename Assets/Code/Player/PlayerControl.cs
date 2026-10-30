@@ -55,7 +55,7 @@ public class PlayerControl : MonoBehaviour
             if (trangThai.CanAura()) Aura();
             if (trangThai.JustHitting > 0f || trangThai.DungYenTrenKhong)
             {
-                rb.velocity = new Vector2(rb.velocity.x, 0f);
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
                 transform.position = new Vector2(transform.position.x, trangThai.viTriHitting.y);
             }
             if (trangThai.CapNhatCurrentComboTimerForPlayer()) currentCombo = 0;
@@ -105,26 +105,26 @@ public class PlayerControl : MonoBehaviour
                 transform.localScale = left;
             }
         }
-        rb.velocity = new Vector2(veloX * csnv.TocDo + trangThai.BoostAttack + trangThai.BoostBatLui, rb.velocity.y);
-        trangThai.Run(veloX != 0 && rb.velocity.y == 0f);
+        rb.linearVelocity = new Vector2(veloX * csnv.TocDo + trangThai.BoostAttack + trangThai.BoostBatLui, rb.linearVelocity.y);
+        trangThai.Run(veloX != 0 && rb.linearVelocity.y == 0f);
     }
     private void Jump()
     {
         bool trenDat = IsOnGround();
         if ((Input.GetKeyDown(KeyCode.Space) || InputDienThoai.Instance.NhayPressed) && trenDat)
         {
-            rb.velocity = new Vector2(rb.velocity.x, 0f);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(new Vector2(0f, csnv.LucNhay), ForceMode2D.Impulse);
             trangThai.Jump();
             QuanLiAmThanh.Instance.PlayJump();
             isGrounded = false;
         }
-        if (!trenDat && rb.velocity.y < 0f)
+        if (!trenDat && rb.linearVelocity.y < 0f)
         {
             trangThai.Fall();
             isGrounded = false;
         }
-        if (trenDat && rb.velocity.y == 0f && !isGrounded)
+        if (trenDat && rb.linearVelocity.y == 0f && !isGrounded)
         {
             trangThai.OnGround();
             isGrounded = true;
@@ -166,6 +166,11 @@ public class PlayerControl : MonoBehaviour
         {
             trangThai.Attack("lenCap");
             MobileUIManager.Instance.ShowNutLenCap(false);
+        }
+        else if (InputDienThoai.Instance.PhanThanPressed)
+        {
+            trangThai.Attack("phanThan");
+            MobileUIManager.Instance.ShowNutPhanThan(false);
         }
     }
     private void Defense()

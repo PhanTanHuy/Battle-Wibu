@@ -8,7 +8,11 @@ public class ChiSoNhanVat : MonoBehaviour
     public event Action OnNangLuongDay, OnNangLuongThieu;
     private bool isMaxNangLuong = false;
     public float nangLuongU, nangLuongI, nangLuongWU, nangLuongWI;
-    [SerializeField] private float tocDo,dashBoost, lucNhay, mau, dame;
+
+    [Header("UI Settings")]
+    [SerializeField] public bool updateUI = true;
+
+    [SerializeField] private float tocDo, dashBoost, lucNhay, mau, dame;
     [SerializeField] private string tenNhanVat;
     public string tenUi;
     [SerializeField] private int chuoiCombo;
@@ -20,23 +24,25 @@ public class ChiSoNhanVat : MonoBehaviour
     public float NangLuongHienTai, TocDoHoiNangLuong, NangLuongToiDa;
     private float _dame;
     [HideInInspector] public bool batTu = false;
-    private void Start()
+
+    private void OnEnable()
     {
         mauHienTai = mau;
         NangLuongHienTai = 0f;
         _dame = dame;
     }
+
     public void PlusChiSoTheoPhanTram(float phanTramMau, float phanTramDame, float phanTramTocDo, float phanTramLucNhay, float phanTramTocDoHoiNangLuong, float phanTramDashBoost)
     {
         if (phanTramMau != 0f)
         {
             float luongMauCongThem = mau * phanTramMau;
             Mau += luongMauCongThem;
-            MauHienTai += luongMauCongThem; 
+            MauHienTai += luongMauCongThem;
         }
         if (phanTramDame != 0f)
         {
-            dame += dame  * phanTramDame;
+            dame += dame * phanTramDame;
         }
         if (phanTramTocDo != 0f)
         {
@@ -55,6 +61,16 @@ public class ChiSoNhanVat : MonoBehaviour
             dashBoost += dashBoost * phanTramDashBoost;
         }
     }
+
+    public void ReSetNangLuong()
+    {
+        NangLuongHienTai = 0f;
+        if (updateUI)
+        {
+            Battle.Instance.ResetThanhNangLuong(TenNhanVat);
+        }
+    }
+
     public void DungNangLuong(float th)
     {
         NangLuongHienTai -= th;
@@ -64,28 +80,43 @@ public class ChiSoNhanVat : MonoBehaviour
             OnNangLuongThieu?.Invoke();
             Debug.Log("duma thieu nang luong");
         }
+
+        if (updateUI)
+        {
+            Battle.Instance.CapNhatThanhNangLuong(TenNhanVat, NangLuongHienTai / 100f);
+        }
     }
+
     public void PlusNangLuong()
     {
         NangLuongHienTai += TocDoHoiNangLuong * Time.deltaTime;
         KiemTraNangLuongDay();
-        if (Battle.Instance.CapNhatThanhNangLuong(TenNhanVat, NangLuongHienTai / 100f))
+
+        if (updateUI)
         {
-            RungCameraSingleton.Instance.AuraShake();
-            QuanLiAmThanh.Instance.PlayStartAura();
-        };
+            if (Battle.Instance.CapNhatThanhNangLuong(TenNhanVat, NangLuongHienTai / 100f))
+            {
+                RungCameraSingleton.Instance.AuraShake();
+                QuanLiAmThanh.Instance.PlayStartAura();
+            }
+        }
     }
+
     public void PlusNangLuong(float value)
     {
         NangLuongHienTai += NangLuongToiDa * value;
         KiemTraNangLuongDay();
-        Battle.Instance.CapNhatThanhNangLuong(TenNhanVat, NangLuongHienTai / 100f);
+
+        if (updateUI)
+        {
+            Battle.Instance.CapNhatThanhNangLuong(TenNhanVat, NangLuongHienTai / 100f);
+        }
     }
+
     private void KiemTraNangLuongDay()
     {
         if (NangLuongHienTai > NangLuongToiDa)
         {
-            Debug.Log("Len cap tiep theo ChiSo");
             NangLuongHienTai = NangLuongToiDa;
             if (!isMaxNangLuong)
             {
@@ -97,51 +128,48 @@ public class ChiSoNhanVat : MonoBehaviour
         {
             isMaxNangLuong = false;
             OnNangLuongThieu?.Invoke();
-            Debug.Log("duma thieu nang luong");
         }
     }
+
     public int ChuoiCombo
     {
         get { return chuoiCombo; }
     }
+
     public string TenNhanVat
     {
         get { return tenNhanVat; }
         set { tenNhanVat = value; }
     }
+
     public float DashBoost
     {
-        get { return dashBoost;  }
+        get { return dashBoost; }
     }
+
     public float TocDo
     {
         get { return tocDo; }
-        set
-        {
-            tocDo = value;
-        }
+        set { tocDo = value; }
     }
 
     public float LucNhay
     {
         get { return lucNhay; }
-        set
-        {
-            lucNhay = value;
-        }
+        set { lucNhay = value; }
     }
+
     public float Mau
     {
         get { return mau; }
-        set
-        {
-            mau = value;
-        }
+        set { mau = value; }
     }
+
     public float PhanTramMauHienTai
     {
         get { return (mauHienTai / mau); }
     }
+
     public float MauHienTai
     {
         get { return mauHienTai; }
@@ -149,18 +177,35 @@ public class ChiSoNhanVat : MonoBehaviour
         {
             if (batTu) return;
             mauHienTai = value;
+
+            if (updateUI)
+            {
+                Battle.Instance.CapNhatThanhMau(TenNhanVat, PhanTramMauHienTai);
+            }
         }
+    }
+    public void HoiMau(float percent)
+    {
+        float m = MauHienTai + mau * percent;
+        if (m > mau) m = mau;
+
+        MauHienTai = m;
     }
     public float Dame
     {
         get { return _dame; }
         set { _dame = value; }
     }
+    public void SetDamage(float d)
+    {
+        dame = d;
+        _dame = d;
+    }
     public void PlusDame(float value)
     {
-
         _dame = dame + dame * value;
     }
+
     public void ResetDame()
     {
         _dame = dame;

@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyAi : MonoBehaviour
 {
     [SerializeField] LayerMask lop;
-    private Transform player;
+    [HideInInspector] public Transform player;
     public bool canAttack;
     private List<string> combos;
     private string[] skills = stringKey.Attack.Skills;
@@ -99,7 +99,7 @@ public class EnemyAi : MonoBehaviour
 
             if (trangThai.JustHitting > 0f || trangThai.DungYenTrenKhong)
             {
-                rb.velocity = new Vector2(rb.velocity.x, 0f);
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
                 transform.position = new Vector2(transform.position.x, trangThai.viTriHitting.y);
             }
 
@@ -164,27 +164,27 @@ public class EnemyAi : MonoBehaviour
             moveTimer = 0f;
         }
         if (!isGrounded && !trangThai.IsAttack && !trangThai.IsDefense && !trangThai.IsHurt) velo = transform.localScale.x;
-        rb.velocity = new Vector2(velo * csnv.TocDo + trangThai.BoostAttack + trangThai.BoostBatLui, rb.velocity.y);
-        trangThai.Run(velo != 0 && rb.velocity.y == 0f);
+        rb.linearVelocity = new Vector2(velo * csnv.TocDo + trangThai.BoostAttack + trangThai.BoostBatLui, rb.linearVelocity.y);
+        trangThai.Run(velo != 0 && rb.linearVelocity.y == 0f);
     }
     private void Jump()
     {
         bool trenDat = IsOnGround();
         if (jumpTimer < 0f && trenDat && canAttack && distanceFromPlayer.y > 1.5f)
         {
-            rb.velocity = new Vector2(rb.velocity.x, 0f);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(new Vector2(0f, csnv.LucNhay), ForceMode2D.Impulse);
             trangThai.Jump();
             jumpTimer = Random.Range(1f, 2f);
             QuanLiAmThanh.Instance.PlayJump();
             isGrounded = false;
         }
-        if (!trenDat && rb.velocity.y < 0f)
+        if (!trenDat && rb.linearVelocity.y < 0f)
         {
             trangThai.Fall();
             isGrounded = false;
         }
-        if (trenDat && rb.velocity.y == 0f && !isGrounded)
+        if (trenDat && rb.linearVelocity.y == 0f && !isGrounded)
         {
             trangThai.OnGround();
             isGrounded = true;
@@ -248,11 +248,11 @@ public class EnemyAi : MonoBehaviour
         {
             if (auraTimer < 0f)
             {
-                float energyRatio = csnv.NangLuongHienTai / csnv.NangLuongToiDa;
-                energyRatio = Mathf.Clamp01(energyRatio);
-                float plusTimeAura = Mathf.Lerp(1f, 3f, energyRatio);
-                timeAura = Random.Range(1f, 2f) / plusTimeAura;
-                auraTimer = Random.Range(4f, 6f) * plusTimeAura;
+                //float energyRatio = csnv.NangLuongHienTai / csnv.NangLuongToiDa;
+                //energyRatio = Mathf.Clamp01(energyRatio);
+                //float plusTimeAura = Mathf.Lerp(1f, 3f, energyRatio);
+                timeAura = Random.Range(1f, 4f) /*/ plusTimeAura*/;
+                auraTimer = Random.Range(4f, 6f) /** plusTimeAura*/;
             }
             return false;
         }

@@ -20,6 +20,8 @@ public class NhanSatThuong : MonoBehaviour
     {
         if (collision.CompareTag("boxAttack") && collision.transform.parent != transform)
         {
+            if (collision.transform.root.CompareTag(tag)) return;
+
             Vector2 directionOfAttack = collision.transform.parent.localScale.x < 0f ? left : right;
             Transform keGayDame = collision.transform.parent;
             PoolVfx.instance.CreateCollideEffect(transform.position, keGayDame.GetComponentInParent<ChiSoNhanVat>().TenNhanVat, directionOfAttack);
@@ -32,7 +34,6 @@ public class NhanSatThuong : MonoBehaviour
                     trangThai.StartHurt(directionOfAttack.x, lucDayKnockOut, lucHatTung);
                 }
                 csnv.MauHienTai -= keGayDame.GetComponentInParent<ChiSoNhanVat>().Dame;
-                Battle.Instance.CapNhatThanhMau(csnv.TenNhanVat, csnv.PhanTramMauHienTai);
                 keGayDame.GetComponentInParent<TrangThai>().Hitting();
             }
             else
@@ -42,7 +43,6 @@ public class NhanSatThuong : MonoBehaviour
                 QuanLiAmThanh.Instance.PlayHit();
                 csnv.PlusNangLuong(0.0075f);
                 csnv.MauHienTai -= keGayDame.GetComponentInParent<ChiSoNhanVat>().Dame * 0.2f;
-                Battle.Instance.CapNhatThanhMau(csnv.TenNhanVat, csnv.PhanTramMauHienTai);
             }
             if (csnv.MauHienTai <= 0f) trangThai.Death(directionOfAttack.x);
         }
@@ -65,7 +65,6 @@ public class NhanSatThuong : MonoBehaviour
                     }
                 }
                 csnv.MauHienTai -= cs.Dame;
-                Battle.Instance.CapNhatThanhMau(csnv.TenNhanVat, csnv.PhanTramMauHienTai);
                 PoolVfx.instance.CreateCollideEffect(transform.position, cs.tenNguoiSoHuu, directionOfAttack);
             }
             else
@@ -74,7 +73,6 @@ public class NhanSatThuong : MonoBehaviour
                 QuanLiAmThanh.Instance.PlayHit();
                 csnv.PlusNangLuong(0.0075f);
                 csnv.MauHienTai -= cs.Dame * 0.2f;
-                Battle.Instance.CapNhatThanhMau(csnv.TenNhanVat, csnv.PhanTramMauHienTai);
             }
             if (csnv.MauHienTai <= 0f) trangThai.Death(directionOfAttack.x);
         }

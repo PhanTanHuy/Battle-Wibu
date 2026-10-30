@@ -17,11 +17,11 @@ public class ChuyenDong : MonoBehaviour
         if (_speed < speed && giaToc != 0f) _speed += giaToc * Time.deltaTime;
         transform.position += huongDiChuyen.normalized * _speed * Time.deltaTime;
     }
-    public void DatHuongDiChuyen(Vector3 _huongDiChuyen)
+    public virtual void DatHuongDiChuyen(Vector3 _huongDiChuyen)
     {
         huongDiChuyen = _huongDiChuyen;
     }
-    private void OnDisable()
+    protected virtual void OnDisable()
     {
         _speed = 0f;
     }

@@ -9,6 +9,10 @@ public class LenCap : MonoBehaviour
     {
         public RuntimeAnimatorController animatorController;
 
+        [Header("--- CẤU HÌNH KỸ NĂNG MỚI KHI LÊN CẤP ---")]
+        // Thêm danh sách kỹ năng vật thể mới cho cấp độ này
+        [SerializeField] public PoolObject.SkillVatThe[] danhSachSkillMoi;
+
         [Header("Tỷ lệ cộng thêm (0.2 = 20%)")]
         public float phanTramMau;
         public float phanTramDame;
@@ -24,12 +28,17 @@ public class LenCap : MonoBehaviour
     private int currentCap = 0;
     private Animator currentAnimator;
     private ChiSoNhanVat selfChiSoNhanVat;
+    private TrangThai tt;
+    private PoolObject selfPoolObject; // Thêm tham chiếu tới PoolObject
+
     [HideInInspector] public bool isPlayer = false;
 
     private void Awake()
     {
         currentAnimator = GetComponent<Animator>();
         selfChiSoNhanVat = GetComponent<ChiSoNhanVat>();
+        selfPoolObject = GetComponent<PoolObject>(); // Lấy component PoolObjecta
+        tt = GetComponent<TrangThai>();
     }
 
     private void OnEnable()
@@ -52,16 +61,19 @@ public class LenCap : MonoBehaviour
             return;
         }
         if (isPlayer) MobileUIManager.Instance.ShowNutLenCap(true);
-        else LenCapTiepTheo();
+        else
+        {
+            if (tt.CanAttack()) tt.Attack("lenCap");
+        }
     }
 
     private void OnNangLuongThieu()
     {
         if (isPlayer) MobileUIManager.Instance.ShowNutLenCap(false);
     }
+
     public void LenCapTiepTheo()
     {
-
         if (currentCap >= danhSachCapDo.Length)
         {
             Debug.LogWarning($"{gameObject.name} đã đạt cấp độ cấu hình tối đa!");
@@ -77,6 +89,12 @@ public class LenCap : MonoBehaviour
             currentAnimator.runtimeAnimatorController = dataCapMoi.animatorController;
         }
 
+        // --- CẬP NHẬT SKILL MỚI VÀO POOL OBJECT ---
+        if (selfPoolObject != null && dataCapMoi.danhSachSkillMoi != null && dataCapMoi.danhSachSkillMoi.Length > 0)
+        {
+            selfPoolObject.CapNhatSkillMoi(dataCapMoi.danhSachSkillMoi);
+        }
+
         if (selfChiSoNhanVat != null)
         {
             selfChiSoNhanVat.PlusChiSoTheoPhanTram(
@@ -88,8 +106,7 @@ public class LenCap : MonoBehaviour
                 dataCapMoi.phanTramDashBoost
             );
 
-            selfChiSoNhanVat.NangLuongHienTai = 0f;
-            Battle.Instance.ResetThanhNangLuong(selfChiSoNhanVat.TenNhanVat);
+            selfChiSoNhanVat.ReSetNangLuong();
         }
 
         currentCap++;

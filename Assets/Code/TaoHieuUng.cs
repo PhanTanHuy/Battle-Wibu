@@ -27,6 +27,7 @@ public class TaoHieuUng : MonoBehaviour
     }
     public void DatVo()
     {
+        RungCameraSingleton.Instance.Shake(0.2f, 4f, 1);
         PoolVfx.instance.CreateDatVo(new Vector2(cs.bounds.center.x, cs.bounds.center.y - cs.bounds.extents.y));
     }
 }
