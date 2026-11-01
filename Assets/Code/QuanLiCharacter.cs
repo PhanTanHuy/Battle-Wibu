@@ -190,13 +190,10 @@ public class QuanLiCharacter : MonoBehaviour
     }
     public Transform GetTransFormEnemy(string tenEnemyAi)
     {
-        Debug.Log(tenEnemyAi);
         foreach (ChiSoNhanVat cs in csnv)
         {
             if (tenEnemyAi != cs.TenNhanVat)
             {
-                Debug.Log(cs.TenNhanVat);
-
                 return cs.transform;
             }
         }

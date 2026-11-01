@@ -86,7 +86,7 @@ public class EnemyAi : MonoBehaviour
             Move(trangThai.CanMove() && timeAura < 0f);
             if (trangThai.IsHurt)
             {
-                jumpTimer = Random.Range(2f, 4f);
+                jumpTimer = Random.Range(0.5f, 2f);
                 auraTimer = Random.Range(1f, 2f);
                 dashTimer = Random.Range(1f, 2f);
                 attackTimer = thoiGianTanCongSauKhiHurt;
@@ -170,7 +170,7 @@ public class EnemyAi : MonoBehaviour
     private void Jump()
     {
         bool trenDat = IsOnGround();
-        if (jumpTimer < 0f && trenDat && canAttack && distanceFromPlayer.y > 1.5f)
+        if (trenDat && (jumpTimer < 0f && canAttack) || (distanceFromPlayer.y > 1.5f && modeAI == 2))
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(new Vector2(0f, csnv.LucNhay), ForceMode2D.Impulse);
@@ -201,7 +201,7 @@ public class EnemyAi : MonoBehaviour
         if (attackTimer < 0f)
         {
             //Flip();
-            jumpTimer = Random.Range(0.5f, 1f);
+            jumpTimer = Random.Range(1f, 2f);
             attackTimer = Random.Range(fromThoiGianTanCongDacBiet, toThoiGianTanCongDacBiet);
             int rd;
             if (Random.Range(0f, 1f) < 0.3f) rd = Random.Range(0, combos.Count);

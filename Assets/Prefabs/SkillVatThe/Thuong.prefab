@@ -238,6 +238,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dame: 0
-  batLui: 0
-  hatTung: 0
+  batLui: 5
+  hatTung: 10
   tenNguoiSoHuu: 

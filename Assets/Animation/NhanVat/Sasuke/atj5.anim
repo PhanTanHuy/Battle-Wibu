@@ -173,7 +173,7 @@ AnimationClip:
     floatParameter: 10
     intParameter: 0
     messageOptions: 0
-  - time: 0.083333336
+  - time: 0.13333334
     functionName: PlaySfxIndex
     data: 
     objectReferenceParameter: {fileID: 0}

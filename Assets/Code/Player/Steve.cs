@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Steve : MonoBehaviour
+public class Steve : MonoBehaviour, ICharacterSpecial
 {
     [Header("Prefabs")]
     [SerializeField] private List<GameObject> prefabs = new List<GameObject>();
@@ -96,9 +96,12 @@ public class Steve : MonoBehaviour
                     );
 
                     if (qv.TryGetComponent<ChiSoNhanVat>(out ChiSoNhanVat chiSo))
+                    {
                         chiSo.updateUI = false;
+                        chiSo.TenNhanVat = selfChiSoNhanVat.TenNhanVat;
+                    }
                 }
-
+                obj.GetComponent<SpriteRenderer>().enabled = true;
                 obj.SetActive(true);
                 return obj;
             }
@@ -115,23 +118,55 @@ public class Steve : MonoBehaviour
         obj.SetActive(false);
     }
 
-    private void OnDisable()
+    private void OnDestroy()
     {
-        // Tắt toàn bộ quái vật Steve đã spawn
+        // Hủy toàn bộ quái vật do Steve triệu hồi
         foreach (List<GameObject> pool in pools)
         {
             foreach (GameObject obj in pool)
             {
-                if (obj != null && obj.activeSelf)
-                    obj.SetActive(false);
+                if (obj != null)
+                    Destroy(obj);
             }
         }
 
-        // Tắt cổng và toàn bộ quái vật do cổng spawn
-        if (congDiaNgucInstance != null &&
-            congDiaNgucInstance.gameObject.activeSelf)
+        pools.Clear();
+
+        // Hủy cổng địa ngục và toàn bộ quái vật do cổng triệu hồi
+        if (congDiaNgucInstance != null)
         {
-            congDiaNgucInstance.gameObject.SetActive(false);
+            congDiaNgucInstance.OnSteveDie();
+            Destroy(congDiaNgucInstance.gameObject);
+            congDiaNgucInstance = null;
         }
+    }
+
+    public void HandleDungIm(float time)
+    {
+        // Quái vật do Steve trực tiếp spawn
+        foreach (List<GameObject> pool in pools)
+        {
+            foreach (GameObject obj in pool)
+            {
+                if (obj == null || !obj.activeInHierarchy)
+                    continue;
+
+                if (obj.TryGetComponent<TrangThai>(out TrangThai trangThai))
+                {
+                    trangThai.DungIm(time);
+                }
+            }
+        }
+
+        // Quái vật do cổng địa ngục spawn
+        if (congDiaNgucInstance != null)
+        {
+            congDiaNgucInstance.DungImTatCaQuaiVat(time);
+        }
+    }
+
+    public void HandleDeath()
+    {
+        
     }
 }

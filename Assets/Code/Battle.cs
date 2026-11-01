@@ -70,6 +70,8 @@ public class Battle : MonoBehaviour
     [HideInInspector] public bool vuaXongTran, playerDaThua;
     [HideInInspector] public int currentRound, idexTournament;
     public GameObject Tournament;
+    private bool win = false;
+
 
     // Start is called before the first frame update
     private void Awake()
@@ -109,6 +111,8 @@ public class Battle : MonoBehaviour
     }
     public void KhoiTaoBattle()
     {
+        win = false;
+        Time.timeScale = 1f;
         PoolVfx.instance.KhoiTaoCollideVFX();
         vuaXongTran = false;
         Hub1.KhoiTao(QuanLiCharacter.Instance.csnv[0].anhDanhDien, QuanLiCharacter.Instance.csnv[0].tenUi, QuanLiCharacter.Instance.csnv[0].TenNhanVat, QuanLiCharacter.Instance.csnv[0].NangLuongToiDa / 100f);
@@ -183,6 +187,8 @@ public class Battle : MonoBehaviour
         else Hub2.CapNhatThanhMau(value);
         if (KiemTraCoAiChetChua())
         {
+            if (win) return;
+            win = true;
             int winner = Hub2.ThanhMau.fillAmount == 0f ? 0 : 1;
             QuanLiCharacter.Instance.SetWinner(winner);
             SlowMotionHit.Instance.SlowKO();

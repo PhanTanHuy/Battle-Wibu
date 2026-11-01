@@ -41,6 +41,7 @@ public class MainMenu : MonoBehaviour
         if (SelectMap.Instance != null) Destroy(SelectMap.Instance.gameObject);
         QuanLiChuyenScene.instance.BatDauSceneMoi();
         musicSlider.value = sfxSlider.value = 1f;
+        Time.timeScale = 1f;
         Application.targetFrameRate = 60;
         textRounds.text = QuanLiCheDoChoi.Instance.soRounds.ToString();
     }

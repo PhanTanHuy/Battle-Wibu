@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4b08d5793177b54a81e9d04af899a89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 8
   giaToc: 5
 --- !u!114 &8431690676808627969
 MonoBehaviour:
@@ -238,6 +238,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dame: 0
-  batLui: 0
+  batLui: -5
   hatTung: 0
   tenNguoiSoHuu: 

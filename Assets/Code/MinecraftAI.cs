@@ -28,7 +28,6 @@ public class MinecraftAI : MonoBehaviour
         csnv = GetComponent<ChiSoNhanVat>();
         trangThai = GetComponent<TrangThai>();
         rb = GetComponent<Rigidbody2D>();
-
         //player = QuanLiCharacter.Instance.GetTransFormEnemy(csnv.TenNhanVat);
 
         // Chỉ thêm các đòn AttackJ được nhân vật hỗ trợ.
@@ -46,7 +45,6 @@ public class MinecraftAI : MonoBehaviour
             Debug.LogWarning($"{name}: Nhân vật không có combo AttackJ!");
         }
     }
-
     private void Update()
     {
         if (!trangThai.IsAlive || trangThai.Performance)

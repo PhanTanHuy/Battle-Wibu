@@ -10,10 +10,15 @@ public class ChuyenDongBam: ChuyenDong
         // ChiSo đã có sẵn trên object cha
         chiSoChuSoHuu = GetComponentInParent<ChiSo>();
     }
+    private void OnEnable()
+    {
+        transform.parent = null;
+        GetComponent<Collider2D>().enabled = true;
+        ResetSpeed();
+    }
     protected override void OnDisable()
     {
         base.OnDisable();
-        transform.SetParent(null);
     }
     public override void DatHuongDiChuyen(Vector3 direction)
     {
@@ -44,9 +49,9 @@ public class ChuyenDongBam: ChuyenDong
         }
 
         // Bám projectile vào mục tiêu
-        transform.SetParent(collision.transform, true);
-
+        transform.SetParent(collision.transform);
+        GetComponent<Collider2D>().enabled = false;
         // Dừng di chuyển sau khi bám
-        enabled = false;
+        SetSpeed(0);
     }
 }

@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,7 +8,6 @@ public class TrangThai : MonoBehaviour
     private bool performance;
     private bool isDefense;
     private bool isHurt;
-    private bool isKnockout;
     private bool isAura;
     private bool isDash;
     private bool isWin;
@@ -25,6 +24,8 @@ public class TrangThai : MonoBehaviour
     private Transform doiPhuong;
     private Coroutine batLuiCorou;
     private float currentComboTimer;
+    int mapLayer;
+
     private void Start()
     {
         performance = true;
@@ -35,6 +36,7 @@ public class TrangThai : MonoBehaviour
         csnv = GetComponent<ChiSoNhanVat>();
         rb = GetComponent<Rigidbody2D>();
         viTriHitting = Vector2.zero;
+        mapLayer = LayerMask.GetMask("Map");
         doiPhuong = QuanLiCharacter.Instance.TFDoiThuGanNhat(csnv.TenNhanVat);
     }
     private void OnEnable()
@@ -42,18 +44,12 @@ public class TrangThai : MonoBehaviour
         isAttack = false;
         isDefense = false;
         isHurt = false;
-        isKnockout = false;
         isAura = false;
         isDash = false;
         justHitting = 0f;
         dungYenTrenKhong = false;
         isWin = false;
         isAlive = true;
-        if (rb != null)
-        {
-            rb.gravityScale = 9f;
-            GetComponent<Collider2D>().enabled = true;
-        }
     }
     public void KetThucManXuatHien()
     {
@@ -119,20 +115,25 @@ public class TrangThai : MonoBehaviour
     }
     public void SkillDacBiet(float time)
     {
-        QuanLiCharacter.Instance.SkillDacBiet(GetComponent<ChiSoNhanVat>().TenNhanVat, time);
+        QuanLiCharacter.Instance.SkillDacBiet(csnv.TenNhanVat, time);
     }
     public void DungIm(float time)
     {
         performance = true;
         viTriHitting = transform.position;
         EndAttack();
-        GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+        rb.linearVelocity = Vector2.zero;
         StartCoroutine(HetDungIm(time));
         GetComponent<Animator>().speed = 0f;
+        if (TryGetComponent<ICharacterSpecial>(out ICharacterSpecial characterSpecial))
+        {
+            characterSpecial.HandleDungIm(time);
+        }
     }
     IEnumerator HetDungIm(float time)
     {
         yield return new WaitForSeconds(time);
+        rb.linearVelocity = Vector2.zero;
         performance = false;
         EndAttack();
         GetComponent<Animator>().speed = 1f;
@@ -170,11 +171,6 @@ public class TrangThai : MonoBehaviour
     {
         get { return isHurt; }
         set { isHurt = value; }
-    }
-    public bool IsKnockout
-    {
-        get { return isKnockout; }
-        set { isKnockout = value; }
     }
     public bool IsAura
     {
@@ -233,15 +229,35 @@ public class TrangThai : MonoBehaviour
     }
     public void Defense(bool _isDefense)
     {
+        if (performance) return;
+
         if (_isDefense && !isDefense)
         {
             isDefense = true;
             controlAnimator.Defense(isDefense);
+
             if (isHurt)
             {
-                DichChuyenToiDoiPhuong();
+                bool hitLeft = Physics.Raycast(
+                    transform.position,
+                    Vector3.left,
+                    2f,
+                    mapLayer
+                );
+
+                bool hitRight = Physics.Raycast(
+                    transform.position,
+                    Vector3.right,
+                    2f,
+                    mapLayer
+                );
+
+                if (hitLeft || hitRight)
+                    DichChuyenToiDoiPhuong();
+
                 EndHurt();
             }
+
             EndAttack();
         }
         else if (!_isDefense && isDefense)
@@ -277,6 +293,11 @@ public class TrangThai : MonoBehaviour
         QuanLiAmThanh.Instance.PlayTele();
         StartCoroutine(DichChuyenIE());
     }
+    public void DichChuyenToiDoiPhuongHeight(float y)
+    {
+        QuanLiAmThanh.Instance.PlayTele();
+        StartCoroutine(DichChuyenHeightIE(y));
+    }
     IEnumerator DichChuyenIE()
     {
         float khoangCach = doiPhuong.position.x - transform.position.x;
@@ -286,10 +307,46 @@ public class TrangThai : MonoBehaviour
         XoayVeDoiPhuong();
         thu.Tele();
     }
+    IEnumerator DichChuyenHeightIE(float y)
+    {
+        thu.Tele();
+        transform.position += new Vector3(0f, y, 0f);
+        yield return null;
+        thu.Tele();
+    }
     public void LuotToiDoiPhuong(float time)
     {
+        float khoangCach = doiPhuong.position.y - transform.position.y;
+
+        if (Mathf.Abs(khoangCach) > 1f)
+            DichChuyenToiDoiPhuongHeight(khoangCach);
+
+        float tocDoLuot = Mathf.Abs(XoayVeDoiPhuong() / time);
+
         boostAttack = XoayVeDoiPhuong() / time;
+
         StartCoroutine(SetBoosAttackIE(0f, time));
+        StartCoroutine(GhostEffectIE(tocDoLuot, time));
+    }
+    private IEnumerator GhostEffectIE(float tocDoLuot, float time)
+    {
+        // Tốc độ càng cao thì khoảng cách giữa các Ghost càng nhỏ
+        float interval = Mathf.Lerp(
+            0.15f,
+            0.02f,
+            Mathf.InverseLerp(2f, 20f, tocDoLuot)
+        );
+
+        float elapsed = 0f;
+
+        while (elapsed < time)
+        {
+            thu.GhostEffect();
+
+            yield return new WaitForSeconds(interval);
+
+            elapsed += interval;
+        }
     }
     public float XoayVeDoiPhuong()
     {
@@ -368,13 +425,35 @@ public class TrangThai : MonoBehaviour
         controlAnimator.Jump(false);
         controlAnimator.Fall(false);
     }
-    public void BatLui(float flip, float bl, float time, bool hatTung)
+    public void BatLui(float flip, float bl, float time, float _lucHatTung)
     {
+        if (_lucHatTung != 0f)
+        {
+            justHitting = -1f;
+        }
+        if (bl == 0f) bl = 3f;
+        else if (bl > 20f)
+        {
+            QuanLiAmThanh.Instance.PlayTelePunch();
+            PoolVfx.instance.KhoiKnockOut(transform);
+            RungCameraSingleton.Instance.Shake(0.3f, 20f, 2f);
+        }
+        else
+        {
+            RungCameraSingleton.Instance.Shake(0.15f, 5f, 1f);
+        }
+        float maxForce = Mathf.Max(Mathf.Abs(_lucHatTung), bl);
+
+        if (maxForce > 20f)
+            SlowMotionHit.Instance.SlowHitNang();
+        else if (maxForce > 10f)
+            SlowMotionHit.Instance.SlowHitVua();
+        else
+            SlowMotionHit.Instance.SlowHitNhe();
         boostBatLui = bl * flip;
 
-        if (hatTung)
+        if (_lucHatTung != 0f)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             rb.AddForce(new Vector2(0f, 25f), ForceMode2D.Impulse);
         }
         if (batLuiCorou != null) StopCoroutine(batLuiCorou);
@@ -427,70 +506,28 @@ public class TrangThai : MonoBehaviour
             viTriHitting = Vector2.zero;
         }
     }
-    public void StartHurt(float huongTanCong, float _lucKnockOut, float _lucHatTung)
+    public void StartHurt()
     {
         if (!isNotSetHurt)
         {
-            if (_lucKnockOut == 0f) _lucKnockOut = 3f;
-            Hurt(_lucHatTung);
+            Hurt();
             controlAnimator.Hurt();
-            if (_lucKnockOut > 20f)
-            {
-                QuanLiAmThanh.Instance.PlayTelePunch();
-                PoolVfx.instance.KhoiKnockOut(transform);
-                RungCameraSingleton.Instance.Shake(0.3f, 20f, 2f);
-            }
-            else
-            {
-                RungCameraSingleton.Instance.Shake(0.15f, 5f, 1f);
-            }
-            BatLui(huongTanCong, _lucKnockOut, 0.35f, false);
         }
         if (rb.linearVelocity.y < -1f)
         {
             justHitting = 0.35f;
             viTriHitting = transform.position;
         }
-        if (_lucHatTung != 0f)
-        {
-            justHitting = -1f;
-        }
-        if (Mathf.Abs(_lucHatTung) > 10f || _lucKnockOut > 4f)
-        {
-            SlowMotionHit.Instance.SlowHitNang();
-        }
-        else
-        {
-            SlowMotionHit.Instance.SlowHitNhe();
-        }
     }
     public bool CapNhatCurrentComboTimerForPlayer()
     {
+        if (isAttack) return false;
         currentComboTimer += Time.deltaTime;
         if (currentComboTimer > 1f) return true;
         else return false;
                
     }
-    public void StartHurtObjectAttack(float huongTanCong, float _lucKnockOut, float _lucHatTung)
-    {
-        if (!isNotSetHurt)
-        {
-            Hurt(_lucHatTung);
-            controlAnimator.Hurt();
-            RungCameraSingleton.Instance.Shake(0.15f, 5f, 1f);
-            BatLui(huongTanCong, _lucKnockOut, 0.35f, false);
-            if (rb.linearVelocity.y < -1f)
-            {
-                justHitting = 0.35f;
-                viTriHitting = transform.position;
-            }
-            if (_lucHatTung != 0f)
-            {
-                justHitting = -1f;
-            }
-        }
-    }
-    public void Hurt(float _lucHatTung)
+    public void Hurt()
     {
         dungYenTrenKhong = false;
         isHurt = true;
@@ -507,19 +544,10 @@ public class TrangThai : MonoBehaviour
         OnGround();
         QuanLiAmThanh.Instance.PlayHit();
         csnv.PlusNangLuong(0.0075f);
-        if (_lucHatTung != 0f)
-        {
-            rb.AddForce(new Vector2(0f, _lucHatTung), ForceMode2D.Impulse);
-        }
     }
     public void EndHurt()
     {
         isHurt = false;
-    }
-    public void EndKnockOut()
-    {
-        isKnockout = false;
-        EndHurt();
     }
     public void Death(float flip)
     {
@@ -527,35 +555,42 @@ public class TrangThai : MonoBehaviour
         {
             isAlive = false;
             controlAnimator.Death();
-            rb.gravityScale = 0f;
             rb.linearVelocity = Vector2.zero;
-            GetComponent<Collider2D>().enabled = false;
+            if (TryGetComponent<ICharacterSpecial>(out ICharacterSpecial characterSpecial))
+            {
+                characterSpecial.HandleDeath();
+            }
             //bd.AddForce(new Vector2(10f * flip, 30f), ForceMode2D.Impulse);
             //StartCoroutine(BodyVelocityZero(bd, 0.75f));
         }
     }
     public bool CanMove()
     {
-        return !isAttack && !isAura && !isHurt && !isDefense && !isKnockout && !dungYenTrenKhong;
+        return !isAttack && !isAura && !isHurt && !isDefense && !dungYenTrenKhong;
     }
     public bool CanAura()
     {
-        return !isAttack && !isHurt && !isDefense && !isKnockout;
+        return !isAttack && !isHurt && !isDefense;
     }
     public bool CanDash()
     {
-        return !isAttack && !isAura && !isHurt && !isDefense && !isKnockout;
+        return !isAttack && !isAura && !isHurt && !isDefense;
     }
     public bool CanJump()
     {
-        return !isAttack && !isAura && !isHurt && !isDefense && !isKnockout;
+        return !isAttack && !isAura && !isHurt && !isDefense;
     }
     public bool CanAttack()
     {
-        return !isAttack && !isHurt && !isKnockout && !isDefense;
+        return !isAttack && !isHurt && !isDefense;
     }
     public bool CanDefense()
     {
-        return !isAttack && !isAura && !isKnockout;
+        return !isAttack && !isAura;
     }
+}
+public interface ICharacterSpecial
+{
+    public void HandleDungIm(float time);
+    public void HandleDeath();
 }

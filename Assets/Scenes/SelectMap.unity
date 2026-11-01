@@ -1059,6 +1059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabsMap:
+  - {fileID: 5670560496196770106, guid: 05c4fc8ae49c9a14d94f381a6cd44e33, type: 3}
   - {fileID: 5670560496196770106, guid: 7a222f160c159af46af18a4a4f69c3c4, type: 3}
   - {fileID: 5670560496196770106, guid: f4e976f8af6f5be45ac34b7f6f31fd45, type: 3}
   - {fileID: 5670560496196770106, guid: faac3d461de84f74381de51eb179999a, type: 3}

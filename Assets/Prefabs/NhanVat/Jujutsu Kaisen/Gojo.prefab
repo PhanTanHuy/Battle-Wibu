@@ -331,7 +331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.3764706}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -934,7 +934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f687b3b7d9b068e449f68b7460338e20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mauGhostEffect: {r: 0.5355998, g: 0.7502115, b: 0.9622642, a: 1}
+  mauGhostEffect: {r: 1, g: 0, b: 0.1261816, a: 1}
 --- !u!114 &7875339603031416694
 MonoBehaviour:
   m_ObjectHideFlags: 0

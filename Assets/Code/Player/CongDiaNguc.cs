@@ -85,7 +85,19 @@ public class CongDiaNguc : MonoBehaviour
             pool[randomIndex] = temp;
         }
     }
+    public void DungImTatCaQuaiVat(float time)
+    {
+        foreach (GameObject monster in pool)
+        {
+            if (monster == null || !monster.activeInHierarchy)
+                continue;
 
+            if (monster.TryGetComponent<TrangThai>(out TrangThai trangThai))
+            {
+                trangThai.DungIm(time);
+            }
+        }
+    }
     private IEnumerator SpawnRoutine()
     {
         while (true)
@@ -137,15 +149,19 @@ public class CongDiaNguc : MonoBehaviour
                 ai.player = player;
 
                 if (ai.TryGetComponent<ChiSoNhanVat>(out ChiSoNhanVat chiSo))
+                {
+                    chiSo.TenNhanVat = tenNguoiSoHuu;
                     chiSo.updateUI = false;
-            }
 
+                }
+            }
+            monster.GetComponent<SpriteRenderer>().enabled = true;
             monster.SetActive(true);
             return;
         }
     }
 
-    private void OnDisable()
+    public void OnSteveDie()
     {
         // Dừng tất cả Coroutine
         if (spawnCoroutine != null)
@@ -160,11 +176,13 @@ public class CongDiaNguc : MonoBehaviour
             lifetimeCoroutine = null;
         }
 
-        // Thu hồi toàn bộ quái vật do cổng spawn
+        // Hủy toàn bộ quái vật do cổng spawn
         foreach (GameObject monster in pool)
         {
-            if (monster != null && monster.activeSelf)
-                monster.SetActive(false);
+            if (monster != null)
+                Destroy(monster);
         }
+
+        pool.Clear();
     }
 }

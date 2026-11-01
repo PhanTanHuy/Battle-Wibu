@@ -32,7 +32,7 @@ public class LenCap : MonoBehaviour
     private PoolObject selfPoolObject; // Thêm tham chiếu tới PoolObject
 
     [HideInInspector] public bool isPlayer = false;
-
+    public ParticleSystem[] ptc;
     private void Awake()
     {
         currentAnimator = GetComponent<Animator>();
@@ -52,7 +52,10 @@ public class LenCap : MonoBehaviour
         selfChiSoNhanVat.OnNangLuongDay -= OnNangLuongDay;
         selfChiSoNhanVat.OnNangLuongThieu -= OnNangLuongThieu;
     }
-
+    public void PlayerPtc(int i)
+    {
+        ptc[i].Play();
+    }
     private void OnNangLuongDay()
     {
         if (currentCap >= danhSachCapDo.Length)

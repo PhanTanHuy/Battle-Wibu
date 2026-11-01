@@ -176,7 +176,6 @@ GameObject:
   - component: {fileID: 8866574767491011177}
   - component: {fileID: 7103743654591011868}
   - component: {fileID: 8937592073741518632}
-  - component: {fileID: 8691969684917620272}
   m_Layer: 7
   m_Name: GokuBlueLenCapTest
   m_TagString: Untagged
@@ -232,7 +231,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: aa0e7e4d4ee77814cb60d92c970266cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -256,7 +255,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1721210407, guid: c0a45e6fbc7684643956868d72e77b9f, type: 3}
-  m_Color: {r: 1, g: 0, b: 0.013863564, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -388,10 +387,10 @@ MonoBehaviour:
   lucNhay: 35
   mau: 100
   dame: 1
-  tenNhanVat: gkb
-  tenUi: Goku SSJ Blue
+  tenNhanVat: gkr
+  tenUi: Goku Dangerous
   chuoiCombo: 8
-  anhDanhDien: {fileID: -2006735461, guid: c0a45e6fbc7684643956868d72e77b9f, type: 3}
+  anhDanhDien: {fileID: 21300000, guid: 5aa3fda8444d7b1469651b23136d8b54, type: 3}
   hieuUngHit: {fileID: 2262899669663217118, guid: 73026e0f78c0e354abbc5d8f9fdb1ad1, type: 3}
   mauHit: {r: 1, g: 1, b: 1, a: 1}
   NangLuongHienTai: 0
@@ -410,6 +409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 673319b78be675d45a09607e65c768dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animatorSpeed: 1.5
 --- !u!114 &6081052450623767552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -528,36 +528,6 @@ MonoBehaviour:
     m_Bits: 64
   player: {fileID: 0}
   canAttack: 1
---- !u!114 &8691969684917620272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3643880292200942609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ebfa836bf024f43b2bb6420e08f83b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  danhSachCapDo:
-  - animatorController: {fileID: 9100000, guid: de6b7eb7dddf43f44a6c04906536c348, type: 2}
-    danhSachSkillMoi: []
-    phanTramMau: 0.2
-    phanTramDame: 0.2
-    phanTramTocDo: 0.2
-    phanTramLucNhay: 0.2
-    phanTramTocDoHoiNangLuong: 0.2
-    phanTramDashBoost: 0.2
-  - animatorController: {fileID: 9100000, guid: c205978f7d9f4f64c8e1ac6bdd1b83f2, type: 2}
-    danhSachSkillMoi: []
-    phanTramMau: 0.5
-    phanTramDame: 0.5
-    phanTramTocDo: 0.5
-    phanTramLucNhay: 0.5
-    phanTramTocDoHoiNangLuong: 0.5
-    phanTramDashBoost: 0.5
-  isPlayer: 0
 --- !u!1 &3893749162462271874
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,7 +586,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: aa0e7e4d4ee77814cb60d92c970266cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -823,7 +793,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: aa0e7e4d4ee77814cb60d92c970266cd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -851,7 +821,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1.375}
+  m_Size: {x: 1.9375, y: 3.625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -1059,27 +1029,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3833636121232043695, guid: 97be77e9859ba874da845859ab96d87e, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
-      value: 1
+      value: 0.72156864
       objectReference: {fileID: 0}
     - target: {fileID: 3833636121232043695, guid: 97be77e9859ba874da845859ab96d87e, type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.94112426
+      value: 0.85797524
       objectReference: {fileID: 0}
     - target: {fileID: 3833636121232043695, guid: 97be77e9859ba874da845859ab96d87e, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.72264147
-      objectReference: {fileID: 0}
-    - target: {fileID: 3833636121232043695, guid: 97be77e9859ba874da845859ab96d87e, type: 3}
-      propertyPath: InitialModule.startColor.minColor.b
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3833636121232043695, guid: 97be77e9859ba874da845859ab96d87e, type: 3}
+      propertyPath: InitialModule.startColor.minColor.b
+      value: 0.05150795
+      objectReference: {fileID: 0}
+    - target: {fileID: 3833636121232043695, guid: 97be77e9859ba874da845859ab96d87e, type: 3}
       propertyPath: InitialModule.startColor.minColor.g
-      value: 0.91503406
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3833636121232043695, guid: 97be77e9859ba874da845859ab96d87e, type: 3}
       propertyPath: InitialModule.startColor.minColor.r
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3833636121232043695, guid: 97be77e9859ba874da845859ab96d87e, type: 3}
       propertyPath: InitialModule.startLifetime.minScalar

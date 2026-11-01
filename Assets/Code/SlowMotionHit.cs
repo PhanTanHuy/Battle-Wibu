@@ -38,7 +38,7 @@ public class SlowMotionHit : MonoBehaviour
         {
             StopCoroutine(resetTimeCor);
         }
-        resetTimeCor = StartCoroutine(ResetTimeScale(0.0014f));
+        resetTimeCor = StartCoroutine(ResetTimeScale(0.001f));
 
     }
     public void SlowHitNhe()
